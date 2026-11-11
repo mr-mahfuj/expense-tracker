@@ -1,4 +1,4 @@
--- STEP 3 of 3 (optional). Run in the Query Tool of expense_db.
+-- STEP 3 of 3 (optional). Run in the Query Tool of expense-tracker-db.
 -- Sample data with dates relative to today, so "last 10 days" questions
 -- have something to find no matter when you run this.
 

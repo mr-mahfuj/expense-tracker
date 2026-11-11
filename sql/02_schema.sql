@@ -1,6 +1,7 @@
--- STEP 2 of 3. In pgAdmin: right-click the new "expense_db" database ->
--- Query Tool (so you are connected to expense_db, not postgres), then run
+-- STEP 2 of 3. In pgAdmin: right-click the new "expense-tracker-db" database ->
+-- Query Tool (so you are connected to expense-tracker-db, not postgres), then run
 -- this whole file at once (F5).
+-- Connect using the existing postgres login from DATABASE_URL.
 --
 -- The COMMENT lines are not decoration: the agent reads them and puts them in
 -- the model's prompt, which tells the model the date format, the currency and
@@ -27,8 +28,6 @@ COMMENT ON COLUMN expenses.category   IS 'one of: food, transport, bills, shoppi
 COMMENT ON COLUMN expenses.note       IS 'short free text such as lunch or rickshaw';
 COMMENT ON COLUMN expenses.created_at IS 'row creation time, auto-generated, never set it';
 
--- The agent connects as expense_agent, which can only read and add rows.
--- It cannot update, delete or drop anything, even if the model tried to.
-GRANT USAGE ON SCHEMA public TO expense_agent;
-GRANT SELECT, INSERT ON expenses TO expense_agent;
-GRANT USAGE ON SEQUENCE expenses_id_seq TO expense_agent;
+-- The application connects as postgres, which already has full access.
+-- No separate application role or grants are required. With this connection,
+-- database permissions do not restrict the application to SELECT and INSERT.
