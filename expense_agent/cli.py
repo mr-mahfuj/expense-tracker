@@ -54,12 +54,30 @@ def build_agent(settings: Settings) -> Orchestrator:
     )
 
 
-def _print_result(result: AgentResult) -> None:
-    print(result.answer)
+def _print_result(result: AgentResult, answer_printed: bool = False) -> None:
+    if not answer_printed:
+        print(result.answer)
     if result.sql:
         print(f"\n  SQL: {result.sql}")
     cache_note = ", cache hit" if result.from_cache else ""
     print(f"  [run {result.run_id}, {result.steps} step(s){cache_note}]\n")
+
+
+def _run_request(agent: Orchestrator, question: str, stream: bool) -> AgentResult:
+    printed = False
+
+    def emit(chunk: str) -> None:
+        nonlocal printed
+        if chunk:
+            print(chunk, end="", flush=True)
+            printed = True
+
+    result = agent.run(question, on_token=emit) if stream else agent.run(question)
+    if printed:
+        print()
+    # Failures after partial output must still show the error message.
+    _print_result(result, answer_printed=printed and result.ok)
+    return result
 
 
 def _parse_args(argv: list[str] | None) -> argparse.Namespace:
@@ -67,6 +85,7 @@ def _parse_args(argv: list[str] | None) -> argparse.Namespace:
     parser.add_argument("question", nargs="*", help="one-shot request; omit for interactive mode")
     parser.add_argument("--file", type=Path, help="read the request from a text file (good for pasted data)")
     parser.add_argument("--no-cache", action="store_true", help="skip the SQL cache for this run")
+    parser.add_argument("--no-stream", action="store_true", help="print the complete answer at once")
     return parser.parse_args(argv)
 
 
@@ -84,8 +103,7 @@ def main(argv: list[str] | None = None) -> int:
 
     one_shot = args.file.read_text(encoding="utf-8").strip() if args.file else " ".join(args.question)
     if one_shot:
-        result = agent.run(one_shot)
-        _print_result(result)
+        result = _run_request(agent, one_shot, stream=not args.no_stream)
         return 0 if result.ok else 1
 
     print(f"Expense agent ({settings.ollama_model}). Type a request, or 'exit'.")
@@ -99,4 +117,4 @@ def main(argv: list[str] | None = None) -> int:
             continue
         if line.lower() in EXIT_WORDS:
             return 0
-        _print_result(agent.run(line))
+        _run_request(agent, line, stream=not args.no_stream)

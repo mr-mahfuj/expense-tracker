@@ -36,6 +36,23 @@ you> spending per category this month
   calls the LLM or Tool 1.
 - Tests assert that neither tool references the other.
 
+Every request first passes a relevance guard before routing, schema reads, or
+cache access. It allows recording and querying expenses, and denies unrelated
+questions, mixed unrelated tasks, destructive operations, and attempts to
+override instructions. Invalid classifier output or an unavailable model stops
+the request. The SQL writer's `SELECT 'UNSUPPORTED'` sentinel is also refused
+before execution. Scope classification uses the same `OLLAMA_MODEL`
+(`qwen2.5-coder:7b` by default) and sampling settings as the router.
+
+Answers stream to the terminal by default. Routing JSON and SQL generation
+remain buffered. Python callers can use `agent.run(question, on_token=callback)`
+for incremental answer chunks; `agent.run(question)` remains buffered. The
+returned `AgentResult.answer` contains the complete successful answer. An empty
+stream or an answer-model failure before output falls back to a table; a stream
+interrupted after output returns an error and marks the response incomplete.
+Relevance tests use model doubles and verify enforcement, rather than real
+model classification accuracy.
+
 ## Safety: three layers
 
 The model writes the SQL, so it is not trusted.
@@ -107,6 +124,7 @@ python main.py                                   # interactive
 python main.py "how much did I spend on food in the last 10 days?"
 python main.py --file notes.txt                  # pasted data from a file
 python main.py --no-cache "total spend today"    # skip the cache once
+python main.py --no-stream "total spend today"   # print the answer all at once
 ```
 
 ## Check it works
@@ -128,6 +146,7 @@ timezone), `run_id` (ties together all lines of one question) and `event`.
 | event | key fields |
 |---|---|
 | `question` | `question` |
+| `request_allowed` / `request_rejected` | `model` or rejection `reason` |
 | `decision` | `step`, `action`, `reason`, `source` (`llm`, `state_machine`, `fallback_after_bad_json`) |
 | `sql_generated` | `sql`, `raw_output`, `from_cache`, `retry`, `model`, `temperature`, `top_k`, `top_p`, `duration_ms` |
 | `sql_rejected` | `sql`, `reason` |
@@ -171,7 +190,7 @@ Set per role in `.env`:
 
 ## Swapping parts
 
-- **Model backend:** implement `LLMClient.chat` (see `llm.py`) and change one
+- **Model backend:** implement `LLMClient.chat` and `chat_stream` (see `llm.py`) and change one
   line in `cli.py:build_agent`.
 - **Database:** implement `Database.get_schema` and `run_sql` (see `db.py`).
 - **Different data, same agent:** change `sql/02_schema.sql` and the three

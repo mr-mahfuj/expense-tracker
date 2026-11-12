@@ -12,6 +12,8 @@ to generate_sql and the generated SQL to execute_sql.
 
 import json
 import uuid
+import re
+from collections.abc import Callable
 from dataclasses import dataclass
 from typing import Any
 
@@ -19,6 +21,7 @@ from .cache import SqlCache
 from .db import DatabaseError
 from .llm import LLMClient, LLMError, Messages, Sampling
 from .logger import JsonlLogger
+from .relevance import REFUSAL, RequestRejected, check_relevance
 from .tools import SqlExecutorTool, SqlGeneratorTool
 
 FINAL = "final"
@@ -118,7 +121,8 @@ class Orchestrator:
             actions=tool_lines, final=FINAL, generate=generator.name, execute=executor.name
         )
 
-    def run(self, question: str) -> AgentResult:
+    def run(self, question: str, on_token: Callable[[str], None] | None = None) -> AgentResult:
+        """Run a request, optionally delivering final answer text incrementally."""
         run_id = uuid.uuid4().hex[:8]
         self._logger.log("question", run_id, question=question)
         state = _RunState(question=question)
@@ -128,6 +132,8 @@ class Orchestrator:
         ]
 
         try:
+            check_relevance(self._llm, question, self._router_sampling)
+            self._logger.log("request_allowed", run_id, model=self._llm.model)
             for step in range(1, self._max_steps + 1):
                 action, reason = self._decide(messages, state, run_id, step)
                 messages.append(
@@ -140,9 +146,11 @@ class Orchestrator:
                             state, "No query has run successfully yet. Generate and execute SQL first."
                         )
                     else:
-                        return self._finish(state, run_id, step)
+                        return self._finish(state, run_id, step, on_token)
                 elif action == self._generator.name:
                     observation = self._do_generate(state, run_id)
+                    if re.fullmatch(r"SELECT\s+'UNSUPPORTED'", state.last_sql or "", re.I):
+                        raise RequestRejected(REFUSAL)
                 else:
                     observation = self._do_execute(state, run_id)
                     if state.retries > self._max_sql_retries:
@@ -151,8 +159,11 @@ class Orchestrator:
                 messages.append({"role": "user", "content": f"Observation: {observation}"})
 
             if state.last_result is not None:
-                return self._finish(state, run_id, self._max_steps)
+                return self._finish(state, run_id, self._max_steps, on_token)
             return self._fail(state, run_id, self._max_steps, "Ran out of steps before finishing.")
+        except RequestRejected as exc:
+            self._logger.log("request_rejected", run_id, reason=str(exc))
+            return self._fail(state, run_id, 0, str(exc))
         except (LLMError, DatabaseError) as exc:
             return self._fail(state, run_id, 0, str(exc))
 
@@ -238,8 +249,11 @@ class Orchestrator:
 
     # --- finishing -------------------------------------------------------
 
-    def _finish(self, state: _RunState, run_id: str, steps: int) -> AgentResult:
-        answer = self._compose_answer(state)
+    def _finish(
+        self, state: _RunState, run_id: str, steps: int,
+        on_token: Callable[[str], None] | None = None,
+    ) -> AgentResult:
+        answer = self._compose_answer(state, on_token)
         self._logger.log("answer", run_id, answer=answer, sql=state.last_sql, steps=steps)
         return AgentResult(True, answer, state.last_sql, run_id, steps, state.last_from_cache)
 
@@ -247,12 +261,15 @@ class Orchestrator:
         self._logger.log("error", run_id, message=message, sql=state.last_sql, steps=steps)
         return AgentResult(False, message, state.last_sql, run_id, steps, state.last_from_cache)
 
-    def _compose_answer(self, state: _RunState) -> str:
+    def _compose_answer(self, state: _RunState, on_token: Callable[[str], None] | None = None) -> str:
         result = state.last_result
         if result is None:
             return ""
         if not result["columns"]:
-            return f"Saved. {result['rowcount']} row(s) added."
+            text = f"Saved. {result['rowcount']} row(s) added."
+            if on_token:
+                on_token(text)
+            return text
 
         messages: Messages = [
             {"role": "system", "content": ANSWER_SYSTEM_PROMPT},
@@ -265,6 +282,22 @@ class Orchestrator:
                 ),
             },
         ]
+        if on_token is not None:
+            chunks: list[str] = []
+            try:
+                for chunk in self._llm.chat_stream(messages, self._answer_sampling):
+                    chunks.append(chunk)
+                    on_token(chunk)
+            except LLMError as exc:
+                if chunks:
+                    raise LLMError("Answer stream interrupted; response is incomplete. Please retry.") from exc
+            text = "".join(chunks)
+            if text.strip():
+                return text
+            fallback = _format_table(result)
+            on_token(fallback)
+            return fallback
+
         try:
             text = self._llm.chat(messages, self._answer_sampling).strip()
         except LLMError:

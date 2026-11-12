@@ -1,0 +1,42 @@
+-- Optional: run in the Query Tool of expense-tracker-db after 02_schema.sql.
+-- Adds 36 more sample expenses in BDT, covering today and the past 60 days.
+-- Dates are relative to today, matching 03_seed_sample.sql.
+-- Each run inserts another copy of these rows.
+
+INSERT INTO expenses (spent_on, amount, category, note) VALUES
+    (CURRENT_DATE,       80.00, 'food',          'breakfast and tea'),
+    (CURRENT_DATE,       40.00, 'transport',     'bus to university'),
+    (CURRENT_DATE - 1,  320.00, 'food',          'chicken biryani'),
+    (CURRENT_DATE - 1,  100.00, 'transport',     'rickshaw home'),
+    (CURRENT_DATE - 2,  650.00, 'shopping',      't-shirt'),
+    (CURRENT_DATE - 2,  200.00, 'transfer',      'bkash to Hasan'),
+    (CURRENT_DATE - 3,  150.00, 'food',          'rice and fish for lunch'),
+    (CURRENT_DATE - 3,  300.00, 'education',     'photocopies and printing'),
+    (CURRENT_DATE - 4,  250.00, 'bills',         'mobile recharge'),
+    (CURRENT_DATE - 4,   60.00, 'food',          'tea and biscuits'),
+    (CURRENT_DATE - 5,  450.00, 'health',        'cold medicine'),
+    (CURRENT_DATE - 5,  120.00, 'transport',     'CNG fare'),
+    (CURRENT_DATE - 6,  500.00, 'entertainment', 'movie with friends'),
+    (CURRENT_DATE - 6,  220.00, 'food',          'burger and drink'),
+    (CURRENT_DATE - 7,  900.00, 'shopping',      'groceries'),
+    (CURRENT_DATE - 7,   50.00, 'other',         'phone charging cable repair'),
+    (CURRENT_DATE - 8,  180.00, 'food',          'university canteen lunch'),
+    (CURRENT_DATE - 9,   70.00, 'transport',     'bus fare'),
+    (CURRENT_DATE - 10, 750.00, 'education',     'programming textbook'),
+    (CURRENT_DATE - 11, 350.00, 'transfer',      'bkash to Rafi for shared lunch'),
+    (CURRENT_DATE - 12, 280.00, 'food',          'dinner at a local restaurant'),
+    (CURRENT_DATE - 14, 1500.00, 'bills',        'electricity bill'),
+    (CURRENT_DATE - 16, 600.00, 'health',        'doctor consultation'),
+    (CURRENT_DATE - 18, 400.00, 'shopping',      'notebooks and stationery'),
+    (CURRENT_DATE - 20, 200.00, 'entertainment', 'mobile game credit'),
+    (CURRENT_DATE - 22, 130.00, 'food',          'breakfast at a cafe'),
+    (CURRENT_DATE - 25, 160.00, 'transport',     'ride to the railway station'),
+    (CURRENT_DATE - 28, 100.00, 'other',         'umbrella repair'),
+    (CURRENT_DATE - 30, 1200.00, 'bills',        'monthly internet bill'),
+    (CURRENT_DATE - 35, 850.00, 'shopping',      'backpack'),
+    (CURRENT_DATE - 40, 500.00, 'education',     'online course fee'),
+    (CURRENT_DATE - 45, 300.00, 'health',        'vitamins from pharmacy'),
+    (CURRENT_DATE - 48, 1000.00, 'transfer',     'bkash to family'),
+    (CURRENT_DATE - 50, 380.00, 'food',          'dinner with classmates'),
+    (CURRENT_DATE - 55, 250.00, 'entertainment', 'museum tickets'),
+    (CURRENT_DATE - 60, 180.00, 'transport',     'train ticket');
