@@ -1,16 +1,18 @@
 import argparse
+import json
 import sys
-from dataclasses import replace
+from dataclasses import asdict, replace
 from pathlib import Path
 
-from .cache import JsonCache, NullCache
+from . import relevance
+from .cache import JsonCache, NullCache, ResponseCache, build_key
 from .clock import Clock
 from .config import ConfigError, Settings, load_settings
 from .db import PostgresDatabase
 from .llm import OllamaClient
 from .logger import JsonlLogger
-from .orchestrator import AgentResult, Orchestrator
-from .tools import SqlExecutorTool, SqlGeneratorTool
+from .orchestrator import ANSWER_SYSTEM_PROMPT, AgentResult, Orchestrator
+from .tools import SQL_SYSTEM_PROMPT, SqlExecutorTool, SqlGeneratorTool
 
 EXIT_WORDS = {"exit", "quit", ":q"}
 
@@ -40,7 +42,7 @@ def build_agent(settings: Settings) -> Orchestrator:
     )
     generator = SqlGeneratorTool(llm, db, cache, logger, clock, settings.sql_sampling)
     executor = SqlExecutorTool(db, logger)
-    return Orchestrator(
+    agent = Orchestrator(
         llm=llm,
         generator=generator,
         executor=executor,
@@ -52,6 +54,20 @@ def build_agent(settings: Settings) -> Orchestrator:
         max_sql_retries=settings.max_sql_retries,
         max_rows_to_llm=settings.max_rows_to_llm,
     )
+    # Hash configuration locally: cache hits need no schema/database inspection.
+    # Do not persist credentials; only this one-way namespace hash is used.
+    configuration = asdict(settings)
+    for name in ("cache_enabled", "log_path", "cache_max_entries"):
+        configuration.pop(name)
+    namespace = build_key(json.dumps(configuration, sort_keys=True, default=str),
+                          agent._router_prompt, SQL_SYSTEM_PROMPT, ANSWER_SYSTEM_PROMPT,
+                          relevance.SCOPE_PROMPT, json.dumps(relevance.SCOPE_SCHEMA, sort_keys=True))
+    response_path = settings.cache_path.with_name(settings.cache_path.stem + "_responses.json")
+    agent.configure_response_cache(
+        ResponseCache(response_path, settings.cache_max_entries, clock), namespace,
+        enabled=settings.cache_enabled,
+    )
+    return agent
 
 
 def _print_result(result: AgentResult, answer_printed: bool = False) -> None:
@@ -84,7 +100,7 @@ def _parse_args(argv: list[str] | None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Talk to your expense tracker.")
     parser.add_argument("question", nargs="*", help="one-shot request; omit for interactive mode")
     parser.add_argument("--file", type=Path, help="read the request from a text file (good for pasted data)")
-    parser.add_argument("--no-cache", action="store_true", help="skip the SQL cache for this run")
+    parser.add_argument("--no-cache", action="store_true", help="skip SQL and response caches for this run")
     parser.add_argument("--no-stream", action="store_true", help="print the complete answer at once")
     return parser.parse_args(argv)
 

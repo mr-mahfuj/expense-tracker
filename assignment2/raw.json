@@ -1,0 +1,2702 @@
+[
+  {
+    "id": "1",
+    "language": "english",
+    "category": "question",
+    "output": "The capital of Bangladesh is Dhaka.",
+    "input_tokens": 41,
+    "output_tokens": 9,
+    "cost_usd": 1.155e-05,
+    "latency_s": 1.5551685059981537,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:38:23.0405031Z",
+      "message": {
+        "role": "assistant",
+        "content": "The capital of Bangladesh is Dhaka."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1481596195,
+      "load_duration": 936165809,
+      "prompt_eval_count": 41,
+      "prompt_eval_duration": 310150651,
+      "eval_count": 9,
+      "eval_duration": 224526778
+    }
+  },
+  {
+    "id": "1",
+    "language": "bangla",
+    "category": "question",
+    "output": "বাংলাদেশের রাজধানী হল বাংলায় স্থাপনা ও অভিমতি এবং শক্তি করা উচ্চ গণ আমেরিকা।",
+    "input_tokens": 58,
+    "output_tokens": 81,
+    "cost_usd": 5.73e-05,
+    "latency_s": 4.081307815002219,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:38:27.122614742Z",
+      "message": {
+        "role": "assistant",
+        "content": "বাংলাদেশের রাজধানী হল বাংলায় স্থাপনা ও অভিমতি এবং শক্তি করা উচ্চ গণ আমেরিকা।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4007440840,
+      "load_duration": 1212468558,
+      "prompt_eval_count": 58,
+      "prompt_eval_duration": 477773012,
+      "eval_count": 81,
+      "eval_duration": 2312508553
+    }
+  },
+  {
+    "id": "2",
+    "language": "bangla",
+    "category": "question",
+    "output": "বরফ পানি হলো একটি ব্যাখ্যা ও জগৎ শুধৈ। আমি অন্তর্ভুক্ত কিছু সবচেয়ে প্রশ্ন দিতে পারি, যা এখনও বলতে পারে।",
+    "input_tokens": 54,
+    "output_tokens": 111,
+    "cost_usd": 7.469999999999999e-05,
+    "latency_s": 5.13629359400511,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:38:32.258995362Z",
+      "message": {
+        "role": "assistant",
+        "content": "বরফ পানি হলো একটি ব্যাখ্যা ও জগৎ শুধৈ। আমি অন্তর্ভুক্ত কিছু সবচেয়ে প্রশ্ন দিতে পারি, যা এখনও বলতে পারে।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5057231700,
+      "load_duration": 1217601394,
+      "prompt_eval_count": 54,
+      "prompt_eval_duration": 437837019,
+      "eval_count": 111,
+      "eval_duration": 3396296748
+    }
+  },
+  {
+    "id": "2",
+    "language": "english",
+    "category": "question",
+    "output": "Ice floats because it has a lower density than water. Water is less dense than ice, so when you add water to an ice cube, it displaces some of that water and remains solid. This creates a buoyant force that helps the ice remain in place.",
+    "input_tokens": 41,
+    "output_tokens": 54,
+    "cost_usd": 3.8549999999999995e-05,
+    "latency_s": 3.025123767001787,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:38:35.284309753Z",
+      "message": {
+        "role": "assistant",
+        "content": "Ice floats because it has a lower density than water. Water is less dense than ice, so when you add water to an ice cube, it displaces some of that water and remains solid. This creates a buoyant force that helps the ice remain in place."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2949330070,
+      "load_duration": 944941290,
+      "prompt_eval_count": 41,
+      "prompt_eval_duration": 355952878,
+      "eval_count": 54,
+      "eval_duration": 1644576268
+    }
+  },
+  {
+    "id": "3",
+    "language": "english",
+    "category": "question",
+    "output": "A leap year has 366 days.",
+    "input_tokens": 44,
+    "output_tokens": 11,
+    "cost_usd": 1.3199999999999999e-05,
+    "latency_s": 1.8561959790022229,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:38:37.140788365Z",
+      "message": {
+        "role": "assistant",
+        "content": "A leap year has 366 days."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1770133396,
+      "load_duration": 1012970243,
+      "prompt_eval_count": 44,
+      "prompt_eval_duration": 428256248,
+      "eval_count": 11,
+      "eval_duration": 325344959
+    }
+  },
+  {
+    "id": "3",
+    "language": "bangla",
+    "category": "question",
+    "output": "এই সময়টি 24 দিন হবে।",
+    "input_tokens": 55,
+    "output_tokens": 23,
+    "cost_usd": 2.2049999999999997e-05,
+    "latency_s": 2.140602316998411,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:38:39.281360519Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই সময়টি 24 দিন হবে।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2058096950,
+      "load_duration": 962628294,
+      "prompt_eval_count": 55,
+      "prompt_eval_duration": 415972943,
+      "eval_count": 23,
+      "eval_duration": 675107718
+    }
+  },
+  {
+    "id": "4",
+    "language": "bangla",
+    "category": "question",
+    "output": "এই সমস্ত বা অন্য শব্দগুলি একটি উদ্ভিদের মাধ্যমে কী প্রয়োজন। এই সমস্ত বা অন্য শব্দগুলি আরও নির্ণয় করা হলে, উদ্ভিদটি প্রয",
+    "input_tokens": 85,
+    "output_tokens": 128,
+    "cost_usd": 8.955e-05,
+    "latency_s": 5.505918151000515,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:38:44.787516132Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই সমস্ত বা অন্য শব্দগুলি একটি উদ্ভিদের মাধ্যমে কী প্রয়োজন। এই সমস্ত বা অন্য শব্দগুলি আরও নির্ণয় করা হলে, উদ্ভিদটি প্রয"
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 5428662633,
+      "load_duration": 938198592,
+      "prompt_eval_count": 85,
+      "prompt_eval_duration": 659530176,
+      "eval_count": 128,
+      "eval_duration": 3825210292
+    }
+  },
+  {
+    "id": "4",
+    "language": "english",
+    "category": "question",
+    "output": "Plants need sunlight, water, and carbon dioxide to perform photosynthesis.",
+    "input_tokens": 42,
+    "output_tokens": 16,
+    "cost_usd": 1.59e-05,
+    "latency_s": 2.0950967490061885,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:38:46.882745985Z",
+      "message": {
+        "role": "assistant",
+        "content": "Plants need sunlight, water, and carbon dioxide to perform photosynthesis."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2019928151,
+      "load_duration": 1241619568,
+      "prompt_eval_count": 42,
+      "prompt_eval_duration": 329113910,
+      "eval_count": 16,
+      "eval_duration": 445314252
+    }
+  },
+  {
+    "id": "5",
+    "language": "english",
+    "category": "question",
+    "output": "Weather refers to the current state of the atmosphere at a specific location on Earth, while climate refers to the long-term average conditions over an area or time period. Weather can change rapidly, whereas climate remains relatively stable.",
+    "input_tokens": 43,
+    "output_tokens": 44,
+    "cost_usd": 3.285e-05,
+    "latency_s": 2.936673874995904,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:38:49.819605904Z",
+      "message": {
+        "role": "assistant",
+        "content": "Weather refers to the current state of the atmosphere at a specific location on Earth, while climate refers to the long-term average conditions over an area or time period. Weather can change rapidly, whereas climate remains relatively stable."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2853222305,
+      "load_duration": 1211003202,
+      "prompt_eval_count": 43,
+      "prompt_eval_duration": 325698763,
+      "eval_count": 44,
+      "eval_duration": 1312306076
+    }
+  },
+  {
+    "id": "5",
+    "language": "bangla",
+    "category": "question",
+    "output": "পার্থক্য আবহাওয়া এবং জলবায়ুর মধ্যে সমস্ত প্রদত্ত অভিন্ড বিশেষণ।",
+    "input_tokens": 76,
+    "output_tokens": 70,
+    "cost_usd": 5.34e-05,
+    "latency_s": 3.8566501230016,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:38:53.676324688Z",
+      "message": {
+        "role": "assistant",
+        "content": "পার্থক্য আবহাওয়া এবং জলবায়ুর মধ্যে সমস্ত প্রদত্ত অভিন্ড বিশেষণ।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3791873153,
+      "load_duration": 918950095,
+      "prompt_eval_count": 76,
+      "prompt_eval_duration": 591241058,
+      "eval_count": 70,
+      "eval_duration": 2277319012
+    }
+  },
+  {
+    "id": "6",
+    "language": "bangla",
+    "category": "question",
+    "output": "আমি একটি অ্যালগার সহজ বলেছি, আমি প্রতিদিন হাত ধোয়া উচিত কেন?",
+    "input_tokens": 75,
+    "output_tokens": 64,
+    "cost_usd": 4.965e-05,
+    "latency_s": 4.115643759003433,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:38:57.792122207Z",
+      "message": {
+        "role": "assistant",
+        "content": "আমি একটি অ্যালগার সহজ বলেছি, আমি প্রতিদিন হাত ধোয়া উচিত কেন?"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4019292804,
+      "load_duration": 1250807498,
+      "prompt_eval_count": 75,
+      "prompt_eval_duration": 715497031,
+      "eval_count": 64,
+      "eval_duration": 2045612174
+    }
+  },
+  {
+    "id": "6",
+    "language": "english",
+    "category": "question",
+    "output": "Washing our hands before eating is important because it helps prevent the spread of germs and diseases. This can be especially crucial when preparing or serving food that may contain raw meat, poultry, eggs, or seafood. By washing our hands thoroughly with soap and water, we reduce the risk of getting sick from contaminated foods.",
+    "input_tokens": 43,
+    "output_tokens": 65,
+    "cost_usd": 4.545e-05,
+    "latency_s": 4.124042571995233,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:39:01.916421773Z",
+      "message": {
+        "role": "assistant",
+        "content": "Washing our hands before eating is important because it helps prevent the spread of germs and diseases. This can be especially crucial when preparing or serving food that may contain raw meat, poultry, eggs, or seafood. By washing our hands thoroughly with soap and water, we reduce the risk of getting sick from contaminated foods."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4051167775,
+      "load_duration": 1331762385,
+      "prompt_eval_count": 43,
+      "prompt_eval_duration": 490845871,
+      "eval_count": 65,
+      "eval_duration": 2222203842
+    }
+  },
+  {
+    "id": "7",
+    "language": "english",
+    "category": "question",
+    "output": "The planet known as the Red Planet is Mars.",
+    "input_tokens": 43,
+    "output_tokens": 11,
+    "cost_usd": 1.305e-05,
+    "latency_s": 2.208219084997836,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:39:04.124909195Z",
+      "message": {
+        "role": "assistant",
+        "content": "The planet known as the Red Planet is Mars."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2115985294,
+      "load_duration": 1266418028,
+      "prompt_eval_count": 43,
+      "prompt_eval_duration": 372047720,
+      "eval_count": 11,
+      "eval_duration": 472443725
+    }
+  },
+  {
+    "id": "7",
+    "language": "bangla",
+    "category": "question",
+    "output": "মিনি গ্রহ।",
+    "input_tokens": 64,
+    "output_tokens": 11,
+    "cost_usd": 1.62e-05,
+    "latency_s": 2.17238056500355,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:39:06.297260759Z",
+      "message": {
+        "role": "assistant",
+        "content": "মিনি গ্রহ।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2100649604,
+      "load_duration": 1222880748,
+      "prompt_eval_count": 64,
+      "prompt_eval_duration": 530970501,
+      "eval_count": 11,
+      "eval_duration": 342600135
+    }
+  },
+  {
+    "id": "8",
+    "language": "bangla",
+    "category": "question",
+    "output": "তাপমাত্রা মাপেরি সংগঠন হলে আমি অন্য কোনো জন্য বিশ্বাস নেই। এটি উপস্থিতি ও পরিচয় দেখা হলে আমি অন্য কোনো জন্য বিশ্বাস নেই।",
+    "input_tokens": 70,
+    "output_tokens": 128,
+    "cost_usd": 8.73e-05,
+    "latency_s": 6.109767059999285,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:39:12.40744784Z",
+      "message": {
+        "role": "assistant",
+        "content": "তাপমাত্রা মাপেরি সংগঠন হলে আমি অন্য কোনো জন্য বিশ্বাস নেই। এটি উপস্থিতি ও পরিচয় দেখা হলে আমি অন্য কোনো জন্য বিশ্বাস নেই।"
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 6001736358,
+      "load_duration": 1072626238,
+      "prompt_eval_count": 70,
+      "prompt_eval_duration": 512350906,
+      "eval_count": 128,
+      "eval_duration": 4412929537
+    }
+  },
+  {
+    "id": "8",
+    "language": "english",
+    "category": "question",
+    "output": "A thermometer measures temperature by comparing it to a fixed point called zero on its scale. It works by measuring how much heat is transferred from one part of an object to another as it moves through that object, and then converting this measurement into a numerical value representing the temperature. The higher the temperature, the more heat will be transferred from the hotter side to the cooler side of the thermometer.",
+    "input_tokens": 41,
+    "output_tokens": 78,
+    "cost_usd": 5.294999999999999e-05,
+    "latency_s": 4.356748938000237,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:39:16.76340178Z",
+      "message": {
+        "role": "assistant",
+        "content": "A thermometer measures temperature by comparing it to a fixed point called zero on its scale. It works by measuring how much heat is transferred from one part of an object to another as it moves through that object, and then converting this measurement into a numerical value representing the temperature. The higher the temperature, the more heat will be transferred from the hotter side to the cooler side of the thermometer."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4284542968,
+      "load_duration": 1231434475,
+      "prompt_eval_count": 41,
+      "prompt_eval_duration": 358994991,
+      "eval_count": 78,
+      "eval_duration": 2690089378
+    }
+  },
+  {
+    "id": "9",
+    "language": "english",
+    "category": "question",
+    "output": "A renewable source of energy is an energy resource that can be replenished naturally or through human activities without depleting its natural resources. Examples include solar power, wind power, hydroelectric power, geothermal power, and biomass energy. These sources are often called \"renewable\" because they do not rely on finite non-renewable resources like fossil fuels.",
+    "input_tokens": 46,
+    "output_tokens": 74,
+    "cost_usd": 5.13e-05,
+    "latency_s": 4.186665539004025,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:39:20.951197052Z",
+      "message": {
+        "role": "assistant",
+        "content": "A renewable source of energy is an energy resource that can be replenished naturally or through human activities without depleting its natural resources. Examples include solar power, wind power, hydroelectric power, geothermal power, and biomass energy. These sources are often called \"renewable\" because they do not rely on finite non-renewable resources like fossil fuels."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4094478532,
+      "load_duration": 1325626208,
+      "prompt_eval_count": 46,
+      "prompt_eval_duration": 524675571,
+      "eval_count": 74,
+      "eval_duration": 2240130635
+    }
+  },
+  {
+    "id": "9",
+    "language": "bangla",
+    "category": "question",
+    "output": "এই প্রশ্নের জন্য আমি সঠিক বা অন্তর্ভুক্ত মতো এবং উদাহরণ দিতে পারি।\n\nএই প্রশ্নটি \"নবায়নযোগ্য শক্তির উৎস\" করা হলে, আমি এটি বি",
+    "input_tokens": 80,
+    "output_tokens": 128,
+    "cost_usd": 8.88e-05,
+    "latency_s": 5.770706201001303,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:39:26.722116677Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই প্রশ্নের জন্য আমি সঠিক বা অন্তর্ভুক্ত মতো এবং উদাহরণ দিতে পারি।\n\nএই প্রশ্নটি \"নবায়নযোগ্য শক্তির উৎস\" করা হলে, আমি এটি বি"
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 5700581105,
+      "load_duration": 925714407,
+      "prompt_eval_count": 80,
+      "prompt_eval_duration": 722779787,
+      "eval_count": 128,
+      "eval_duration": 4048248211
+    }
+  },
+  {
+    "id": "10",
+    "language": "bangla",
+    "category": "question",
+    "output": "মনে হয় এবং প্রথমে সমস্ত অভিন্ড আকৃতির জন্য চাঁদের আকৃতি বলা হয়। কিন্তু এই মনে পড়ে যে সমস্ত অভিন্ড আকৃতির জন্য চাঁদের ",
+    "input_tokens": 81,
+    "output_tokens": 128,
+    "cost_usd": 8.895000000000001e-05,
+    "latency_s": 5.973667956001009,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:39:32.695817766Z",
+      "message": {
+        "role": "assistant",
+        "content": "মনে হয় এবং প্রথমে সমস্ত অভিন্ড আকৃতির জন্য চাঁদের আকৃতি বলা হয়। কিন্তু এই মনে পড়ে যে সমস্ত অভিন্ড আকৃতির জন্য চাঁদের "
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 5888251000,
+      "load_duration": 970712604,
+      "prompt_eval_count": 81,
+      "prompt_eval_duration": 790626861,
+      "eval_count": 128,
+      "eval_duration": 4122592941
+    }
+  },
+  {
+    "id": "10",
+    "language": "english",
+    "category": "question",
+    "output": "The Moon appears to change shape during a month because it is not always fixed in its position relative to Earth. As the Earth rotates, the Moon moves around the Earth, causing it to appear to move across the sky and change its appearance. This motion is called lunar phase and can be observed through telescopes or by looking at the Moon from Earth.",
+    "input_tokens": 46,
+    "output_tokens": 71,
+    "cost_usd": 4.95e-05,
+    "latency_s": 4.234776833000069,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:39:36.931415636Z",
+      "message": {
+        "role": "assistant",
+        "content": "The Moon appears to change shape during a month because it is not always fixed in its position relative to Earth. As the Earth rotates, the Moon moves around the Earth, causing it to appear to move across the sky and change its appearance. This motion is called lunar phase and can be observed through telescopes or by looking at the Moon from Earth."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4170410431,
+      "load_duration": 964861972,
+      "prompt_eval_count": 46,
+      "prompt_eval_duration": 720799840,
+      "eval_count": 71,
+      "eval_duration": 2480018383
+    }
+  },
+  {
+    "id": "11",
+    "language": "english",
+    "category": "instruction",
+    "output": "1. Fix leaks: Check and repair any small leaks in your plumbing system.\n2. Use water-efficient appliances: Replace old or inefficient appliances with ones that use less water, such as low-flow showerheads and faucets.\n3. Water plants: Make sure you're watering your lawn and garden at the right time of day to avoid wasting water on evaporation.",
+    "input_tokens": 43,
+    "output_tokens": 74,
+    "cost_usd": 5.085e-05,
+    "latency_s": 3.9967969829958747,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:39:40.928488949Z",
+      "message": {
+        "role": "assistant",
+        "content": "1. Fix leaks: Check and repair any small leaks in your plumbing system.\n2. Use water-efficient appliances: Replace old or inefficient appliances with ones that use less water, such as low-flow showerheads and faucets.\n3. Water plants: Make sure you're watering your lawn and garden at the right time of day to avoid wasting water on evaporation."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3923587021,
+      "load_duration": 1215341934,
+      "prompt_eval_count": 43,
+      "prompt_eval_duration": 358933069,
+      "eval_count": 74,
+      "eval_duration": 2344103243
+    }
+  },
+  {
+    "id": "11",
+    "language": "bangla",
+    "category": "instruction",
+    "output": "এই বাগে আমি একটি প্রশ্ন দেখতে পাই! ১. সাশ্রয়ের মধ্যে তিনটি উপায় বাগে আমি করব।\n২. একটি অন্যতম প্রশ্ন দেখে আমি সাধারণভাবে তি",
+    "input_tokens": 90,
+    "output_tokens": 128,
+    "cost_usd": 9.03e-05,
+    "latency_s": 6.565847133999341,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:39:47.494201174Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই বাগে আমি একটি প্রশ্ন দেখতে পাই! ১. সাশ্রয়ের মধ্যে তিনটি উপায় বাগে আমি করব।\n২. একটি অন্যতম প্রশ্ন দেখে আমি সাধারণভাবে তি"
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 6493992192,
+      "load_duration": 1267971895,
+      "prompt_eval_count": 90,
+      "prompt_eval_duration": 747508291,
+      "eval_count": 128,
+      "eval_duration": 4465831698
+    }
+  },
+  {
+    "id": "12",
+    "language": "bangla",
+    "category": "instruction",
+    "output": "এই প্রশ্ন আমি দিতে পারি, সেটি অনুরোধ করা হলে একটি ভদ্রবাক্য লেখা। এই বইটি আমি নিচে দিতে পারি।",
+    "input_tokens": 103,
+    "output_tokens": 96,
+    "cost_usd": 7.305e-05,
+    "latency_s": 5.936105845001293,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:39:53.430736204Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই প্রশ্ন আমি দিতে পারি, সেটি অনুরোধ করা হলে একটি ভদ্রবাক্য লেখা। এই বইটি আমি নিচে দিতে পারি।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5826475489,
+      "load_duration": 1247240342,
+      "prompt_eval_count": 103,
+      "prompt_eval_duration": 920090807,
+      "eval_count": 96,
+      "eval_duration": 3654321473
+    }
+  },
+  {
+    "id": "12",
+    "language": "english",
+    "category": "instruction",
+    "output": "\"Could you please return your borrowed book to me so I can keep it for my own use?\"",
+    "input_tokens": 47,
+    "output_tokens": 21,
+    "cost_usd": 1.965e-05,
+    "latency_s": 2.4148266069969395,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:39:55.845755523Z",
+      "message": {
+        "role": "assistant",
+        "content": "\"Could you please return your borrowed book to me so I can keep it for my own use?\""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2338927234,
+      "load_duration": 1218557714,
+      "prompt_eval_count": 47,
+      "prompt_eval_duration": 457924152,
+      "eval_count": 21,
+      "eval_duration": 656402227
+    }
+  },
+  {
+    "id": "13",
+    "language": "english",
+    "category": "instruction",
+    "output": "The numbers arranged from smallest to largest are: 15, 4, 9, 2.",
+    "input_tokens": 55,
+    "output_tokens": 23,
+    "cost_usd": 2.2049999999999997e-05,
+    "latency_s": 2.257341766002355,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:39:58.103282116Z",
+      "message": {
+        "role": "assistant",
+        "content": "The numbers arranged from smallest to largest are: 15, 4, 9, 2."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2175298834,
+      "load_duration": 947204559,
+      "prompt_eval_count": 55,
+      "prompt_eval_duration": 448301745,
+      "eval_count": 23,
+      "eval_duration": 775853331
+    }
+  },
+  {
+    "id": "13",
+    "language": "bangla",
+    "category": "instruction",
+    "output": "এই সংখ্যাগুলো ছোট থেকে বড় ক্রমে সাজাও: 2, 9, 15, 4.",
+    "input_tokens": 91,
+    "output_tokens": 58,
+    "cost_usd": 4.845e-05,
+    "latency_s": 3.842627137004456,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:40:01.946024499Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই সংখ্যাগুলো ছোট থেকে বড় ক্রমে সাজাও: 2, 9, 15, 4."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3751979575,
+      "load_duration": 997590551,
+      "prompt_eval_count": 91,
+      "prompt_eval_duration": 888846711,
+      "eval_count": 58,
+      "eval_duration": 1861788467
+    }
+  },
+  {
+    "id": "14",
+    "language": "bangla",
+    "category": "instruction",
+    "output": "এই প্রশ্ন আমি কিছু অনুসারে এবং সকলের জন্য বা শতাবimizer মডেটার দেখতে পাই।\n\n1. আমি কিছু অনুসারে এবং সকলের জন্য নাশতার ধারণা বলতে ",
+    "input_tokens": 85,
+    "output_tokens": 128,
+    "cost_usd": 8.955e-05,
+    "latency_s": 5.455204652003886,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:40:07.401455413Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই প্রশ্ন আমি কিছু অনুসারে এবং সকলের জন্য বা শতাবimizer মডেটার দেখতে পাই।\n\n1. আমি কিছু অনুসারে এবং সকলের জন্য নাশতার ধারণা বলতে "
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 5370334254,
+      "load_duration": 979891154,
+      "prompt_eval_count": 85,
+      "prompt_eval_duration": 642035669,
+      "eval_count": 128,
+      "eval_duration": 3743976816
+    }
+  },
+  {
+    "id": "14",
+    "language": "english",
+    "category": "instruction",
+    "output": "Two examples of healthy breakfast foods include oatmeal and eggs. Both are rich in protein and fiber, making them great options for a quick and nutritious start to the day.",
+    "input_tokens": 42,
+    "output_tokens": 35,
+    "cost_usd": 2.73e-05,
+    "latency_s": 2.3622505399980582,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:40:09.763806427Z",
+      "message": {
+        "role": "assistant",
+        "content": "Two examples of healthy breakfast foods include oatmeal and eggs. Both are rich in protein and fiber, making them great options for a quick and nutritious start to the day."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2279852174,
+      "load_duration": 965016613,
+      "prompt_eval_count": 42,
+      "prompt_eval_duration": 327281997,
+      "eval_count": 35,
+      "eval_duration": 983625707
+    }
+  },
+  {
+    "id": "15",
+    "language": "english",
+    "category": "instruction",
+    "output": "\"Child Planting Tree: A Story About Environmental Responsibility\"",
+    "input_tokens": 48,
+    "output_tokens": 13,
+    "cost_usd": 1.5e-05,
+    "latency_s": 1.986605875994428,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:40:11.750638626Z",
+      "message": {
+        "role": "assistant",
+        "content": "\"Child Planting Tree: A Story About Environmental Responsibility\""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1905449892,
+      "load_duration": 1216835651,
+      "prompt_eval_count": 48,
+      "prompt_eval_duration": 343259778,
+      "eval_count": 13,
+      "eval_duration": 340142814
+    }
+  },
+  {
+    "id": "15",
+    "language": "bangla",
+    "category": "instruction",
+    "output": "\"Shiracanthos\" (সহরা-নাচন)",
+    "input_tokens": 92,
+    "output_tokens": 19,
+    "cost_usd": 2.52e-05,
+    "latency_s": 2.217389257995819,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:40:13.968023891Z",
+      "message": {
+        "role": "assistant",
+        "content": "\"Shiracanthos\" (সহরা-নাচন)"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2135606669,
+      "load_duration": 937741128,
+      "prompt_eval_count": 92,
+      "prompt_eval_duration": 667615037,
+      "eval_count": 19,
+      "eval_duration": 526274022
+    }
+  },
+  {
+    "id": "16",
+    "language": "bangla",
+    "category": "instruction",
+    "output": "এই সমস্যার জন্য আমি তিনটি ধাপের একটি কাপ চাই ও দুটি কাপ বানানোর পদ্ধতি বর্ণনা করব।\n\n1. তিনটি ধাপের একটি কাপ চাই:\n   - 20 সেমি\n   - 3",
+    "input_tokens": 83,
+    "output_tokens": 128,
+    "cost_usd": 8.925e-05,
+    "latency_s": 5.753900304996932,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:40:19.72171671Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই সমস্যার জন্য আমি তিনটি ধাপের একটি কাপ চাই ও দুটি কাপ বানানোর পদ্ধতি বর্ণনা করব।\n\n1. তিনটি ধাপের একটি কাপ চাই:\n   - 20 সেমি\n   - 3"
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 5671780976,
+      "load_duration": 1216950293,
+      "prompt_eval_count": 83,
+      "prompt_eval_duration": 611894762,
+      "eval_count": 128,
+      "eval_duration": 3836507661
+    }
+  },
+  {
+    "id": "16",
+    "language": "english",
+    "category": "instruction",
+    "output": "To make a cup of tea in three simple steps:\n\n1. Choose your tea: Select a type of tea that you enjoy.\n\n2. Prepare your teapot or kettle: Fill it with hot water and add the desired amount of tea leaves.\n\n3. Pour the tea into the teapot or kettle: Use a pour-over method if using a teapot, or steeping in a pot if using a kettle. Adjust the temperature to your preference.",
+    "input_tokens": 46,
+    "output_tokens": 91,
+    "cost_usd": 6.15e-05,
+    "latency_s": 4.796534833003534,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:40:24.518882396Z",
+      "message": {
+        "role": "assistant",
+        "content": "To make a cup of tea in three simple steps:\n\n1. Choose your tea: Select a type of tea that you enjoy.\n\n2. Prepare your teapot or kettle: Fill it with hot water and add the desired amount of tea leaves.\n\n3. Pour the tea into the teapot or kettle: Use a pour-over method if using a teapot, or steeping in a pot if using a kettle. Adjust the temperature to your preference."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4691469136,
+      "load_duration": 1332194858,
+      "prompt_eval_count": 46,
+      "prompt_eval_duration": 424243674,
+      "eval_count": 91,
+      "eval_duration": 2928298926
+    }
+  },
+  {
+    "id": "17",
+    "language": "english",
+    "category": "instruction",
+    "output": "One effective method for remembering a new word is through the use of mnemonics or acronyms. This involves associating the word with another word that is easier to recall, such as \"Word\" and \"New\". Another approach is using visual aids like flashcards or picture cards. Additionally, repeating the word multiple times can help reinforce its meaning in your memory.",
+    "input_tokens": 44,
+    "output_tokens": 75,
+    "cost_usd": 5.16e-05,
+    "latency_s": 4.130256143005681,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:40:28.649267877Z",
+      "message": {
+        "role": "assistant",
+        "content": "One effective method for remembering a new word is through the use of mnemonics or acronyms. This involves associating the word with another word that is easier to recall, such as \"Word\" and \"New\". Another approach is using visual aids like flashcards or picture cards. Additionally, repeating the word multiple times can help reinforce its meaning in your memory."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4053948571,
+      "load_duration": 1200195367,
+      "prompt_eval_count": 44,
+      "prompt_eval_duration": 467237884,
+      "eval_count": 75,
+      "eval_duration": 2381950914
+    }
+  },
+  {
+    "id": "17",
+    "language": "bangla",
+    "category": "instruction",
+    "output": "\"আমি আমার সঙ্গে নিচে জড়িয়েছি!\"",
+    "input_tokens": 86,
+    "output_tokens": 34,
+    "cost_usd": 3.3299999999999996e-05,
+    "latency_s": 2.6788091950002126,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:40:31.328226726Z",
+      "message": {
+        "role": "assistant",
+        "content": "\"আমি আমার সঙ্গে নিচে জড়িয়েছি!\""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2604732739,
+      "load_duration": 940916895,
+      "prompt_eval_count": 86,
+      "prompt_eval_duration": 669031295,
+      "eval_count": 34,
+      "eval_duration": 990761762
+    }
+  },
+  {
+    "id": "18",
+    "language": "bangla",
+    "category": "instruction",
+    "output": "এই ছোট বার্তা আমরা সাহায্য করব, প্রয়োজনীয় শিক্ষকে ধন্যবাদ জানি।",
+    "input_tokens": 119,
+    "output_tokens": 71,
+    "cost_usd": 6.0450000000000006e-05,
+    "latency_s": 4.088009084000078,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:40:35.416456274Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই ছোট বার্তা আমরা সাহায্য করব, প্রয়োজনীয় শিক্ষকে ধন্যবাদ জানি।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4007833205,
+      "load_duration": 940046204,
+      "prompt_eval_count": 119,
+      "prompt_eval_duration": 970674196,
+      "eval_count": 71,
+      "eval_duration": 2093033758
+    }
+  },
+  {
+    "id": "18",
+    "language": "english",
+    "category": "instruction",
+    "output": "Thank you so much for your help with my homework! It was really helpful and I appreciate it very much!",
+    "input_tokens": 46,
+    "output_tokens": 23,
+    "cost_usd": 2.07e-05,
+    "latency_s": 2.3237706779982545,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:40:37.740302108Z",
+      "message": {
+        "role": "assistant",
+        "content": "Thank you so much for your help with my homework! It was really helpful and I appreciate it very much!"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2243350972,
+      "load_duration": 1236146732,
+      "prompt_eval_count": 46,
+      "prompt_eval_duration": 353070545,
+      "eval_count": 23,
+      "eval_duration": 647413009
+    }
+  },
+  {
+    "id": "19",
+    "language": "english",
+    "category": "explanation",
+    "output": "Evaporation is the process by which water changes from a liquid to a gas, typically occurring on a hot surface or in the air.",
+    "input_tokens": 42,
+    "output_tokens": 28,
+    "cost_usd": 2.3100000000000002e-05,
+    "latency_s": 2.146369007998146,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:40:39.886859727Z",
+      "message": {
+        "role": "assistant",
+        "content": "Evaporation is the process by which water changes from a liquid to a gas, typically occurring on a hot surface or in the air."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2065115812,
+      "load_duration": 955165011,
+      "prompt_eval_count": 42,
+      "prompt_eval_duration": 351668391,
+      "eval_count": 28,
+      "eval_duration": 754328402
+    }
+  },
+  {
+    "id": "19",
+    "language": "bangla",
+    "category": "explanation",
+    "output": "এই বিশেষণে একটি বাক্য আমি নেই, তবে সেই বাক্য প্রয়োজন হলেও অনেক বাজার মতো। এটি একটি ভিড় ও আর্থিক সমস্যা, তবে এই প্রয়োজন ",
+    "input_tokens": 71,
+    "output_tokens": 128,
+    "cost_usd": 8.745e-05,
+    "latency_s": 5.2126553150010295,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:40:45.099695338Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই বিশেষণে একটি বাক্য আমি নেই, তবে সেই বাক্য প্রয়োজন হলেও অনেক বাজার মতো। এটি একটি ভিড় ও আর্থিক সমস্যা, তবে এই প্রয়োজন "
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 5136901385,
+      "load_duration": 913106139,
+      "prompt_eval_count": 71,
+      "prompt_eval_duration": 523051073,
+      "eval_count": 128,
+      "eval_duration": 3695754177
+    }
+  },
+  {
+    "id": "20",
+    "language": "bangla",
+    "category": "explanation",
+    "output": "এই প্রকারণে নিয়মিত ঘুম শিক্ষার্থীদের শিখতে সাহায্য করা এবং ব্যাখ্যা করা আসলেও নয়। তাই প্রকারণটি অনুমাণীভাবে সহজ হতে পার",
+    "input_tokens": 103,
+    "output_tokens": 128,
+    "cost_usd": 9.225e-05,
+    "latency_s": 7.095942284002376,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:40:52.195414573Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই প্রকারণে নিয়মিত ঘুম শিক্ষার্থীদের শিখতে সাহায্য করা এবং ব্যাখ্যা করা আসলেও নয়। তাই প্রকারণটি অনুমাণীভাবে সহজ হতে পার"
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 7015898783,
+      "load_duration": 1274885414,
+      "prompt_eval_count": 103,
+      "prompt_eval_duration": 1170259420,
+      "eval_count": 128,
+      "eval_duration": 4566421569
+    }
+  },
+  {
+    "id": "20",
+    "language": "english",
+    "category": "explanation",
+    "output": "Regular sleep is crucial for students to help them retain information and improve their learning outcomes. Sleep allows the brain to consolidate memories and process new knowledge, which can make it easier for students to remember what they've learned during the day. Additionally, adequate sleep helps regulate the body's internal clock, which affects how quickly the brain processes information and makes it more efficient at retaining knowledge.",
+    "input_tokens": 43,
+    "output_tokens": 76,
+    "cost_usd": 5.2050000000000005e-05,
+    "latency_s": 4.310576285999559,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:40:56.50651026Z",
+      "message": {
+        "role": "assistant",
+        "content": "Regular sleep is crucial for students to help them retain information and improve their learning outcomes. Sleep allows the brain to consolidate memories and process new knowledge, which can make it easier for students to remember what they've learned during the day. Additionally, adequate sleep helps regulate the body's internal clock, which affects how quickly the brain processes information and makes it more efficient at retaining knowledge."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4212578709,
+      "load_duration": 1237264541,
+      "prompt_eval_count": 43,
+      "prompt_eval_duration": 577296124,
+      "eval_count": 76,
+      "eval_duration": 2393493186
+    }
+  },
+  {
+    "id": "21",
+    "language": "english",
+    "category": "explanation",
+    "output": "Saving money involves accumulating funds to meet your financial goals without using borrowed money. Borrowing money, on the other hand, is when you borrow money from a lender or bank to use for an investment or debt repayment. The main difference is that saving allows you to accumulate funds over time and invest them in ways that benefit you, while borrowing requires immediate cash flow and may not be suitable for long-term financial planning.",
+    "input_tokens": 45,
+    "output_tokens": 83,
+    "cost_usd": 5.655e-05,
+    "latency_s": 3.882527226000093,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:41:00.389220026Z",
+      "message": {
+        "role": "assistant",
+        "content": "Saving money involves accumulating funds to meet your financial goals without using borrowed money. Borrowing money, on the other hand, is when you borrow money from a lender or bank to use for an investment or debt repayment. The main difference is that saving allows you to accumulate funds over time and invest them in ways that benefit you, while borrowing requires immediate cash flow and may not be suitable for long-term financial planning."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3808203596,
+      "load_duration": 973101797,
+      "prompt_eval_count": 45,
+      "prompt_eval_duration": 337056822,
+      "eval_count": 83,
+      "eval_duration": 2494308785
+    }
+  },
+  {
+    "id": "21",
+    "language": "bangla",
+    "category": "explanation",
+    "output": "এই সব জমা তাই আছেন, এবং এটি নিম্নলিখিত প্রকাশ হয়:\n\n1. টাকা জমানো: সে বিশেষ ছিল।\n\n2. টাকা ধার: এটি অন্যতম পরিমাণ হয়।\n\n3. পার্থক",
+    "input_tokens": 95,
+    "output_tokens": 128,
+    "cost_usd": 9.104999999999999e-05,
+    "latency_s": 5.44761829500203,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:41:05.836961719Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই সব জমা তাই আছেন, এবং এটি নিম্নলিখিত প্রকাশ হয়:\n\n1. টাকা জমানো: সে বিশেষ ছিল।\n\n2. টাকা ধার: এটি অন্যতম পরিমাণ হয়।\n\n3. পার্থক"
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 5371967307,
+      "load_duration": 932250886,
+      "prompt_eval_count": 95,
+      "prompt_eval_duration": 693448382,
+      "eval_count": 128,
+      "eval_duration": 3742590011
+    }
+  },
+  {
+    "id": "22",
+    "language": "bangla",
+    "category": "explanation",
+    "output": "এই শিশুগুলি একটি জনপ্রিয় সময়ের পাসওয়ার্ড (P) বা কম্পিউটারের পাসওয়ার্ড (S) এবং দশ বছরের মধ্যে শিশুগুলি নতুন হল 100 কি",
+    "input_tokens": 102,
+    "output_tokens": 128,
+    "cost_usd": 9.209999999999999e-05,
+    "latency_s": 5.547621470002923,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:41:11.384882363Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই শিশুগুলি একটি জনপ্রিয় সময়ের পাসওয়ার্ড (P) বা কম্পিউটারের পাসওয়ার্ড (S) এবং দশ বছরের মধ্যে শিশুগুলি নতুন হল 100 কি"
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 5468045273,
+      "load_duration": 919151170,
+      "prompt_eval_count": 102,
+      "prompt_eval_duration": 794392875,
+      "eval_count": 128,
+      "eval_duration": 3750361697
+    }
+  },
+  {
+    "id": "22",
+    "language": "english",
+    "category": "explanation",
+    "output": "A computer password is like a secret code that only you and your friends can access. It's something special that you choose and keep safe, just like how you might have a special name or nickname for someone else. When you type in the password, it's like giving yourself permission to enter their private space. Only you know what this special code is!",
+    "input_tokens": 48,
+    "output_tokens": 72,
+    "cost_usd": 5.039999999999999e-05,
+    "latency_s": 3.558365021002828,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:41:14.943431076Z",
+      "message": {
+        "role": "assistant",
+        "content": "A computer password is like a secret code that only you and your friends can access. It's something special that you choose and keep safe, just like how you might have a special name or nickname for someone else. When you type in the password, it's like giving yourself permission to enter their private space. Only you know what this special code is!"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3481474884,
+      "load_duration": 925374495,
+      "prompt_eval_count": 48,
+      "prompt_eval_duration": 397984845,
+      "eval_count": 72,
+      "eval_duration": 2153436085
+    }
+  },
+  {
+    "id": "23",
+    "language": "english",
+    "category": "explanation",
+    "output": "A metal spoon and a wooden spoon have different densities, which means they occupy the same volume but have different masses. Since the mass is proportional to the density, a metal spoon will weigh less than a wooden spoon in the same amount of space. Therefore, it will feel colder when placed in the same room because it has less mass and occupies less volume compared to the wooden spoon.",
+    "input_tokens": 51,
+    "output_tokens": 77,
+    "cost_usd": 5.3849999999999994e-05,
+    "latency_s": 3.7536117269992246,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:41:18.696766791Z",
+      "message": {
+        "role": "assistant",
+        "content": "A metal spoon and a wooden spoon have different densities, which means they occupy the same volume but have different masses. Since the mass is proportional to the density, a metal spoon will weigh less than a wooden spoon in the same amount of space. Therefore, it will feel colder when placed in the same room because it has less mass and occupies less volume compared to the wooden spoon."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3675816049,
+      "load_duration": 932254930,
+      "prompt_eval_count": 51,
+      "prompt_eval_duration": 456599766,
+      "eval_count": 77,
+      "eval_duration": 2283077954
+    }
+  },
+  {
+    "id": "23",
+    "language": "bangla",
+    "category": "explanation",
+    "output": "এই ঘরে ধাতুর চামচ কাঠের চামচের চেয়ে বেশি ঠান্ডা লাগে কেন? এটি আমি প্রকাশিত হতে পারি। যদি সুবিধা থাকে, তখন আমি বলি: \"এই ঘরে দ",
+    "input_tokens": 113,
+    "output_tokens": 128,
+    "cost_usd": 9.375e-05,
+    "latency_s": 6.517844312998932,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:41:25.215030795Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই ঘরে ধাতুর চামচ কাঠের চামচের চেয়ে বেশি ঠান্ডা লাগে কেন? এটি আমি প্রকাশিত হতে পারি। যদি সুবিধা থাকে, তখন আমি বলি: \"এই ঘরে দ"
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 6437356567,
+      "load_duration": 1199108307,
+      "prompt_eval_count": 113,
+      "prompt_eval_duration": 1075620104,
+      "eval_count": 128,
+      "eval_duration": 4158720095
+    }
+  },
+  {
+    "id": "24",
+    "language": "bangla",
+    "category": "explanation",
+    "output": "কাগজ পুনর্ব্যবহার পরিবেশের উপকার করতে পারে, তা সংক্ষেপে ব্যাখ্যা করো।",
+    "input_tokens": 114,
+    "output_tokens": 73,
+    "cost_usd": 6.089999999999999e-05,
+    "latency_s": 5.094847446998756,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:41:30.309996479Z",
+      "message": {
+        "role": "assistant",
+        "content": "কাগজ পুনর্ব্যবহার পরিবেশের উপকার করতে পারে, তা সংক্ষেপে ব্যাখ্যা করো।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4990728358,
+      "load_duration": 1232991559,
+      "prompt_eval_count": 114,
+      "prompt_eval_duration": 1238526513,
+      "eval_count": 73,
+      "eval_duration": 2512431014
+    }
+  },
+  {
+    "id": "24",
+    "language": "english",
+    "category": "explanation",
+    "output": "Recycling paper helps the environment by reducing waste and conserving resources. When we recycle paper, we separate it into different types (e.g., paper, cardboard, plastic) and use it to make new products or materials that are made from recycled materials. This reduces the amount of raw material needed for production and decreases the demand for virgin materials. Additionally, recycling helps conserve natural resources such as water and energy used in manufacturing processes.",
+    "input_tokens": 45,
+    "output_tokens": 87,
+    "cost_usd": 5.8949999999999996e-05,
+    "latency_s": 4.363614472000336,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:41:34.67390904Z",
+      "message": {
+        "role": "assistant",
+        "content": "Recycling paper helps the environment by reducing waste and conserving resources. When we recycle paper, we separate it into different types (e.g., paper, cardboard, plastic) and use it to make new products or materials that are made from recycled materials. This reduces the amount of raw material needed for production and decreases the demand for virgin materials. Additionally, recycling helps conserve natural resources such as water and energy used in manufacturing processes."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4255219994,
+      "load_duration": 1262116318,
+      "prompt_eval_count": 45,
+      "prompt_eval_duration": 345739467,
+      "eval_count": 87,
+      "eval_duration": 2643295962
+    }
+  },
+  {
+    "id": "25",
+    "language": "english",
+    "category": "explanation",
+    "output": "A budget is a plan that helps families manage their finances by allocating resources to different areas such as housing, food, entertainment, and savings. It allows individuals or households to track their expenses and identify areas where they can cut back. A family might use a budget for several reasons:\n\n1. Financial planning: Budgeting helps families make informed decisions about spending and saving money.\n\n2. Goal setting: A budget provides a roadmap for achieving financial goals such as paying off debt, building an emergency fund, or saving for retirement.\n\n3. Resource allocation: It allows individuals to allocate resources based on their income and expenses, making it easier to manage household",
+    "input_tokens": 48,
+    "output_tokens": 128,
+    "cost_usd": 8.4e-05,
+    "latency_s": 5.887913610000396,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:41:40.561984207Z",
+      "message": {
+        "role": "assistant",
+        "content": "A budget is a plan that helps families manage their finances by allocating resources to different areas such as housing, food, entertainment, and savings. It allows individuals or households to track their expenses and identify areas where they can cut back. A family might use a budget for several reasons:\n\n1. Financial planning: Budgeting helps families make informed decisions about spending and saving money.\n\n2. Goal setting: A budget provides a roadmap for achieving financial goals such as paying off debt, building an emergency fund, or saving for retirement.\n\n3. Resource allocation: It allows individuals to allocate resources based on their income and expenses, making it easier to manage household"
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 5814578641,
+      "load_duration": 949908158,
+      "prompt_eval_count": 48,
+      "prompt_eval_duration": 365808821,
+      "eval_count": 128,
+      "eval_duration": 4495062640
+    }
+  },
+  {
+    "id": "25",
+    "language": "bangla",
+    "category": "explanation",
+    "output": "বাজেট (Bajaj) এবং পরিবার (Pari) আমি নয়। অনেক সহজ দেখা যাইতে পারে, তাহলে আমি কীভাবে এবং কিছুটা পরিবার নয়।",
+    "input_tokens": 104,
+    "output_tokens": 107,
+    "cost_usd": 7.98e-05,
+    "latency_s": 5.41391425600159,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:41:45.976011539Z",
+      "message": {
+        "role": "assistant",
+        "content": "বাজেট (Bajaj) এবং পরিবার (Pari) আমি নয়। অনেক সহজ দেখা যাইতে পারে, তাহলে আমি কীভাবে এবং কিছুটা পরিবার নয়।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5324583582,
+      "load_duration": 955083316,
+      "prompt_eval_count": 104,
+      "prompt_eval_duration": 745971374,
+      "eval_count": 107,
+      "eval_duration": 3619619006
+    }
+  },
+  {
+    "id": "26",
+    "language": "bangla",
+    "category": "explanation",
+    "output": "এই বীজটি \"2\" এবং \"3\" দিয়ে গাছে পরিণত হয়েছে।",
+    "input_tokens": 90,
+    "output_tokens": 48,
+    "cost_usd": 4.23e-05,
+    "latency_s": 3.5166846889987937,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:41:49.493043052Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই বীজটি \"2\" এবং \"3\" দিয়ে গাছে পরিণত হয়েছে।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3353406850,
+      "load_duration": 1020862589,
+      "prompt_eval_count": 90,
+      "prompt_eval_duration": 914390863,
+      "eval_count": 48,
+      "eval_duration": 1413414659
+    }
+  },
+  {
+    "id": "26",
+    "language": "english",
+    "category": "explanation",
+    "output": "A seed grows into a plant through a process called germination. When a seed is planted or sown, it begins to develop its own roots and shoots as well as a protective outer layer known as the seed coat. As the seed continues to grow, it absorbs water and nutrients from the soil, which helps it develop into a healthy plant. The plant then grows taller and produces flowers and fruits that can be harvested for food or used in other ways.",
+    "input_tokens": 45,
+    "output_tokens": 92,
+    "cost_usd": 6.195e-05,
+    "latency_s": 4.436461704994144,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:41:53.929678158Z",
+      "message": {
+        "role": "assistant",
+        "content": "A seed grows into a plant through a process called germination. When a seed is planted or sown, it begins to develop its own roots and shoots as well as a protective outer layer known as the seed coat. As the seed continues to grow, it absorbs water and nutrients from the soil, which helps it develop into a healthy plant. The plant then grows taller and produces flowers and fruits that can be harvested for food or used in other ways."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4361112574,
+      "load_duration": 1327614632,
+      "prompt_eval_count": 45,
+      "prompt_eval_duration": 340302160,
+      "eval_count": 92,
+      "eval_duration": 2686270538
+    }
+  },
+  {
+    "id": "27",
+    "language": "english",
+    "category": "arithmetic",
+    "output": "The sum of 17 and 28 is 45.",
+    "input_tokens": 44,
+    "output_tokens": 16,
+    "cost_usd": 1.62e-05,
+    "latency_s": 1.7870741980004823,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:41:55.71688139Z",
+      "message": {
+        "role": "assistant",
+        "content": "The sum of 17 and 28 is 45."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1710329261,
+      "load_duration": 938790028,
+      "prompt_eval_count": 44,
+      "prompt_eval_duration": 333564956,
+      "eval_count": 16,
+      "eval_duration": 433291257
+    }
+  },
+  {
+    "id": "27",
+    "language": "bangla",
+    "category": "arithmetic",
+    "output": "17 + 28 = 45\n\nএখন আমি একটি সাথে বিশ্লেষণ করি:\n\n17 + 28 = 45\n\nএই হলে, যোগ দিন প্রতিম হয়।",
+    "input_tokens": 61,
+    "output_tokens": 83,
+    "cost_usd": 5.8949999999999996e-05,
+    "latency_s": 3.8555288669958827,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:41:59.582139695Z",
+      "message": {
+        "role": "assistant",
+        "content": "17 + 28 = 45\n\nএখন আমি একটি সাথে বিশ্লেষণ করি:\n\n17 + 28 = 45\n\nএই হলে, যোগ দিন প্রতিম হয়।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3792958646,
+      "load_duration": 918729349,
+      "prompt_eval_count": 61,
+      "prompt_eval_duration": 461252514,
+      "eval_count": 83,
+      "eval_duration": 2408577971
+    }
+  },
+  {
+    "id": "28",
+    "language": "bangla",
+    "category": "arithmetic",
+    "output": "9 × 7 = 63",
+    "input_tokens": 54,
+    "output_tokens": 9,
+    "cost_usd": 1.35e-05,
+    "latency_s": 1.7007592070003739,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:42:01.28310482Z",
+      "message": {
+        "role": "assistant",
+        "content": "9 × 7 = 63"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1613937508,
+      "load_duration": 965948954,
+      "prompt_eval_count": 54,
+      "prompt_eval_duration": 416686883,
+      "eval_count": 9,
+      "eval_duration": 226683957
+    }
+  },
+  {
+    "id": "28",
+    "language": "english",
+    "category": "arithmetic",
+    "output": "The calculation is 9 * 7 = 63.",
+    "input_tokens": 41,
+    "output_tokens": 14,
+    "cost_usd": 1.4550000000000001e-05,
+    "latency_s": 1.6956980600007228,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:42:02.978900297Z",
+      "message": {
+        "role": "assistant",
+        "content": "The calculation is 9 * 7 = 63."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1614654286,
+      "load_duration": 927373166,
+      "prompt_eval_count": 41,
+      "prompt_eval_duration": 324759895,
+      "eval_count": 14,
+      "eval_duration": 358396234
+    }
+  },
+  {
+    "id": "29",
+    "language": "english",
+    "category": "arithmetic",
+    "output": "144 divided by 12 equals 12.",
+    "input_tokens": 46,
+    "output_tokens": 14,
+    "cost_usd": 1.53e-05,
+    "latency_s": 1.7723526020054123,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:42:04.751454168Z",
+      "message": {
+        "role": "assistant",
+        "content": "144 divided by 12 equals 12."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1690484331,
+      "load_duration": 907346572,
+      "prompt_eval_count": 46,
+      "prompt_eval_duration": 401153411,
+      "eval_count": 14,
+      "eval_duration": 378121251
+    }
+  },
+  {
+    "id": "29",
+    "language": "bangla",
+    "category": "arithmetic",
+    "output": "144 কে 12 দিয়ে ভাগ করলে 12 হয়।",
+    "input_tokens": 68,
+    "output_tokens": 35,
+    "cost_usd": 3.12e-05,
+    "latency_s": 2.6154178100041463,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:42:07.366912093Z",
+      "message": {
+        "role": "assistant",
+        "content": "144 কে 12 দিয়ে ভাগ করলে 12 হয়।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2535754779,
+      "load_duration": 980968712,
+      "prompt_eval_count": 68,
+      "prompt_eval_duration": 509485435,
+      "eval_count": 35,
+      "eval_duration": 1040881185
+    }
+  },
+  {
+    "id": "30",
+    "language": "bangla",
+    "category": "arithmetic",
+    "output": "চাঁদিয়ে আছে, এই সূত্রে কলমের দাম 15 টাকা হবে। চাঁদিয়ে আছে বলে তাই প্রয়োজন করা হলে, এই সূত্রটি নেই।",
+    "input_tokens": 77,
+    "output_tokens": 108,
+    "cost_usd": 7.635e-05,
+    "latency_s": 5.284144680001191,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:42:12.65123605Z",
+      "message": {
+        "role": "assistant",
+        "content": "চাঁদিয়ে আছে, এই সূত্রে কলমের দাম 15 টাকা হবে। চাঁদিয়ে আছে বলে তাই প্রয়োজন করা হলে, এই সূত্রটি নেই।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5187161209,
+      "load_duration": 1251752213,
+      "prompt_eval_count": 77,
+      "prompt_eval_duration": 631071816,
+      "eval_count": 108,
+      "eval_duration": 3299021273
+    }
+  },
+  {
+    "id": "30",
+    "language": "english",
+    "category": "arithmetic",
+    "output": "The cost of four pens would be 60 taka (4 x 15).",
+    "input_tokens": 51,
+    "output_tokens": 20,
+    "cost_usd": 1.965e-05,
+    "latency_s": 2.347739445998741,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:42:14.999297303Z",
+      "message": {
+        "role": "assistant",
+        "content": "The cost of four pens would be 60 taka (4 x 15)."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2265999602,
+      "load_duration": 1219368329,
+      "prompt_eval_count": 51,
+      "prompt_eval_duration": 439866087,
+      "eval_count": 20,
+      "eval_duration": 599790351
+    }
+  },
+  {
+    "id": "31",
+    "language": "english",
+    "category": "arithmetic",
+    "output": "You have 65 taka remaining.",
+    "input_tokens": 54,
+    "output_tokens": 10,
+    "cost_usd": 1.4099999999999999e-05,
+    "latency_s": 1.6749597189991619,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:42:16.674353561Z",
+      "message": {
+        "role": "assistant",
+        "content": "You have 65 taka remaining."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1593484920,
+      "load_duration": 939064499,
+      "prompt_eval_count": 54,
+      "prompt_eval_duration": 401457780,
+      "eval_count": 10,
+      "eval_duration": 249162587
+    }
+  },
+  {
+    "id": "31",
+    "language": "bangla",
+    "category": "arithmetic",
+    "output": "তোমার কাছে 100 টাকা আছে, এবং 35 টাকা খরচ করে তুমি 35 টাকা বাকি থাকতে পারে।",
+    "input_tokens": 106,
+    "output_tokens": 78,
+    "cost_usd": 6.269999999999999e-05,
+    "latency_s": 4.065422612002294,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:42:20.739902961Z",
+      "message": {
+        "role": "assistant",
+        "content": "তোমার কাছে 100 টাকা আছে, এবং 35 টাকা খরচ করে তুমি 35 টাকা বাকি থাকতে পারে।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3986347479,
+      "load_duration": 941929993,
+      "prompt_eval_count": 106,
+      "prompt_eval_duration": 776016171,
+      "eval_count": 78,
+      "eval_duration": 2263326673
+    }
+  },
+  {
+    "id": "32",
+    "language": "bangla",
+    "category": "arithmetic",
+    "output": "250 হলে 20 শতাংশ প্রকাশ নয়।",
+    "input_tokens": 59,
+    "output_tokens": 30,
+    "cost_usd": 2.6850000000000002e-05,
+    "latency_s": 2.3068017289988347,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:42:23.046876521Z",
+      "message": {
+        "role": "assistant",
+        "content": "250 হলে 20 শতাংশ প্রকাশ নয়।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2226708260,
+      "load_duration": 950680466,
+      "prompt_eval_count": 59,
+      "prompt_eval_duration": 427334714,
+      "eval_count": 30,
+      "eval_duration": 844317864
+    }
+  },
+  {
+    "id": "32",
+    "language": "english",
+    "category": "arithmetic",
+    "output": "20% of 250 is 50.",
+    "input_tokens": 45,
+    "output_tokens": 14,
+    "cost_usd": 1.515e-05,
+    "latency_s": 1.9862369449983817,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:42:25.033251356Z",
+      "message": {
+        "role": "assistant",
+        "content": "20% of 250 is 50."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1903778091,
+      "load_duration": 1195096789,
+      "prompt_eval_count": 45,
+      "prompt_eval_duration": 339610366,
+      "eval_count": 14,
+      "eval_duration": 362744572
+    }
+  },
+  {
+    "id": "33",
+    "language": "english",
+    "category": "arithmetic",
+    "output": "The journey takes 45 minutes.",
+    "input_tokens": 61,
+    "output_tokens": 9,
+    "cost_usd": 1.4550000000000001e-05,
+    "latency_s": 1.6859003150020726,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:42:26.71930004Z",
+      "message": {
+        "role": "assistant",
+        "content": "The journey takes 45 minutes."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1605583501,
+      "load_duration": 911860255,
+      "prompt_eval_count": 61,
+      "prompt_eval_duration": 459087228,
+      "eval_count": 9,
+      "eval_duration": 229820513
+    }
+  },
+  {
+    "id": "33",
+    "language": "bangla",
+    "category": "arithmetic",
+    "output": "এই সময়টি 25 মিনিট লাগে।",
+    "input_tokens": 108,
+    "output_tokens": 26,
+    "cost_usd": 3.18e-05,
+    "latency_s": 2.5698061260045506,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:42:29.289156785Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই সময়টি 25 মিনিট লাগে।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2491282115,
+      "load_duration": 921303231,
+      "prompt_eval_count": 108,
+      "prompt_eval_duration": 812067687,
+      "eval_count": 26,
+      "eval_duration": 753535134
+    }
+  },
+  {
+    "id": "34",
+    "language": "bangla",
+    "category": "arithmetic",
+    "output": "প্রথম শিশু 24 এবং তwo 24 সমানভাবে ভাগ করা হলে, অনেকটি শিশু আমি পায়।",
+    "input_tokens": 109,
+    "output_tokens": 72,
+    "cost_usd": 5.955e-05,
+    "latency_s": 3.990707288001431,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:42:33.279988213Z",
+      "message": {
+        "role": "assistant",
+        "content": "প্রথম শিশু 24 এবং তwo 24 সমানভাবে ভাগ করা হলে, অনেকটি শিশু আমি পায়।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3910182398,
+      "load_duration": 942629809,
+      "prompt_eval_count": 109,
+      "prompt_eval_duration": 818120056,
+      "eval_count": 72,
+      "eval_duration": 2145476727
+    }
+  },
+  {
+    "id": "34",
+    "language": "english",
+    "category": "arithmetic",
+    "output": "Each child gets 8 mangoes.",
+    "input_tokens": 53,
+    "output_tokens": 9,
+    "cost_usd": 1.3349999999999998e-05,
+    "latency_s": 1.664325418001681,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:42:34.944500149Z",
+      "message": {
+        "role": "assistant",
+        "content": "Each child gets 8 mangoes."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1585535425,
+      "load_duration": 949460415,
+      "prompt_eval_count": 53,
+      "prompt_eval_duration": 406138177,
+      "eval_count": 9,
+      "eval_duration": 225722729
+    }
+  },
+  {
+    "id": "35",
+    "language": "english",
+    "category": "summary",
+    "output": "The bus was delayed due to heavy rain causing flooding on the road.",
+    "input_tokens": 51,
+    "output_tokens": 15,
+    "cost_usd": 1.6649999999999998e-05,
+    "latency_s": 1.8015553419973003,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:42:36.746209234Z",
+      "message": {
+        "role": "assistant",
+        "content": "The bus was delayed due to heavy rain causing flooding on the road."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1719272173,
+      "load_duration": 925452139,
+      "prompt_eval_count": 51,
+      "prompt_eval_duration": 394008661,
+      "eval_count": 15,
+      "eval_duration": 395586056
+    }
+  },
+  {
+    "id": "35",
+    "language": "bangla",
+    "category": "summary",
+    "output": "এই বাক্যটির সারাংশ হল \"বাসটি\"। এটি ভারী বৃষ্টিতে রাস্তা ডুবে যাওয়ায় বাসটি দেরিতে পৌঁছেছিল।",
+    "input_tokens": 124,
+    "output_tokens": 99,
+    "cost_usd": 7.8e-05,
+    "latency_s": 4.755294964001223,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:42:41.501580264Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই বাক্যটির সারাংশ হল \"বাসটি\"। এটি ভারী বৃষ্টিতে রাস্তা ডুবে যাওয়ায় বাসটি দেরিতে পৌঁছেছিল।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4678622508,
+      "load_duration": 914821862,
+      "prompt_eval_count": 124,
+      "prompt_eval_duration": 884251353,
+      "eval_count": 99,
+      "eval_duration": 2874967102
+    }
+  },
+  {
+    "id": "36",
+    "language": "bangla",
+    "category": "summary",
+    "output": "এই বাক্যটির সারাংশ লেখো: 100%",
+    "input_tokens": 128,
+    "output_tokens": 31,
+    "cost_usd": 3.78e-05,
+    "latency_s": 2.89850739800022,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:42:44.400288898Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই বাক্যটির সারাংশ লেখো: 100%"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2813597154,
+      "load_duration": 966647845,
+      "prompt_eval_count": 128,
+      "prompt_eval_duration": 920266394,
+      "eval_count": 31,
+      "eval_duration": 922846052
+    }
+  },
+  {
+    "id": "36",
+    "language": "english",
+    "category": "summary",
+    "output": "Mina saves a small amount each week to purchase a bicycle.",
+    "input_tokens": 56,
+    "output_tokens": 14,
+    "cost_usd": 1.6800000000000002e-05,
+    "latency_s": 1.810051332002331,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:42:46.210499121Z",
+      "message": {
+        "role": "assistant",
+        "content": "Mina saves a small amount each week to purchase a bicycle."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1728070515,
+      "load_duration": 967199381,
+      "prompt_eval_count": 56,
+      "prompt_eval_duration": 402274695,
+      "eval_count": 14,
+      "eval_duration": 354662706
+    }
+  },
+  {
+    "id": "37",
+    "language": "english",
+    "category": "summary",
+    "output": "The school library remains open after class hours for students to use as a quiet space for studying.",
+    "input_tokens": 56,
+    "output_tokens": 20,
+    "cost_usd": 2.0399999999999998e-05,
+    "latency_s": 1.9486699679982848,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:42:48.15922375Z",
+      "message": {
+        "role": "assistant",
+        "content": "The school library remains open after class hours for students to use as a quiet space for studying."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1869775089,
+      "load_duration": 923971833,
+      "prompt_eval_count": 56,
+      "prompt_eval_duration": 411778671,
+      "eval_count": 20,
+      "eval_duration": 529580624
+    }
+  },
+  {
+    "id": "37",
+    "language": "bangla",
+    "category": "summary",
+    "output": "এই বাক্যটির সারাংশ লেখো: শিক্ষার্থীদের পড়ার জন্য শান্ত জায়গা দিতে ক্লাসের পরেও স্কুলের গ্রন্থাগার খোলা থাকে।",
+    "input_tokens": 150,
+    "output_tokens": 117,
+    "cost_usd": 9.27e-05,
+    "latency_s": 5.505837306001922,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:42:53.665951885Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই বাক্যটির সারাংশ লেখো: শিক্ষার্থীদের পড়ার জন্য শান্ত জায়গা দিতে ক্লাসের পরেও স্কুলের গ্রন্থাগার খোলা থাকে।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5424566904,
+      "load_duration": 910260230,
+      "prompt_eval_count": 150,
+      "prompt_eval_duration": 1105303370,
+      "eval_count": 117,
+      "eval_duration": 3404276624
+    }
+  },
+  {
+    "id": "38",
+    "language": "bangla",
+    "category": "summary",
+    "output": "এই বাক্যটির সারাংশ লেখা: কৃষকেরা পুকুরে বৃষ্টির পানি জমিয়ে শুকনো সপ্তাহগুলোতে সেই পানি ফসলে দিতেন।",
+    "input_tokens": 143,
+    "output_tokens": 109,
+    "cost_usd": 8.685e-05,
+    "latency_s": 5.332519998999487,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:42:58.999407148Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই বাক্যটির সারাংশ লেখা: কৃষকেরা পুকুরে বৃষ্টির পানি জমিয়ে শুকনো সপ্তাহগুলোতে সেই পানি ফসলে দিতেন।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5247921005,
+      "load_duration": 959726114,
+      "prompt_eval_count": 143,
+      "prompt_eval_duration": 1058409029,
+      "eval_count": 109,
+      "eval_duration": 3225970785
+    }
+  },
+  {
+    "id": "38",
+    "language": "english",
+    "category": "summary",
+    "output": "Farmers collected rainwater from a pond and used it for watering their crops during periods when rainfall was scarce.",
+    "input_tokens": 58,
+    "output_tokens": 23,
+    "cost_usd": 2.25e-05,
+    "latency_s": 2.1154195999988588,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:43:01.124731112Z",
+      "message": {
+        "role": "assistant",
+        "content": "Farmers collected rainwater from a pond and used it for watering their crops during periods when rainfall was scarce."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2038533050,
+      "load_duration": 945763788,
+      "prompt_eval_count": 58,
+      "prompt_eval_duration": 447623037,
+      "eval_count": 23,
+      "eval_duration": 641180098
+    }
+  },
+  {
+    "id": "39",
+    "language": "english",
+    "category": "summary",
+    "output": "Rafi decided to walk to work instead of using a taxi due to his desire to save money and improve his physical fitness.",
+    "input_tokens": 59,
+    "output_tokens": 26,
+    "cost_usd": 2.4449999999999998e-05,
+    "latency_s": 2.184020287997555,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:43:03.30896061Z",
+      "message": {
+        "role": "assistant",
+        "content": "Rafi decided to walk to work instead of using a taxi due to his desire to save money and improve his physical fitness."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2100230661,
+      "load_duration": 951756702,
+      "prompt_eval_count": 59,
+      "prompt_eval_duration": 419336534,
+      "eval_count": 26,
+      "eval_duration": 725333224
+    }
+  },
+  {
+    "id": "39",
+    "language": "bangla",
+    "category": "summary",
+    "output": "এই বাক্যটির সারাংশ লেখো: টাকা বাঁচাতে ও ব্যায়াম করতে চাওয়ায় রাফি ট্যাক্সিতে না গিয়ে হেঁটে কাজে গেল।",
+    "input_tokens": 143,
+    "output_tokens": 110,
+    "cost_usd": 8.745e-05,
+    "latency_s": 5.2753256389987655,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:43:08.584437365Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই বাক্যটির সারাংশ লেখো: টাকা বাঁচাতে ও ব্যায়াম করতে চাওয়ায় রাফি ট্যাক্সিতে না গিয়ে হেঁটে কাজে গেল।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5194857731,
+      "load_duration": 914724285,
+      "prompt_eval_count": 143,
+      "prompt_eval_duration": 1078944139,
+      "eval_count": 110,
+      "eval_duration": 3196719661
+    }
+  },
+  {
+    "id": "40",
+    "language": "bangla",
+    "category": "summary",
+    "output": "এই বাক্যটির সারাংশ লেখা: স্বেচ্ছাসেবকেরা শুক্রবার পার্ক পরিষ্কার করলেন এবং আবর্জনা কমাতে প্রবেশপথের কাছে ময়লার পাত্র রাখলেন।",
+    "input_tokens": 163,
+    "output_tokens": 128,
+    "cost_usd": 0.00010125,
+    "latency_s": 5.892561264998221,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:43:14.477168857Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই বাক্যটির সারাংশ লেখা: স্বেচ্ছাসেবকেরা শুক্রবার পার্ক পরিষ্কার করলেন এবং আবর্জনা কমাতে প্রবেশপথের কাছে ময়লার পাত্র রাখলেন।"
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 5811525266,
+      "load_duration": 953065664,
+      "prompt_eval_count": 163,
+      "prompt_eval_duration": 1185316183,
+      "eval_count": 128,
+      "eval_duration": 3669273450
+    }
+  },
+  {
+    "id": "40",
+    "language": "english",
+    "category": "summary",
+    "output": "Volunteers cleaned the park on Friday and placed bins near the entrance to help reduce litter.",
+    "input_tokens": 56,
+    "output_tokens": 19,
+    "cost_usd": 1.98e-05,
+    "latency_s": 1.9656879239992122,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:43:16.442999017Z",
+      "message": {
+        "role": "assistant",
+        "content": "Volunteers cleaned the park on Friday and placed bins near the entrance to help reduce litter."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1883097790,
+      "load_duration": 961038262,
+      "prompt_eval_count": 56,
+      "prompt_eval_duration": 414029075,
+      "eval_count": 19,
+      "eval_duration": 504145899
+    }
+  },
+  {
+    "id": "41",
+    "language": "english",
+    "category": "summary",
+    "output": "A new bridge reduced the travel time from the market to the village, enabling villagers to sell fresh vegetables sooner.",
+    "input_tokens": 58,
+    "output_tokens": 23,
+    "cost_usd": 2.25e-05,
+    "latency_s": 2.0361887520048185,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:43:18.479350958Z",
+      "message": {
+        "role": "assistant",
+        "content": "A new bridge reduced the travel time from the market to the village, enabling villagers to sell fresh vegetables sooner."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1951741383,
+      "load_duration": 904295334,
+      "prompt_eval_count": 58,
+      "prompt_eval_duration": 426968896,
+      "eval_count": 23,
+      "eval_duration": 615763241
+    }
+  },
+  {
+    "id": "41",
+    "language": "bangla",
+    "category": "summary",
+    "output": "এই বাক্যটির সারাংশ লেখা: নতুন সেতু বাজারে যাওয়ার সময় কমিয়ে দেওয়ায় গ্রামের মানুষ আগে তাজা সবজি বিক্রি করতে পারলেন।",
+    "input_tokens": 161,
+    "output_tokens": 127,
+    "cost_usd": 0.00010035,
+    "latency_s": 6.019820123998215,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:43:24.499188649Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই বাক্যটির সারাংশ লেখা: নতুন সেতু বাজারে যাওয়ার সময় কমিয়ে দেওয়ায় গ্রামের মানুষ আগে তাজা সবজি বিক্রি করতে পারলেন।"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5939882799,
+      "load_duration": 914245058,
+      "prompt_eval_count": 161,
+      "prompt_eval_duration": 1230241197,
+      "eval_count": 127,
+      "eval_duration": 3790324519
+    }
+  },
+  {
+    "id": "42",
+    "language": "bangla",
+    "category": "summary",
+    "output": "এই বাক্যটির সারাংশ এর অনুযায়ী হল:\n\n1. আগে: প্রতিটি পরিমাপ দুবার পরীক্ষা করেছিল।\n\n2. এটি সমস্যা বা অনুযায়ী হল: আগে ফলাফল প",
+    "input_tokens": 142,
+    "output_tokens": 128,
+    "cost_usd": 9.81e-05,
+    "latency_s": 5.791206592002709,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:43:30.300306722Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই বাক্যটির সারাংশ এর অনুযায়ী হল:\n\n1. আগে: প্রতিটি পরিমাপ দুবার পরীক্ষা করেছিল।\n\n2. এটি সমস্যা বা অনুযায়ী হল: আগে ফলাফল প"
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 5719053911,
+      "load_duration": 972636386,
+      "prompt_eval_count": 142,
+      "prompt_eval_duration": 1041283167,
+      "eval_count": 128,
+      "eval_duration": 3700836869
+    }
+  },
+  {
+    "id": "42",
+    "language": "english",
+    "category": "summary",
+    "output": "The team double-checked measurements before publishing their findings to minimize potential errors.",
+    "input_tokens": 55,
+    "output_tokens": 15,
+    "cost_usd": 1.725e-05,
+    "latency_s": 1.8258500320007442,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:43:32.12624112Z",
+      "message": {
+        "role": "assistant",
+        "content": "The team double-checked measurements before publishing their findings to minimize potential errors."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1744486748,
+      "load_duration": 943920554,
+      "prompt_eval_count": 55,
+      "prompt_eval_duration": 392440671,
+      "eval_count": 15,
+      "eval_duration": 403926646
+    }
+  },
+  {
+    "id": "43",
+    "language": "english",
+    "category": "long_prompt",
+    "output": "To make the most of her 7-hour study session, she should allocate 1/3rd of her time for fractions (which can be done in one evening) and spend the remaining 2/3rd on multiplication exercises. She could also include a quick review at the end of each day to consolidate what she has learned.",
+    "input_tokens": 84,
+    "output_tokens": 68,
+    "cost_usd": 5.34e-05,
+    "latency_s": 3.6865880390032544,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:43:35.813042649Z",
+      "message": {
+        "role": "assistant",
+        "content": "To make the most of her 7-hour study session, she should allocate 1/3rd of her time for fractions (which can be done in one evening) and spend the remaining 2/3rd on multiplication exercises. She could also include a quick review at the end of each day to consolidate what she has learned."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3604743262,
+      "load_duration": 975065624,
+      "prompt_eval_count": 84,
+      "prompt_eval_duration": 617181771,
+      "eval_count": 68,
+      "eval_duration": 2008616813
+    }
+  },
+  {
+    "id": "43",
+    "language": "bangla",
+    "category": "long_prompt",
+    "output": "এই শিক্ষার্থীর একটি সপ্তাহ পর পরীক্ষা দেখা যায়। আমরা ভগ্নাংশে বেশি সময় দেওয়া হবে, কিন্তু প্রতিদিন অল্প সময়ের পুনরাল",
+    "input_tokens": 299,
+    "output_tokens": 128,
+    "cost_usd": 0.00012165,
+    "latency_s": 6.886815204998129,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:43:42.699998517Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই শিক্ষার্থীর একটি সপ্তাহ পর পরীক্ষা দেখা যায়। আমরা ভগ্নাংশে বেশি সময় দেওয়া হবে, কিন্তু প্রতিদিন অল্প সময়ের পুনরাল"
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 6806853915,
+      "load_duration": 956941960,
+      "prompt_eval_count": 299,
+      "prompt_eval_duration": 2260158109,
+      "eval_count": 128,
+      "eval_duration": 3585486417
+    }
+  },
+  {
+    "id": "44",
+    "language": "bangla",
+    "category": "long_prompt",
+    "output": "এই অপচয় কমাতে চায় এটি \"সপ্তাহ\"। প্রায়ই রান্না করতে পারে, সবজি নষ্ট হয়ে যাও। আমরা এটি ব্যাখ্যা করো এবং তিনটি পরিবর্তন ক",
+    "input_tokens": 330,
+    "output_tokens": 128,
+    "cost_usd": 0.0001263,
+    "latency_s": 7.18479686199862,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:43:49.884958984Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই অপচয় কমাতে চায় এটি \"সপ্তাহ\"। প্রায়ই রান্না করতে পারে, সবজি নষ্ট হয়ে যাও। আমরা এটি ব্যাখ্যা করো এবং তিনটি পরিবর্তন ক"
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 7108122650,
+      "load_duration": 962584097,
+      "prompt_eval_count": 330,
+      "prompt_eval_duration": 2433719079,
+      "eval_count": 128,
+      "eval_duration": 3707806248
+    }
+  },
+  {
+    "id": "44",
+    "language": "english",
+    "category": "long_prompt",
+    "output": "1. **Plan meals in advance**: Instead of buying large quantities of vegetables on a single day, plan meals for the week or even the month ahead. This way, you can buy only what you need and avoid waste.\n\n2. **Use leftovers**: Store any leftover vegetables that are not used immediately in containers like plastic bags or containers with lids to keep them fresh. This reduces food waste by using up excess produce before it goes bad.\n\n3. **Buy in bulk**: Purchase larger quantities of vegetables rather than buying smaller amounts on a regular basis. This can help reduce the amount of food wasted, especially if you buy more than you need",
+    "input_tokens": 83,
+    "output_tokens": 128,
+    "cost_usd": 8.925e-05,
+    "latency_s": 5.406238098999893,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:43:55.291389291Z",
+      "message": {
+        "role": "assistant",
+        "content": "1. **Plan meals in advance**: Instead of buying large quantities of vegetables on a single day, plan meals for the week or even the month ahead. This way, you can buy only what you need and avoid waste.\n\n2. **Use leftovers**: Store any leftover vegetables that are not used immediately in containers like plastic bags or containers with lids to keep them fresh. This reduces food waste by using up excess produce before it goes bad.\n\n3. **Buy in bulk**: Purchase larger quantities of vegetables rather than buying smaller amounts on a regular basis. This can help reduce the amount of food wasted, especially if you buy more than you need"
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 5328591888,
+      "load_duration": 981423826,
+      "prompt_eval_count": 83,
+      "prompt_eval_duration": 591656928,
+      "eval_count": 128,
+      "eval_duration": 3751558235
+    }
+  },
+  {
+    "id": "45",
+    "language": "english",
+    "category": "long_prompt",
+    "output": "1. Teach children about the importance of recycling by having them sort their waste into different bins.\n2. Organize a community cleanup day where they can help remove plastic wrappers from the pond.",
+    "input_tokens": 84,
+    "output_tokens": 39,
+    "cost_usd": 3.6e-05,
+    "latency_s": 2.787216944998363,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:43:58.078778507Z",
+      "message": {
+        "role": "assistant",
+        "content": "1. Teach children about the importance of recycling by having them sort their waste into different bins.\n2. Organize a community cleanup day where they can help remove plastic wrappers from the pond."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2709311472,
+      "load_duration": 957599301,
+      "prompt_eval_count": 84,
+      "prompt_eval_duration": 624487389,
+      "eval_count": 39,
+      "eval_duration": 1123048989
+    }
+  },
+  {
+    "id": "45",
+    "language": "bangla",
+    "category": "long_prompt",
+    "output": "এই গ্রামে স্কুলের পাশে একটি ছোট পুকুর আছে, যা শিশুদের দূষণ সম্পর্চে শেখাবে। পুকুর রক্ষায় উৎসাহিত করবে, এবং শিশুদের দ",
+    "input_tokens": 303,
+    "output_tokens": 128,
+    "cost_usd": 0.00012225,
+    "latency_s": 7.182635027995275,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:44:05.261492447Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই গ্রামে স্কুলের পাশে একটি ছোট পুকুর আছে, যা শিশুদের দূষণ সম্পর্চে শেখাবে। পুকুর রক্ষায় উৎসাহিত করবে, এবং শিশুদের দ"
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 7105688546,
+      "load_duration": 971221196,
+      "prompt_eval_count": 303,
+      "prompt_eval_duration": 2311119839,
+      "eval_count": 128,
+      "eval_duration": 3819017310
+    }
+  },
+  {
+    "id": "46",
+    "language": "bangla",
+    "category": "long_prompt",
+    "output": "আমি আপনি একটি স্থলে অবস্থিত বন্ধুর জন্য প্রয়োজনীয় কাছ করছি। আমি ইতিমধ্যে খাবার কিনে সবাইকে স্বাচ্ছন্দ্যে রাখবো, এটি প্রস",
+    "input_tokens": 289,
+    "output_tokens": 128,
+    "cost_usd": 0.00012015,
+    "latency_s": 6.859960827001487,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:44:12.121648488Z",
+      "message": {
+        "role": "assistant",
+        "content": "আমি আপনি একটি স্থলে অবস্থিত বন্ধুর জন্য প্রয়োজনীয় কাছ করছি। আমি ইতিমধ্যে খাবার কিনে সবাইকে স্বাচ্ছন্দ্যে রাখবো, এটি প্রস"
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 6777800206,
+      "load_duration": 958504523,
+      "prompt_eval_count": 289,
+      "prompt_eval_duration": 2160298633,
+      "eval_count": 128,
+      "eval_duration": 3654774833
+    }
+  },
+  {
+    "id": "46",
+    "language": "english",
+    "category": "long_prompt",
+    "output": "1. Plan to bring some dry snacks or drinks.\n2. Have an extra bag of food ready for rainy days.\n3. Use the picnic area as a temporary outdoor dining space if needed.",
+    "input_tokens": 84,
+    "output_tokens": 40,
+    "cost_usd": 3.66e-05,
+    "latency_s": 3.102427974998136,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:44:15.22430006Z",
+      "message": {
+        "role": "assistant",
+        "content": "1. Plan to bring some dry snacks or drinks.\n2. Have an extra bag of food ready for rainy days.\n3. Use the picnic area as a temporary outdoor dining space if needed."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3026265746,
+      "load_duration": 1198703232,
+      "prompt_eval_count": 84,
+      "prompt_eval_duration": 629936919,
+      "eval_count": 40,
+      "eval_duration": 1188951595
+    }
+  },
+  {
+    "id": "47",
+    "language": "english",
+    "category": "long_prompt",
+    "output": "The total cost of three notebooks is \\(3 \\times 40 = 120\\) taka. Since the customer pays with a 200 taka note, the shopkeeper should give back 80 taka as change. Therefore, the change is 80 taka.",
+    "input_tokens": 87,
+    "output_tokens": 63,
+    "cost_usd": 5.0849999999999996e-05,
+    "latency_s": 3.515251796001394,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:44:18.739667014Z",
+      "message": {
+        "role": "assistant",
+        "content": "The total cost of three notebooks is \\(3 \\times 40 = 120\\) taka. Since the customer pays with a 200 taka note, the shopkeeper should give back 80 taka as change. Therefore, the change is 80 taka."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3436855384,
+      "load_duration": 959708670,
+      "prompt_eval_count": 87,
+      "prompt_eval_duration": 642448674,
+      "eval_count": 63,
+      "eval_duration": 1830657470
+    }
+  },
+  {
+    "id": "47",
+    "language": "bangla",
+    "category": "long_prompt",
+    "output": "এই প্রশ্নটি আমি একটি দুটি ছাড় দেখতে পারি, তবে সেই ছাড় কিছু বা মোট নেওয়া যাই একটি অন্য জন্য। আমি দূর হতে পারি তালিকা ও ",
+    "input_tokens": 238,
+    "output_tokens": 128,
+    "cost_usd": 0.0001125,
+    "latency_s": 6.534133562003262,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:44:25.274013075Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই প্রশ্নটি আমি একটি দুটি ছাড় দেখতে পারি, তবে সেই ছাড় কিছু বা মোট নেওয়া যাই একটি অন্য জন্য। আমি দূর হতে পারি তালিকা ও "
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 6459270663,
+      "load_duration": 957661565,
+      "prompt_eval_count": 238,
+      "prompt_eval_duration": 1839665006,
+      "eval_count": 128,
+      "eval_duration": 3657952160
+    }
+  },
+  {
+    "id": "48",
+    "language": "bangla",
+    "category": "long_prompt",
+    "output": "এই প্রশ্নটি আমি জনস্থলে এবং বিশ্বাসযোগিতা করছি। যদি অন্য দৌড়ানোর খেলা চায়, আমি নিজের একটি বুজ প্রতিষ্ঠান করব। তাই সেই দ",
+    "input_tokens": 311,
+    "output_tokens": 128,
+    "cost_usd": 0.00012345,
+    "latency_s": 7.072001568005362,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:44:32.346139661Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই প্রশ্নটি আমি জনস্থলে এবং বিশ্বাসযোগিতা করছি। যদি অন্য দৌড়ানোর খেলা চায়, আমি নিজের একটি বুজ প্রতিষ্ঠান করব। তাই সেই দ"
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 6992698833,
+      "load_duration": 949781291,
+      "prompt_eval_count": 311,
+      "prompt_eval_duration": 2346275220,
+      "eval_count": 128,
+      "eval_duration": 3692414188
+    }
+  },
+  {
+    "id": "48",
+    "language": "english",
+    "category": "long_prompt",
+    "output": "Suggest they choose a game that combines elements of both: a fast-paced running game (e.g., soccer) with a more complex board game (e.g., Monopoly). This way, they get the action while still enjoying the challenge and strategy involved in playing a board game.",
+    "input_tokens": 82,
+    "output_tokens": 58,
+    "cost_usd": 4.709999999999999e-05,
+    "latency_s": 3.3238211440038867,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:44:35.670086958Z",
+      "message": {
+        "role": "assistant",
+        "content": "Suggest they choose a game that combines elements of both: a fast-paced running game (e.g., soccer) with a more complex board game (e.g., Monopoly). This way, they get the action while still enjoying the challenge and strategy involved in playing a board game."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3242118150,
+      "load_duration": 952516811,
+      "prompt_eval_count": 82,
+      "prompt_eval_duration": 589957428,
+      "eval_count": 58,
+      "eval_duration": 1695791898
+    }
+  },
+  {
+    "id": "49",
+    "language": "english",
+    "category": "long_prompt",
+    "output": "The community planted twenty trees near a road last year. Eighteen survived, so 20 - 8 = 12 did not survive.",
+    "input_tokens": 87,
+    "output_tokens": 31,
+    "cost_usd": 3.165e-05,
+    "latency_s": 2.605985531998158,
+    "done_reason": "stop",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:44:38.276284148Z",
+      "message": {
+        "role": "assistant",
+        "content": "The community planted twenty trees near a road last year. Eighteen survived, so 20 - 8 = 12 did not survive."
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2527330880,
+      "load_duration": 968447916,
+      "prompt_eval_count": 87,
+      "prompt_eval_duration": 654728871,
+      "eval_count": 31,
+      "eval_duration": 900184059
+    }
+  },
+  {
+    "id": "49",
+    "language": "bangla",
+    "category": "long_prompt",
+    "output": "এই ছোট বিবরণটি পড়ো। গত বছর একটি এলাকার মানুষ রাস্তার পাশে বিশটি গাছ লাগিয়েছিলেন। স্বেচ্ছাসেবকেরা শুষ্ক মৌসুমে পানি দিয",
+    "input_tokens": 300,
+    "output_tokens": 128,
+    "cost_usd": 0.00012179999999999999,
+    "latency_s": 6.87136640400422,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:44:45.147789684Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই ছোট বিবরণটি পড়ো। গত বছর একটি এলাকার মানুষ রাস্তার পাশে বিশটি গাছ লাগিয়েছিলেন। স্বেচ্ছাসেবকেরা শুষ্ক মৌসুমে পানি দিয"
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 6795383251,
+      "load_duration": 944332972,
+      "prompt_eval_count": 300,
+      "prompt_eval_duration": 2201861227,
+      "eval_count": 128,
+      "eval_duration": 3644484062
+    }
+  },
+  {
+    "id": "50",
+    "language": "bangla",
+    "category": "long_prompt",
+    "output": "এই সময়ে শব্দ মনে রাখা হলে আমরা নিজেদের একটি প্রস্তুতি ব্যাখ্যা করতে চাই। সেই প্রস্তুতি অন্য দশটি শব্দ জোরে বলে শেখে একটি উপ",
+    "input_tokens": 290,
+    "output_tokens": 128,
+    "cost_usd": 0.0001203,
+    "latency_s": 6.9480251139975735,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:44:52.095922265Z",
+      "message": {
+        "role": "assistant",
+        "content": "এই সময়ে শব্দ মনে রাখা হলে আমরা নিজেদের একটি প্রস্তুতি ব্যাখ্যা করতে চাই। সেই প্রস্তুতি অন্য দশটি শব্দ জোরে বলে শেখে একটি উপ"
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 6868857345,
+      "load_duration": 976006187,
+      "prompt_eval_count": 290,
+      "prompt_eval_duration": 2239462437,
+      "eval_count": 128,
+      "eval_duration": 3648908245
+    }
+  },
+  {
+    "id": "50",
+    "language": "english",
+    "category": "long_prompt",
+    "output": "One reason this is not a fair comparison is that it does not account for the differences in how students remember words. Reading silently versus speaking aloud can have varying effects on memory retention, with some people finding reading silently more effective than speaking aloud.\n\nTo improve the experiment, you could:\n1. Use a control group: Have participants study ten different words by saying them out loud and another group study ten words by reading them silently.\n2. Compare the two groups' performance over time: Measure their vocabulary growth or recall ability after each week of studying.\n3. Consider other factors that might affect memory, such as prior knowledge or learning style.\n\nBy",
+    "input_tokens": 85,
+    "output_tokens": 128,
+    "cost_usd": 8.955e-05,
+    "latency_s": 5.433614403002139,
+    "done_reason": "length",
+    "raw": {
+      "model": "qwen2.5:0.5b",
+      "created_at": "2026-11-20T15:44:57.529821274Z",
+      "message": {
+        "role": "assistant",
+        "content": "One reason this is not a fair comparison is that it does not account for the differences in how students remember words. Reading silently versus speaking aloud can have varying effects on memory retention, with some people finding reading silently more effective than speaking aloud.\n\nTo improve the experiment, you could:\n1. Use a control group: Have participants study ten different words by saying them out loud and another group study ten words by reading them silently.\n2. Compare the two groups' performance over time: Measure their vocabulary growth or recall ability after each week of studying.\n3. Consider other factors that might affect memory, such as prior knowledge or learning style.\n\nBy"
+      },
+      "done": true,
+      "done_reason": "length",
+      "total_duration": 5357479472,
+      "load_duration": 956570770,
+      "prompt_eval_count": 85,
+      "prompt_eval_duration": 649481440,
+      "eval_count": 128,
+      "eval_duration": 3747575548
+    }
+  }
+]

@@ -1,0 +1,51 @@
+id	category	english	bangla
+1	question	What is the capital of Bangladesh?	বাংলাদেশের রাজধানী কী?
+2	question	Why does ice float on water?	বরফ পানিতে ভাসে কেন?
+3	question	How many days are there in a leap year?	অধিবর্ষে কত দিন থাকে?
+4	question	What do plants need for photosynthesis?	সালোকসংশ্লেষণের জন্য উদ্ভিদের কী কী প্রয়োজন?
+5	question	What is the difference between weather and climate?	আবহাওয়া ও জলবায়ুর মধ্যে পার্থক্য কী?
+6	question	Why should we wash our hands before eating?	খাওয়ার আগে আমাদের হাত ধোয়া উচিত কেন?
+7	question	Which planet is known as the Red Planet?	কোন গ্রহকে লাল গ্রহ বলা হয়?
+8	question	How does a thermometer measure temperature?	থার্মোমিটার কীভাবে তাপমাত্রা মাপে?
+9	question	What is a renewable source of energy? Give one example.	নবায়নযোগ্য শক্তির উৎস কী? একটি উদাহরণ দাও।
+10	question	Why does the Moon appear to change shape during a month?	এক মাসে চাঁদের আকৃতি বদলায় বলে মনে হয় কেন?
+11	instruction	List three ways to save water at home.	বাড়িতে পানি সাশ্রয়ের তিনটি উপায় তালিকাভুক্ত করো।
+12	instruction	Write a polite sentence asking a friend to return a borrowed book.	ধার নেওয়া বই ফেরত দিতে বন্ধুকে অনুরোধ করে একটি ভদ্র বাক্য লেখো।
+13	instruction	Arrange these numbers from smallest to largest: 9, 2, 15, 4.	এই সংখ্যাগুলো ছোট থেকে বড় ক্রমে সাজাও: 9, 2, 15, 4।
+14	instruction	Give two examples of healthy breakfast foods.	স্বাস্থ্যকর সকালের নাশতার দুটি খাবারের উদাহরণ দাও।
+15	instruction	Write a title for a story about a child who plants a tree.	একটি শিশুর গাছ লাগানো নিয়ে গল্পের একটি শিরোনাম লেখো।
+16	instruction	Describe how to make a cup of tea in three steps.	তিনটি ধাপে এক কাপ চা বানানোর পদ্ধতি বর্ণনা করো।
+17	instruction	Suggest one way to remember a new word.	একটি নতুন শব্দ মনে রাখার একটি উপায় প্রস্তাব করো।
+18	instruction	Write a short message thanking a teacher for helping with homework.	বাড়ির কাজে সাহায্য করার জন্য একজন শিক্ষককে ধন্যবাদ জানিয়ে একটি ছোট বার্তা লেখো।
+19	explanation	Explain evaporation in one sentence.	একটি বাক্যে বাষ্পীভবন ব্যাখ্যা করো।
+20	explanation	Explain why regular sleep helps students learn.	নিয়মিত ঘুম শিক্ষার্থীদের শিখতে সাহায্য করে কেন, তা ব্যাখ্যা করো।
+21	explanation	Explain the difference between saving money and borrowing money.	টাকা জমানো ও টাকা ধার নেওয়ার মধ্যে পার্থক্য ব্যাখ্যা করো।
+22	explanation	Explain what a computer password is to a ten-year-old child.	দশ বছরের একটি শিশুকে কম্পিউটারের পাসওয়ার্ড কী, তা ব্যাখ্যা করো।
+23	explanation	Explain why a metal spoon feels colder than a wooden spoon in the same room.	একই ঘরে ধাতুর চামচ কাঠের চামচের চেয়ে বেশি ঠান্ডা লাগে কেন, তা ব্যাখ্যা করো।
+24	explanation	Briefly explain how recycling paper can help the environment.	কাগজ পুনর্ব্যবহার পরিবেশের উপকার করতে পারে কীভাবে, তা সংক্ষেপে ব্যাখ্যা করো।
+25	explanation	Explain what a budget is and why a family might use one.	বাজেট কী এবং একটি পরিবার কেন তা ব্যবহার করতে পারে, তা ব্যাখ্যা করো।
+26	explanation	Explain how a seed can grow into a plant.	একটি বীজ কীভাবে গাছে পরিণত হতে পারে, তা ব্যাখ্যা করো।
+27	arithmetic	What is 17 plus 28?	17 আর 28 যোগ করলে কত হয়?
+28	arithmetic	Calculate 9 times 7.	9 গুণ 7 হিসাব করো।
+29	arithmetic	What is 144 divided by 12?	144 কে 12 দিয়ে ভাগ করলে কত হয়?
+30	arithmetic	A pen costs 15 taka. What is the cost of four pens?	একটি কলমের দাম 15 টাকা। চারটি কলমের দাম কত?
+31	arithmetic	You have 100 taka and spend 35 taka. How much remains?	তোমার কাছে 100 টাকা আছে এবং তুমি 35 টাকা খরচ করো। কত টাকা বাকি থাকে?
+32	arithmetic	Find 20 percent of 250.	250 এর 20 শতাংশ বের করো।
+33	arithmetic	A train leaves at 9:15 and arrives at 10:00. How many minutes does the journey take?	একটি ট্রেন 9:15 এ ছাড়ে এবং 10:00 এ পৌঁছায়। যাত্রায় কত মিনিট লাগে?
+34	arithmetic	Three children share 24 mangoes equally. How many mangoes does each child get?	তিনটি শিশু 24টি আম সমানভাবে ভাগ করে নেয়। প্রত্যেক শিশু কয়টি আম পায়?
+35	summary	Summarise this sentence: The bus arrived late because heavy rain flooded the road.	এই বাক্যটির সারাংশ লেখো: ভারী বৃষ্টিতে রাস্তা ডুবে যাওয়ায় বাসটি দেরিতে পৌঁছেছিল।
+36	summary	Summarise this sentence: Mina saved a little money every week so that she could buy a bicycle.	এই বাক্যটির সারাংশ লেখো: একটি সাইকেল কিনতে পারার জন্য মিনা প্রতি সপ্তাহে অল্প অল্প টাকা জমাত।
+37	summary	Summarise this sentence: The school library stays open after classes to give students a quiet place to study.	এই বাক্যটির সারাংশ লেখো: শিক্ষার্থীদের পড়ার জন্য শান্ত জায়গা দিতে ক্লাসের পরেও স্কুলের গ্রন্থাগার খোলা থাকে।
+38	summary	Summarise this sentence: Farmers collected rainwater in a pond and used it to water their crops during dry weeks.	এই বাক্যটির সারাংশ লেখো: কৃষকেরা পুকুরে বৃষ্টির পানি জমিয়ে শুকনো সপ্তাহগুলোতে সেই পানি ফসলে দিতেন।
+39	summary	Summarise this sentence: Rafi walked to work instead of taking a taxi because he wanted to save money and exercise.	এই বাক্যটির সারাংশ লেখো: টাকা বাঁচাতে ও ব্যায়াম করতে চাওয়ায় রাফি ট্যাক্সিতে না গিয়ে হেঁটে কাজে গেল।
+40	summary	Summarise this sentence: Volunteers cleaned the park on Friday and placed bins near the entrance to reduce litter.	এই বাক্যটির সারাংশ লেখো: স্বেচ্ছাসেবকেরা শুক্রবার পার্ক পরিষ্কার করলেন এবং আবর্জনা কমাতে প্রবেশপথের কাছে ময়লার পাত্র রাখলেন।
+41	summary	Summarise this sentence: A new bridge shortened the trip to the market, allowing villagers to sell fresh vegetables earlier.	এই বাক্যটির সারাংশ লেখো: নতুন সেতু বাজারে যাওয়ার সময় কমিয়ে দেওয়ায় গ্রামের মানুষ আগে তাজা সবজি বিক্রি করতে পারলেন।
+42	summary	Summarise this sentence: The team checked every measurement twice before publishing the results to avoid simple errors.	এই বাক্যটির সারাংশ লেখো: সাধারণ ভুল এড়াতে দলটি ফলাফল প্রকাশের আগে প্রতিটি পরিমাপ দুবার পরীক্ষা করেছিল।
+43	long_prompt	A student has an exam in one week. She can study for one hour each evening. She finds fractions difficult but feels confident about multiplication. Suggest a simple three-day study plan that gives more time to fractions and includes a short review each day.	একজন শিক্ষার্থীর এক সপ্তাহ পর পরীক্ষা। সে প্রতি সন্ধ্যায় এক ঘণ্টা পড়তে পারে। ভগ্নাংশ তার কঠিন লাগে, কিন্তু গুণে সে আত্মবিশ্বাসী। তিন দিনের একটি সহজ পড়ার পরিকল্পনা দাও, যেখানে ভগ্নাংশে বেশি সময় দেওয়া হবে এবং প্রতিদিন অল্প সময়ের পুনরালোচনা থাকবে।
+44	long_prompt	A family wants to reduce food waste. They often buy more vegetables than they can cook. Some vegetables spoil before the end of the week. Suggest three practical changes to their shopping and cooking habits, and explain briefly how each change could help.	একটি পরিবার খাবারের অপচয় কমাতে চায়। তারা প্রায়ই রান্না করতে পারার চেয়ে বেশি সবজি কেনে। সপ্তাহ শেষ হওয়ার আগেই কিছু সবজি নষ্ট হয়ে যায়। তাদের কেনাকাটা ও রান্নার অভ্যাসে তিনটি ব্যবহারিক পরিবর্তন প্রস্তাব করো এবং প্রতিটি পরিবর্তন কীভাবে সাহায্য করতে পারে, তা সংক্ষেপে ব্যাখ্যা করো।
+45	long_prompt	A village has a small pond beside a school. Children sometimes throw plastic wrappers into the water. The school wants to keep the pond clean without punishing the children. Propose two activities that teach the children about pollution and encourage them to protect the pond.	একটি গ্রামে স্কুলের পাশে একটি ছোট পুকুর আছে। শিশুরা কখনো কখনো পানিতে প্লাস্টিকের মোড়ক ফেলে। স্কুল শিশুদের শাস্তি না দিয়ে পুকুর পরিষ্কার রাখতে চায়। এমন দুটি কার্যক্রম প্রস্তাব করো, যা শিশুদের দূষণ সম্পর্কে শেখাবে এবং পুকুর রক্ষায় উৎসাহিত করবে।
+46	long_prompt	You are planning a picnic for six friends. The weather forecast says it may rain in the afternoon. You have already bought the food. Suggest a backup plan that avoids wasting the food and keeps everyone comfortable. Give your answer in three short points.	তুমি ছয়জন বন্ধুর জন্য বনভোজনের পরিকল্পনা করছ। আবহাওয়ার পূর্বাভাস বলছে বিকেলে বৃষ্টি হতে পারে। তুমি ইতিমধ্যে খাবার কিনেছ। খাবারের অপচয় এড়িয়ে সবাইকে স্বাচ্ছন্দ্যে রাখবে এমন একটি বিকল্প পরিকল্পনা প্রস্তাব করো। তিনটি ছোট পয়েন্টে উত্তর দাও।
+47	long_prompt	A shop sells notebooks for 40 taka each. A customer buys three notebooks and pays with a 200 taka note. The shopkeeper offers no discount. Calculate the total cost and the change, and explain the calculation in two short sentences.	একটি দোকানে প্রতিটি খাতা 40 টাকায় বিক্রি হয়। একজন ক্রেতা তিনটি খাতা কিনে 200 টাকার নোট দেন। দোকানি কোনো ছাড় দেন না। মোট দাম ও ফেরত টাকা হিসাব করো এবং দুটি ছোট বাক্যে হিসাবটি ব্যাখ্যা করো।
+48	long_prompt	Two friends disagree about which game to play. One wants a running game, while the other wants a board game. They have thirty minutes before dinner. Suggest a fair compromise and explain how it respects both friends. Keep your answer brief.	দুই বন্ধু কোন খেলা খেলবে তা নিয়ে একমত হতে পারছে না। একজন দৌড়ানোর খেলা চায়, আর অন্যজন বোর্ড গেম চায়। রাতের খাবারের আগে তাদের হাতে ত্রিশ মিনিট আছে। একটি ন্যায্য সমঝোতা প্রস্তাব করো এবং তা কীভাবে দুই বন্ধুকেই সম্মান করে, তা ব্যাখ্যা করো। সংক্ষেপে উত্তর দাও।
+49	long_prompt	Read this short account. A community planted twenty trees near a road last year. Volunteers watered them during the dry season, and eighteen trees survived. Summarise the account in one sentence and state how many trees did not survive. Use only the information given.	এই ছোট বিবরণটি পড়ো। গত বছর একটি এলাকার মানুষ রাস্তার পাশে বিশটি গাছ লাগিয়েছিলেন। স্বেচ্ছাসেবকেরা শুষ্ক মৌসুমে পানি দিয়েছিলেন এবং আঠারোটি গাছ বেঁচে ছিল। এক বাক্যে বিবরণটির সারাংশ লেখো এবং কয়টি গাছ বাঁচেনি তা বলো। শুধু দেওয়া তথ্য ব্যবহার করো।
+50	long_prompt	A student wants to compare two ways of remembering vocabulary. On Monday he studies ten words by reading them silently. On Tuesday he studies ten different words by saying them aloud. Explain one reason this is not a fair comparison and suggest one improvement to the experiment.	একজন শিক্ষার্থী শব্দ মনে রাখার দুটি পদ্ধতি তুলনা করতে চায়। সোমবার সে দশটি শব্দ নীরবে পড়ে শেখে। মঙ্গলবার সে অন্য দশটি শব্দ জোরে বলে শেখে। কেন এটি ন্যায্য তুলনা নয় তার একটি কারণ ব্যাখ্যা করো এবং পরীক্ষাটি উন্নত করার একটি উপায় প্রস্তাব করো।

@@ -1,4 +1,4 @@
-"""Classify scope before any routing, cache lookup, or database access."""
+"""Classify scope on response-cache misses before routing or database access."""
 
 import json
 

@@ -1,0 +1,154 @@
+id,language,prompt,output,input_tokens,output_tokens,cost_usd,latency_s
+1,english,What is the capital of Bangladesh?,The capital of Bangladesh is Dhaka.,41,9,1.155e-05,1.5551685059981537
+1,bangla,বাংলাদেশের রাজধানী কী?,বাংলাদেশের রাজধানী হল বাংলায় স্থাপনা ও অভিমতি এবং শক্তি করা উচ্চ গণ আমেরিকা।,58,81,5.73e-05,4.081307815002219
+2,bangla,বরফ পানিতে ভাসে কেন?,"বরফ পানি হলো একটি ব্যাখ্যা ও জগৎ শুধৈ। আমি অন্তর্ভুক্ত কিছু সবচেয়ে প্রশ্ন দিতে পারি, যা এখনও বলতে পারে।",54,111,7.469999999999999e-05,5.13629359400511
+2,english,Why does ice float on water?,"Ice floats because it has a lower density than water. Water is less dense than ice, so when you add water to an ice cube, it displaces some of that water and remains solid. This creates a buoyant force that helps the ice remain in place.",41,54,3.8549999999999995e-05,3.025123767001787
+3,english,How many days are there in a leap year?,A leap year has 366 days.,44,11,1.3199999999999999e-05,1.8561959790022229
+3,bangla,অধিবর্ষে কত দিন থাকে?,এই সময়টি 24 দিন হবে।,55,23,2.2049999999999997e-05,2.140602316998411
+4,bangla,সালোকসংশ্লেষণের জন্য উদ্ভিদের কী কী প্রয়োজন?,"এই সমস্ত বা অন্য শব্দগুলি একটি উদ্ভিদের মাধ্যমে কী প্রয়োজন। এই সমস্ত বা অন্য শব্দগুলি আরও নির্ণয় করা হলে, উদ্ভিদটি প্রয",85,128,8.955e-05,5.505918151000515
+4,english,What do plants need for photosynthesis?,"Plants need sunlight, water, and carbon dioxide to perform photosynthesis.",42,16,1.59e-05,2.0950967490061885
+5,english,What is the difference between weather and climate?,"Weather refers to the current state of the atmosphere at a specific location on Earth, while climate refers to the long-term average conditions over an area or time period. Weather can change rapidly, whereas climate remains relatively stable.",43,44,3.285e-05,2.936673874995904
+5,bangla,আবহাওয়া ও জলবায়ুর মধ্যে পার্থক্য কী?,পার্থক্য আবহাওয়া এবং জলবায়ুর মধ্যে সমস্ত প্রদত্ত অভিন্ড বিশেষণ।,76,70,5.34e-05,3.8566501230016
+6,bangla,খাওয়ার আগে আমাদের হাত ধোয়া উচিত কেন?,"আমি একটি অ্যালগার সহজ বলেছি, আমি প্রতিদিন হাত ধোয়া উচিত কেন?",75,64,4.965e-05,4.115643759003433
+6,english,Why should we wash our hands before eating?,"Washing our hands before eating is important because it helps prevent the spread of germs and diseases. This can be especially crucial when preparing or serving food that may contain raw meat, poultry, eggs, or seafood. By washing our hands thoroughly with soap and water, we reduce the risk of getting sick from contaminated foods.",43,65,4.545e-05,4.124042571995233
+7,english,Which planet is known as the Red Planet?,The planet known as the Red Planet is Mars.,43,11,1.305e-05,2.208219084997836
+7,bangla,কোন গ্রহকে লাল গ্রহ বলা হয়?,মিনি গ্রহ।,64,11,1.62e-05,2.17238056500355
+8,bangla,থার্মোমিটার কীভাবে তাপমাত্রা মাপে?,তাপমাত্রা মাপেরি সংগঠন হলে আমি অন্য কোনো জন্য বিশ্বাস নেই। এটি উপস্থিতি ও পরিচয় দেখা হলে আমি অন্য কোনো জন্য বিশ্বাস নেই।,70,128,8.73e-05,6.109767059999285
+8,english,How does a thermometer measure temperature?,"A thermometer measures temperature by comparing it to a fixed point called zero on its scale. It works by measuring how much heat is transferred from one part of an object to another as it moves through that object, and then converting this measurement into a numerical value representing the temperature. The higher the temperature, the more heat will be transferred from the hotter side to the cooler side of the thermometer.",41,78,5.294999999999999e-05,4.356748938000237
+9,english,What is a renewable source of energy? Give one example.,"A renewable source of energy is an energy resource that can be replenished naturally or through human activities without depleting its natural resources. Examples include solar power, wind power, hydroelectric power, geothermal power, and biomass energy. These sources are often called ""renewable"" because they do not rely on finite non-renewable resources like fossil fuels.",46,74,5.13e-05,4.186665539004025
+9,bangla,নবায়নযোগ্য শক্তির উৎস কী? একটি উদাহরণ দাও।,"এই প্রশ্নের জন্য আমি সঠিক বা অন্তর্ভুক্ত মতো এবং উদাহরণ দিতে পারি।
+
+এই প্রশ্নটি ""নবায়নযোগ্য শক্তির উৎস"" করা হলে, আমি এটি বি",80,128,8.88e-05,5.770706201001303
+10,bangla,এক মাসে চাঁদের আকৃতি বদলায় বলে মনে হয় কেন?,মনে হয় এবং প্রথমে সমস্ত অভিন্ড আকৃতির জন্য চাঁদের আকৃতি বলা হয়। কিন্তু এই মনে পড়ে যে সমস্ত অভিন্ড আকৃতির জন্য চাঁদের ,81,128,8.895000000000001e-05,5.973667956001009
+10,english,Why does the Moon appear to change shape during a month?,"The Moon appears to change shape during a month because it is not always fixed in its position relative to Earth. As the Earth rotates, the Moon moves around the Earth, causing it to appear to move across the sky and change its appearance. This motion is called lunar phase and can be observed through telescopes or by looking at the Moon from Earth.",46,71,4.95e-05,4.234776833000069
+11,english,List three ways to save water at home.,"1. Fix leaks: Check and repair any small leaks in your plumbing system.
+2. Use water-efficient appliances: Replace old or inefficient appliances with ones that use less water, such as low-flow showerheads and faucets.
+3. Water plants: Make sure you're watering your lawn and garden at the right time of day to avoid wasting water on evaporation.",43,74,5.085e-05,3.9967969829958747
+11,bangla,বাড়িতে পানি সাশ্রয়ের তিনটি উপায় তালিকাভুক্ত করো।,"এই বাগে আমি একটি প্রশ্ন দেখতে পাই! ১. সাশ্রয়ের মধ্যে তিনটি উপায় বাগে আমি করব।
+২. একটি অন্যতম প্রশ্ন দেখে আমি সাধারণভাবে তি",90,128,9.03e-05,6.565847133999341
+12,bangla,ধার নেওয়া বই ফেরত দিতে বন্ধুকে অনুরোধ করে একটি ভদ্র বাক্য লেখো।,"এই প্রশ্ন আমি দিতে পারি, সেটি অনুরোধ করা হলে একটি ভদ্রবাক্য লেখা। এই বইটি আমি নিচে দিতে পারি।",103,96,7.305e-05,5.936105845001293
+12,english,Write a polite sentence asking a friend to return a borrowed book.,"""Could you please return your borrowed book to me so I can keep it for my own use?""",47,21,1.965e-05,2.4148266069969395
+13,english,"Arrange these numbers from smallest to largest: 9, 2, 15, 4.","The numbers arranged from smallest to largest are: 15, 4, 9, 2.",55,23,2.2049999999999997e-05,2.257341766002355
+13,bangla,"এই সংখ্যাগুলো ছোট থেকে বড় ক্রমে সাজাও: 9, 2, 15, 4।","এই সংখ্যাগুলো ছোট থেকে বড় ক্রমে সাজাও: 2, 9, 15, 4.",91,58,4.845e-05,3.842627137004456
+14,bangla,স্বাস্থ্যকর সকালের নাশতার দুটি খাবারের উদাহরণ দাও।,"এই প্রশ্ন আমি কিছু অনুসারে এবং সকলের জন্য বা শতাবimizer মডেটার দেখতে পাই।
+
+1. আমি কিছু অনুসারে এবং সকলের জন্য নাশতার ধারণা বলতে ",85,128,8.955e-05,5.455204652003886
+14,english,Give two examples of healthy breakfast foods.,"Two examples of healthy breakfast foods include oatmeal and eggs. Both are rich in protein and fiber, making them great options for a quick and nutritious start to the day.",42,35,2.73e-05,2.3622505399980582
+15,english,Write a title for a story about a child who plants a tree.,"""Child Planting Tree: A Story About Environmental Responsibility""",48,13,1.5e-05,1.986605875994428
+15,bangla,একটি শিশুর গাছ লাগানো নিয়ে গল্পের একটি শিরোনাম লেখো।,"""Shiracanthos"" (সহরা-নাচন)",92,19,2.52e-05,2.217389257995819
+16,bangla,তিনটি ধাপে এক কাপ চা বানানোর পদ্ধতি বর্ণনা করো।,"এই সমস্যার জন্য আমি তিনটি ধাপের একটি কাপ চাই ও দুটি কাপ বানানোর পদ্ধতি বর্ণনা করব।
+
+1. তিনটি ধাপের একটি কাপ চাই:
+   - 20 সেমি
+   - 3",83,128,8.925e-05,5.753900304996932
+16,english,Describe how to make a cup of tea in three steps.,"To make a cup of tea in three simple steps:
+
+1. Choose your tea: Select a type of tea that you enjoy.
+
+2. Prepare your teapot or kettle: Fill it with hot water and add the desired amount of tea leaves.
+
+3. Pour the tea into the teapot or kettle: Use a pour-over method if using a teapot, or steeping in a pot if using a kettle. Adjust the temperature to your preference.",46,91,6.15e-05,4.796534833003534
+17,english,Suggest one way to remember a new word.,"One effective method for remembering a new word is through the use of mnemonics or acronyms. This involves associating the word with another word that is easier to recall, such as ""Word"" and ""New"". Another approach is using visual aids like flashcards or picture cards. Additionally, repeating the word multiple times can help reinforce its meaning in your memory.",44,75,5.16e-05,4.130256143005681
+17,bangla,একটি নতুন শব্দ মনে রাখার একটি উপায় প্রস্তাব করো।,"""আমি আমার সঙ্গে নিচে জড়িয়েছি!""",86,34,3.3299999999999996e-05,2.6788091950002126
+18,bangla,বাড়ির কাজে সাহায্য করার জন্য একজন শিক্ষককে ধন্যবাদ জানিয়ে একটি ছোট বার্তা লেখো।,"এই ছোট বার্তা আমরা সাহায্য করব, প্রয়োজনীয় শিক্ষকে ধন্যবাদ জানি।",119,71,6.0450000000000006e-05,4.088009084000078
+18,english,Write a short message thanking a teacher for helping with homework.,Thank you so much for your help with my homework! It was really helpful and I appreciate it very much!,46,23,2.07e-05,2.3237706779982545
+19,english,Explain evaporation in one sentence.,"Evaporation is the process by which water changes from a liquid to a gas, typically occurring on a hot surface or in the air.",42,28,2.3100000000000002e-05,2.146369007998146
+19,bangla,একটি বাক্যে বাষ্পীভবন ব্যাখ্যা করো।,"এই বিশেষণে একটি বাক্য আমি নেই, তবে সেই বাক্য প্রয়োজন হলেও অনেক বাজার মতো। এটি একটি ভিড় ও আর্থিক সমস্যা, তবে এই প্রয়োজন ",71,128,8.745e-05,5.2126553150010295
+20,bangla,"নিয়মিত ঘুম শিক্ষার্থীদের শিখতে সাহায্য করে কেন, তা ব্যাখ্যা করো।",এই প্রকারণে নিয়মিত ঘুম শিক্ষার্থীদের শিখতে সাহায্য করা এবং ব্যাখ্যা করা আসলেও নয়। তাই প্রকারণটি অনুমাণীভাবে সহজ হতে পার,103,128,9.225e-05,7.095942284002376
+20,english,Explain why regular sleep helps students learn.,"Regular sleep is crucial for students to help them retain information and improve their learning outcomes. Sleep allows the brain to consolidate memories and process new knowledge, which can make it easier for students to remember what they've learned during the day. Additionally, adequate sleep helps regulate the body's internal clock, which affects how quickly the brain processes information and makes it more efficient at retaining knowledge.",43,76,5.2050000000000005e-05,4.310576285999559
+21,english,Explain the difference between saving money and borrowing money.,"Saving money involves accumulating funds to meet your financial goals without using borrowed money. Borrowing money, on the other hand, is when you borrow money from a lender or bank to use for an investment or debt repayment. The main difference is that saving allows you to accumulate funds over time and invest them in ways that benefit you, while borrowing requires immediate cash flow and may not be suitable for long-term financial planning.",45,83,5.655e-05,3.882527226000093
+21,bangla,টাকা জমানো ও টাকা ধার নেওয়ার মধ্যে পার্থক্য ব্যাখ্যা করো।,"এই সব জমা তাই আছেন, এবং এটি নিম্নলিখিত প্রকাশ হয়:
+
+1. টাকা জমানো: সে বিশেষ ছিল।
+
+2. টাকা ধার: এটি অন্যতম পরিমাণ হয়।
+
+3. পার্থক",95,128,9.104999999999999e-05,5.44761829500203
+22,bangla,"দশ বছরের একটি শিশুকে কম্পিউটারের পাসওয়ার্ড কী, তা ব্যাখ্যা করো।",এই শিশুগুলি একটি জনপ্রিয় সময়ের পাসওয়ার্ড (P) বা কম্পিউটারের পাসওয়ার্ড (S) এবং দশ বছরের মধ্যে শিশুগুলি নতুন হল 100 কি,102,128,9.209999999999999e-05,5.547621470002923
+22,english,Explain what a computer password is to a ten-year-old child.,"A computer password is like a secret code that only you and your friends can access. It's something special that you choose and keep safe, just like how you might have a special name or nickname for someone else. When you type in the password, it's like giving yourself permission to enter their private space. Only you know what this special code is!",48,72,5.039999999999999e-05,3.558365021002828
+23,english,Explain why a metal spoon feels colder than a wooden spoon in the same room.,"A metal spoon and a wooden spoon have different densities, which means they occupy the same volume but have different masses. Since the mass is proportional to the density, a metal spoon will weigh less than a wooden spoon in the same amount of space. Therefore, it will feel colder when placed in the same room because it has less mass and occupies less volume compared to the wooden spoon.",51,77,5.3849999999999994e-05,3.7536117269992246
+23,bangla,"একই ঘরে ধাতুর চামচ কাঠের চামচের চেয়ে বেশি ঠান্ডা লাগে কেন, তা ব্যাখ্যা করো।","এই ঘরে ধাতুর চামচ কাঠের চামচের চেয়ে বেশি ঠান্ডা লাগে কেন? এটি আমি প্রকাশিত হতে পারি। যদি সুবিধা থাকে, তখন আমি বলি: ""এই ঘরে দ",113,128,9.375e-05,6.517844312998932
+24,bangla,"কাগজ পুনর্ব্যবহার পরিবেশের উপকার করতে পারে কীভাবে, তা সংক্ষেপে ব্যাখ্যা করো।","কাগজ পুনর্ব্যবহার পরিবেশের উপকার করতে পারে, তা সংক্ষেপে ব্যাখ্যা করো।",114,73,6.089999999999999e-05,5.094847446998756
+24,english,Briefly explain how recycling paper can help the environment.,"Recycling paper helps the environment by reducing waste and conserving resources. When we recycle paper, we separate it into different types (e.g., paper, cardboard, plastic) and use it to make new products or materials that are made from recycled materials. This reduces the amount of raw material needed for production and decreases the demand for virgin materials. Additionally, recycling helps conserve natural resources such as water and energy used in manufacturing processes.",45,87,5.8949999999999996e-05,4.363614472000336
+25,english,Explain what a budget is and why a family might use one.,"A budget is a plan that helps families manage their finances by allocating resources to different areas such as housing, food, entertainment, and savings. It allows individuals or households to track their expenses and identify areas where they can cut back. A family might use a budget for several reasons:
+
+1. Financial planning: Budgeting helps families make informed decisions about spending and saving money.
+
+2. Goal setting: A budget provides a roadmap for achieving financial goals such as paying off debt, building an emergency fund, or saving for retirement.
+
+3. Resource allocation: It allows individuals to allocate resources based on their income and expenses, making it easier to manage household",48,128,8.4e-05,5.887913610000396
+25,bangla,"বাজেট কী এবং একটি পরিবার কেন তা ব্যবহার করতে পারে, তা ব্যাখ্যা করো।","বাজেট (Bajaj) এবং পরিবার (Pari) আমি নয়। অনেক সহজ দেখা যাইতে পারে, তাহলে আমি কীভাবে এবং কিছুটা পরিবার নয়।",104,107,7.98e-05,5.41391425600159
+26,bangla,"একটি বীজ কীভাবে গাছে পরিণত হতে পারে, তা ব্যাখ্যা করো।","এই বীজটি ""2"" এবং ""3"" দিয়ে গাছে পরিণত হয়েছে।",90,48,4.23e-05,3.5166846889987937
+26,english,Explain how a seed can grow into a plant.,"A seed grows into a plant through a process called germination. When a seed is planted or sown, it begins to develop its own roots and shoots as well as a protective outer layer known as the seed coat. As the seed continues to grow, it absorbs water and nutrients from the soil, which helps it develop into a healthy plant. The plant then grows taller and produces flowers and fruits that can be harvested for food or used in other ways.",45,92,6.195e-05,4.436461704994144
+27,english,What is 17 plus 28?,The sum of 17 and 28 is 45.,44,16,1.62e-05,1.7870741980004823
+27,bangla,17 আর 28 যোগ করলে কত হয়?,"17 + 28 = 45
+
+এখন আমি একটি সাথে বিশ্লেষণ করি:
+
+17 + 28 = 45
+
+এই হলে, যোগ দিন প্রতিম হয়।",61,83,5.8949999999999996e-05,3.8555288669958827
+28,bangla,9 গুণ 7 হিসাব করো।,9 × 7 = 63,54,9,1.35e-05,1.7007592070003739
+28,english,Calculate 9 times 7.,The calculation is 9 * 7 = 63.,41,14,1.4550000000000001e-05,1.6956980600007228
+29,english,What is 144 divided by 12?,144 divided by 12 equals 12.,46,14,1.53e-05,1.7723526020054123
+29,bangla,144 কে 12 দিয়ে ভাগ করলে কত হয়?,144 কে 12 দিয়ে ভাগ করলে 12 হয়।,68,35,3.12e-05,2.6154178100041463
+30,bangla,একটি কলমের দাম 15 টাকা। চারটি কলমের দাম কত?,"চাঁদিয়ে আছে, এই সূত্রে কলমের দাম 15 টাকা হবে। চাঁদিয়ে আছে বলে তাই প্রয়োজন করা হলে, এই সূত্রটি নেই।",77,108,7.635e-05,5.284144680001191
+30,english,A pen costs 15 taka. What is the cost of four pens?,The cost of four pens would be 60 taka (4 x 15).,51,20,1.965e-05,2.347739445998741
+31,english,You have 100 taka and spend 35 taka. How much remains?,You have 65 taka remaining.,54,10,1.4099999999999999e-05,1.6749597189991619
+31,bangla,তোমার কাছে 100 টাকা আছে এবং তুমি 35 টাকা খরচ করো। কত টাকা বাকি থাকে?,"তোমার কাছে 100 টাকা আছে, এবং 35 টাকা খরচ করে তুমি 35 টাকা বাকি থাকতে পারে।",106,78,6.269999999999999e-05,4.065422612002294
+32,bangla,250 এর 20 শতাংশ বের করো।,250 হলে 20 শতাংশ প্রকাশ নয়।,59,30,2.6850000000000002e-05,2.3068017289988347
+32,english,Find 20 percent of 250.,20% of 250 is 50.,45,14,1.515e-05,1.9862369449983817
+33,english,A train leaves at 9:15 and arrives at 10:00. How many minutes does the journey take?,The journey takes 45 minutes.,61,9,1.4550000000000001e-05,1.6859003150020726
+33,bangla,একটি ট্রেন 9:15 এ ছাড়ে এবং 10:00 এ পৌঁছায়। যাত্রায় কত মিনিট লাগে?,এই সময়টি 25 মিনিট লাগে।,108,26,3.18e-05,2.5698061260045506
+34,bangla,তিনটি শিশু 24টি আম সমানভাবে ভাগ করে নেয়। প্রত্যেক শিশু কয়টি আম পায়?,"প্রথম শিশু 24 এবং তwo 24 সমানভাবে ভাগ করা হলে, অনেকটি শিশু আমি পায়।",109,72,5.955e-05,3.990707288001431
+34,english,Three children share 24 mangoes equally. How many mangoes does each child get?,Each child gets 8 mangoes.,53,9,1.3349999999999998e-05,1.664325418001681
+35,english,Summarise this sentence: The bus arrived late because heavy rain flooded the road.,The bus was delayed due to heavy rain causing flooding on the road.,51,15,1.6649999999999998e-05,1.8015553419973003
+35,bangla,এই বাক্যটির সারাংশ লেখো: ভারী বৃষ্টিতে রাস্তা ডুবে যাওয়ায় বাসটি দেরিতে পৌঁছেছিল।,"এই বাক্যটির সারাংশ হল ""বাসটি""। এটি ভারী বৃষ্টিতে রাস্তা ডুবে যাওয়ায় বাসটি দেরিতে পৌঁছেছিল।",124,99,7.8e-05,4.755294964001223
+36,bangla,এই বাক্যটির সারাংশ লেখো: একটি সাইকেল কিনতে পারার জন্য মিনা প্রতি সপ্তাহে অল্প অল্প টাকা জমাত।,এই বাক্যটির সারাংশ লেখো: 100%,128,31,3.78e-05,2.89850739800022
+36,english,Summarise this sentence: Mina saved a little money every week so that she could buy a bicycle.,Mina saves a small amount each week to purchase a bicycle.,56,14,1.6800000000000002e-05,1.810051332002331
+37,english,Summarise this sentence: The school library stays open after classes to give students a quiet place to study.,The school library remains open after class hours for students to use as a quiet space for studying.,56,20,2.0399999999999998e-05,1.9486699679982848
+37,bangla,এই বাক্যটির সারাংশ লেখো: শিক্ষার্থীদের পড়ার জন্য শান্ত জায়গা দিতে ক্লাসের পরেও স্কুলের গ্রন্থাগার খোলা থাকে।,এই বাক্যটির সারাংশ লেখো: শিক্ষার্থীদের পড়ার জন্য শান্ত জায়গা দিতে ক্লাসের পরেও স্কুলের গ্রন্থাগার খোলা থাকে।,150,117,9.27e-05,5.505837306001922
+38,bangla,এই বাক্যটির সারাংশ লেখো: কৃষকেরা পুকুরে বৃষ্টির পানি জমিয়ে শুকনো সপ্তাহগুলোতে সেই পানি ফসলে দিতেন।,এই বাক্যটির সারাংশ লেখা: কৃষকেরা পুকুরে বৃষ্টির পানি জমিয়ে শুকনো সপ্তাহগুলোতে সেই পানি ফসলে দিতেন।,143,109,8.685e-05,5.332519998999487
+38,english,Summarise this sentence: Farmers collected rainwater in a pond and used it to water their crops during dry weeks.,Farmers collected rainwater from a pond and used it for watering their crops during periods when rainfall was scarce.,58,23,2.25e-05,2.1154195999988588
+39,english,Summarise this sentence: Rafi walked to work instead of taking a taxi because he wanted to save money and exercise.,Rafi decided to walk to work instead of using a taxi due to his desire to save money and improve his physical fitness.,59,26,2.4449999999999998e-05,2.184020287997555
+39,bangla,এই বাক্যটির সারাংশ লেখো: টাকা বাঁচাতে ও ব্যায়াম করতে চাওয়ায় রাফি ট্যাক্সিতে না গিয়ে হেঁটে কাজে গেল।,এই বাক্যটির সারাংশ লেখো: টাকা বাঁচাতে ও ব্যায়াম করতে চাওয়ায় রাফি ট্যাক্সিতে না গিয়ে হেঁটে কাজে গেল।,143,110,8.745e-05,5.2753256389987655
+40,bangla,এই বাক্যটির সারাংশ লেখো: স্বেচ্ছাসেবকেরা শুক্রবার পার্ক পরিষ্কার করলেন এবং আবর্জনা কমাতে প্রবেশপথের কাছে ময়লার পাত্র রাখলেন।,এই বাক্যটির সারাংশ লেখা: স্বেচ্ছাসেবকেরা শুক্রবার পার্ক পরিষ্কার করলেন এবং আবর্জনা কমাতে প্রবেশপথের কাছে ময়লার পাত্র রাখলেন।,163,128,0.00010125,5.892561264998221
+40,english,Summarise this sentence: Volunteers cleaned the park on Friday and placed bins near the entrance to reduce litter.,Volunteers cleaned the park on Friday and placed bins near the entrance to help reduce litter.,56,19,1.98e-05,1.9656879239992122
+41,english,"Summarise this sentence: A new bridge shortened the trip to the market, allowing villagers to sell fresh vegetables earlier.","A new bridge reduced the travel time from the market to the village, enabling villagers to sell fresh vegetables sooner.",58,23,2.25e-05,2.0361887520048185
+41,bangla,এই বাক্যটির সারাংশ লেখো: নতুন সেতু বাজারে যাওয়ার সময় কমিয়ে দেওয়ায় গ্রামের মানুষ আগে তাজা সবজি বিক্রি করতে পারলেন।,এই বাক্যটির সারাংশ লেখা: নতুন সেতু বাজারে যাওয়ার সময় কমিয়ে দেওয়ায় গ্রামের মানুষ আগে তাজা সবজি বিক্রি করতে পারলেন।,161,127,0.00010035,6.019820123998215
+42,bangla,এই বাক্যটির সারাংশ লেখো: সাধারণ ভুল এড়াতে দলটি ফলাফল প্রকাশের আগে প্রতিটি পরিমাপ দুবার পরীক্ষা করেছিল।,"এই বাক্যটির সারাংশ এর অনুযায়ী হল:
+
+1. আগে: প্রতিটি পরিমাপ দুবার পরীক্ষা করেছিল।
+
+2. এটি সমস্যা বা অনুযায়ী হল: আগে ফলাফল প",142,128,9.81e-05,5.791206592002709
+42,english,Summarise this sentence: The team checked every measurement twice before publishing the results to avoid simple errors.,The team double-checked measurements before publishing their findings to minimize potential errors.,55,15,1.725e-05,1.8258500320007442
+43,english,A student has an exam in one week. She can study for one hour each evening. She finds fractions difficult but feels confident about multiplication. Suggest a simple three-day study plan that gives more time to fractions and includes a short review each day.,"To make the most of her 7-hour study session, she should allocate 1/3rd of her time for fractions (which can be done in one evening) and spend the remaining 2/3rd on multiplication exercises. She could also include a quick review at the end of each day to consolidate what she has learned.",84,68,5.34e-05,3.6865880390032544
+43,bangla,"একজন শিক্ষার্থীর এক সপ্তাহ পর পরীক্ষা। সে প্রতি সন্ধ্যায় এক ঘণ্টা পড়তে পারে। ভগ্নাংশ তার কঠিন লাগে, কিন্তু গুণে সে আত্মবিশ্বাসী। তিন দিনের একটি সহজ পড়ার পরিকল্পনা দাও, যেখানে ভগ্নাংশে বেশি সময় দেওয়া হবে এবং প্রতিদিন অল্প সময়ের পুনরালোচনা থাকবে।","এই শিক্ষার্থীর একটি সপ্তাহ পর পরীক্ষা দেখা যায়। আমরা ভগ্নাংশে বেশি সময় দেওয়া হবে, কিন্তু প্রতিদিন অল্প সময়ের পুনরাল",299,128,0.00012165,6.886815204998129
+44,bangla,"একটি পরিবার খাবারের অপচয় কমাতে চায়। তারা প্রায়ই রান্না করতে পারার চেয়ে বেশি সবজি কেনে। সপ্তাহ শেষ হওয়ার আগেই কিছু সবজি নষ্ট হয়ে যায়। তাদের কেনাকাটা ও রান্নার অভ্যাসে তিনটি ব্যবহারিক পরিবর্তন প্রস্তাব করো এবং প্রতিটি পরিবর্তন কীভাবে সাহায্য করতে পারে, তা সংক্ষেপে ব্যাখ্যা করো।","এই অপচয় কমাতে চায় এটি ""সপ্তাহ""। প্রায়ই রান্না করতে পারে, সবজি নষ্ট হয়ে যাও। আমরা এটি ব্যাখ্যা করো এবং তিনটি পরিবর্তন ক",330,128,0.0001263,7.18479686199862
+44,english,"A family wants to reduce food waste. They often buy more vegetables than they can cook. Some vegetables spoil before the end of the week. Suggest three practical changes to their shopping and cooking habits, and explain briefly how each change could help.","1. **Plan meals in advance**: Instead of buying large quantities of vegetables on a single day, plan meals for the week or even the month ahead. This way, you can buy only what you need and avoid waste.
+
+2. **Use leftovers**: Store any leftover vegetables that are not used immediately in containers like plastic bags or containers with lids to keep them fresh. This reduces food waste by using up excess produce before it goes bad.
+
+3. **Buy in bulk**: Purchase larger quantities of vegetables rather than buying smaller amounts on a regular basis. This can help reduce the amount of food wasted, especially if you buy more than you need",83,128,8.925e-05,5.406238098999893
+45,english,A village has a small pond beside a school. Children sometimes throw plastic wrappers into the water. The school wants to keep the pond clean without punishing the children. Propose two activities that teach the children about pollution and encourage them to protect the pond.,"1. Teach children about the importance of recycling by having them sort their waste into different bins.
+2. Organize a community cleanup day where they can help remove plastic wrappers from the pond.",84,39,3.6e-05,2.787216944998363
+45,bangla,"একটি গ্রামে স্কুলের পাশে একটি ছোট পুকুর আছে। শিশুরা কখনো কখনো পানিতে প্লাস্টিকের মোড়ক ফেলে। স্কুল শিশুদের শাস্তি না দিয়ে পুকুর পরিষ্কার রাখতে চায়। এমন দুটি কার্যক্রম প্রস্তাব করো, যা শিশুদের দূষণ সম্পর্কে শেখাবে এবং পুকুর রক্ষায় উৎসাহিত করবে।","এই গ্রামে স্কুলের পাশে একটি ছোট পুকুর আছে, যা শিশুদের দূষণ সম্পর্চে শেখাবে। পুকুর রক্ষায় উৎসাহিত করবে, এবং শিশুদের দ",303,128,0.00012225,7.182635027995275
+46,bangla,তুমি ছয়জন বন্ধুর জন্য বনভোজনের পরিকল্পনা করছ। আবহাওয়ার পূর্বাভাস বলছে বিকেলে বৃষ্টি হতে পারে। তুমি ইতিমধ্যে খাবার কিনেছ। খাবারের অপচয় এড়িয়ে সবাইকে স্বাচ্ছন্দ্যে রাখবে এমন একটি বিকল্প পরিকল্পনা প্রস্তাব করো। তিনটি ছোট পয়েন্টে উত্তর দাও।,"আমি আপনি একটি স্থলে অবস্থিত বন্ধুর জন্য প্রয়োজনীয় কাছ করছি। আমি ইতিমধ্যে খাবার কিনে সবাইকে স্বাচ্ছন্দ্যে রাখবো, এটি প্রস",289,128,0.00012015,6.859960827001487
+46,english,You are planning a picnic for six friends. The weather forecast says it may rain in the afternoon. You have already bought the food. Suggest a backup plan that avoids wasting the food and keeps everyone comfortable. Give your answer in three short points.,"1. Plan to bring some dry snacks or drinks.
+2. Have an extra bag of food ready for rainy days.
+3. Use the picnic area as a temporary outdoor dining space if needed.",84,40,3.66e-05,3.102427974998136
+47,english,"A shop sells notebooks for 40 taka each. A customer buys three notebooks and pays with a 200 taka note. The shopkeeper offers no discount. Calculate the total cost and the change, and explain the calculation in two short sentences.","The total cost of three notebooks is \(3 \times 40 = 120\) taka. Since the customer pays with a 200 taka note, the shopkeeper should give back 80 taka as change. Therefore, the change is 80 taka.",87,63,5.0849999999999996e-05,3.515251796001394
+47,bangla,একটি দোকানে প্রতিটি খাতা 40 টাকায় বিক্রি হয়। একজন ক্রেতা তিনটি খাতা কিনে 200 টাকার নোট দেন। দোকানি কোনো ছাড় দেন না। মোট দাম ও ফেরত টাকা হিসাব করো এবং দুটি ছোট বাক্যে হিসাবটি ব্যাখ্যা করো।,"এই প্রশ্নটি আমি একটি দুটি ছাড় দেখতে পারি, তবে সেই ছাড় কিছু বা মোট নেওয়া যাই একটি অন্য জন্য। আমি দূর হতে পারি তালিকা ও ",238,128,0.0001125,6.534133562003262
+48,bangla,"দুই বন্ধু কোন খেলা খেলবে তা নিয়ে একমত হতে পারছে না। একজন দৌড়ানোর খেলা চায়, আর অন্যজন বোর্ড গেম চায়। রাতের খাবারের আগে তাদের হাতে ত্রিশ মিনিট আছে। একটি ন্যায্য সমঝোতা প্রস্তাব করো এবং তা কীভাবে দুই বন্ধুকেই সম্মান করে, তা ব্যাখ্যা করো। সংক্ষেপে উত্তর দাও।","এই প্রশ্নটি আমি জনস্থলে এবং বিশ্বাসযোগিতা করছি। যদি অন্য দৌড়ানোর খেলা চায়, আমি নিজের একটি বুজ প্রতিষ্ঠান করব। তাই সেই দ",311,128,0.00012345,7.072001568005362
+48,english,"Two friends disagree about which game to play. One wants a running game, while the other wants a board game. They have thirty minutes before dinner. Suggest a fair compromise and explain how it respects both friends. Keep your answer brief.","Suggest they choose a game that combines elements of both: a fast-paced running game (e.g., soccer) with a more complex board game (e.g., Monopoly). This way, they get the action while still enjoying the challenge and strategy involved in playing a board game.",82,58,4.709999999999999e-05,3.3238211440038867
+49,english,"Read this short account. A community planted twenty trees near a road last year. Volunteers watered them during the dry season, and eighteen trees survived. Summarise the account in one sentence and state how many trees did not survive. Use only the information given.","The community planted twenty trees near a road last year. Eighteen survived, so 20 - 8 = 12 did not survive.",87,31,3.165e-05,2.605985531998158
+49,bangla,এই ছোট বিবরণটি পড়ো। গত বছর একটি এলাকার মানুষ রাস্তার পাশে বিশটি গাছ লাগিয়েছিলেন। স্বেচ্ছাসেবকেরা শুষ্ক মৌসুমে পানি দিয়েছিলেন এবং আঠারোটি গাছ বেঁচে ছিল। এক বাক্যে বিবরণটির সারাংশ লেখো এবং কয়টি গাছ বাঁচেনি তা বলো। শুধু দেওয়া তথ্য ব্যবহার করো।,এই ছোট বিবরণটি পড়ো। গত বছর একটি এলাকার মানুষ রাস্তার পাশে বিশটি গাছ লাগিয়েছিলেন। স্বেচ্ছাসেবকেরা শুষ্ক মৌসুমে পানি দিয,300,128,0.00012179999999999999,6.87136640400422
+50,bangla,একজন শিক্ষার্থী শব্দ মনে রাখার দুটি পদ্ধতি তুলনা করতে চায়। সোমবার সে দশটি শব্দ নীরবে পড়ে শেখে। মঙ্গলবার সে অন্য দশটি শব্দ জোরে বলে শেখে। কেন এটি ন্যায্য তুলনা নয় তার একটি কারণ ব্যাখ্যা করো এবং পরীক্ষাটি উন্নত করার একটি উপায় প্রস্তাব করো।,এই সময়ে শব্দ মনে রাখা হলে আমরা নিজেদের একটি প্রস্তুতি ব্যাখ্যা করতে চাই। সেই প্রস্তুতি অন্য দশটি শব্দ জোরে বলে শেখে একটি উপ,290,128,0.0001203,6.9480251139975735
+50,english,A student wants to compare two ways of remembering vocabulary. On Monday he studies ten words by reading them silently. On Tuesday he studies ten different words by saying them aloud. Explain one reason this is not a fair comparison and suggest one improvement to the experiment.,"One reason this is not a fair comparison is that it does not account for the differences in how students remember words. Reading silently versus speaking aloud can have varying effects on memory retention, with some people finding reading silently more effective than speaking aloud.
+
+To improve the experiment, you could:
+1. Use a control group: Have participants study ten different words by saying them out loud and another group study ten words by reading them silently.
+2. Compare the two groups' performance over time: Measure their vocabulary growth or recall ability after each week of studying.
+3. Consider other factors that might affect memory, such as prior knowledge or learning style.
+
+By",85,128,8.955e-05,5.433614403002139

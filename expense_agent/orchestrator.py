@@ -17,7 +17,8 @@ from collections.abc import Callable
 from dataclasses import dataclass
 from typing import Any
 
-from .cache import SqlCache
+from .cache import SqlCache, ResponseCache, build_key, normalize_question
+from .guards import validate
 from .db import DatabaseError
 from .llm import LLMClient, LLMError, Messages, Sampling
 from .logger import JsonlLogger
@@ -63,6 +64,7 @@ class _RunState:
     retries: int = 0
     bypass_cache: bool = False
     use_state_machine_next: bool = False
+    has_written: bool = False
 
 
 def _describe_result(result: dict[str, Any], max_rows: int) -> str:
@@ -106,6 +108,9 @@ class Orchestrator:
         self._max_steps = max_steps
         self._max_sql_retries = max_sql_retries
         self._max_rows_to_llm = max_rows_to_llm
+        self._response_cache: ResponseCache | None = None
+        self._response_namespace = ""
+        self._response_cache_enabled = True
 
         self._actions = [generator.name, executor.name, FINAL]
         self._router_schema = {
@@ -121,10 +126,28 @@ class Orchestrator:
             actions=tool_lines, final=FINAL, generate=generator.name, execute=executor.name
         )
 
+    def configure_response_cache(
+        self, cache: ResponseCache, namespace: str, enabled: bool = True,
+    ) -> None:
+        self._response_cache = cache
+        self._response_namespace = namespace
+        self._response_cache_enabled = enabled
+
+    def _response_key(self, question: str) -> str:
+        return build_key(self._response_namespace, normalize_question(question),
+                         self._response_cache._clock.today().isoformat())
+
     def run(self, question: str, on_token: Callable[[str], None] | None = None) -> AgentResult:
         """Run a request, optionally delivering final answer text incrementally."""
         run_id = uuid.uuid4().hex[:8]
         self._logger.log("question", run_id, question=question)
+        if self._response_cache is not None and self._response_cache_enabled:
+            cached = self._response_cache.get(self._response_key(question))
+            if cached is not None:
+                if on_token:
+                    on_token(cached["answer"])
+                self._logger.log("response_cache_hit", run_id, answer=cached["answer"], sql=cached["sql"])
+                return AgentResult(True, cached["answer"], cached["sql"], run_id, 0, True)
         state = _RunState(question=question)
         messages: Messages = [
             {"role": "system", "content": self._router_prompt},
@@ -228,6 +251,11 @@ class Orchestrator:
 
         result = self._executor.run(state.last_sql, run_id)
         if result["ok"]:
+            if validate(state.last_sql).kind == "INSERT":
+                state.has_written = True
+                if self._response_cache is not None:
+                    # Also invalidate on writes made through --no-cache.
+                    self._response_cache.clear()
             state.last_result = result
             self._remember(state)
             return _describe_result(result, self._max_rows_to_llm)
@@ -254,6 +282,10 @@ class Orchestrator:
         on_token: Callable[[str], None] | None = None,
     ) -> AgentResult:
         answer = self._compose_answer(state, on_token)
+        if (self._response_cache is not None and self._response_cache_enabled
+                and not state.has_written and state.last_sql
+                and validate(state.last_sql).kind == "SELECT"):
+            self._response_cache.put(self._response_key(state.question), answer, state.last_sql)
         self._logger.log("answer", run_id, answer=answer, sql=state.last_sql, steps=steps)
         return AgentResult(True, answer, state.last_sql, run_id, steps, state.last_from_cache)
 

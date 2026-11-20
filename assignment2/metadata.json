@@ -1,0 +1,110 @@
+{
+  "model": "qwen2.5:0.5b",
+  "system_prompt": "You are a helpful assistant. Give a correct, concise answer in the language of the user's prompt.",
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_predict": 128,
+    "num_ctx": 4096,
+    "num_batch": 8
+  },
+  "runs_requested": 1,
+  "started_at": "2026-11-20T15:38:17.879099+00:00",
+  "dataset_sha256": "ac4a3c317dfb7a2856ea57ba3b8c12cb7c9e81f2d8b41d65d74c263972d7c581",
+  "server_version": {
+    "version": "0.12.3"
+  },
+  "models": {
+    "models": [
+      {
+        "name": "qwen2.5:0.5b",
+        "model": "qwen2.5:0.5b",
+        "modified_at": "2026-11-20T21:37:54.101283072+06:00",
+        "size": 397821319,
+        "digest": "a8b0c51577010a279d933d14c2a8ab4b268079d44c5c8830c0a93900f1827c67",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "494.03M",
+          "quantization_level": "Q4_K_M"
+        }
+      },
+      {
+        "name": "qwen2.5:3b",
+        "model": "qwen2.5:3b",
+        "modified_at": "2026-11-12T13:31:39.27844187+06:00",
+        "size": 1929912432,
+        "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "3.1B",
+          "quantization_level": "Q4_K_M"
+        }
+      }
+    ]
+  },
+  "status": "complete",
+  "latency_policy": "cold start, includes explicit unload, load and HTTP",
+  "cache_policy": "unload before every request, keep_alive=0, no shared conversation",
+  "tiny_prompt": "Hi",
+  "cold_probes": [
+    {
+      "output": "Hello! How can I assist you today?",
+      "input_tokens": 35,
+      "output_tokens": 10,
+      "cost_usd": 1.125e-05,
+      "latency_s": 2.0631568089957,
+      "done_reason": "stop",
+      "raw": {
+        "model": "qwen2.5:0.5b",
+        "created_at": "2026-11-20T15:38:19.945839073Z",
+        "message": {
+          "role": "assistant",
+          "content": "Hello! How can I assist you today?"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2060478135,
+        "load_duration": 1484974074,
+        "prompt_eval_count": 35,
+        "prompt_eval_duration": 305094059,
+        "eval_count": 10,
+        "eval_duration": 266533158
+      }
+    },
+    {
+      "output": "Hello! How can I assist you today?",
+      "input_tokens": 35,
+      "output_tokens": 10,
+      "cost_usd": 1.125e-05,
+      "latency_s": 1.5385532829968724,
+      "done_reason": "stop",
+      "raw": {
+        "model": "qwen2.5:0.5b",
+        "created_at": "2026-11-20T15:38:21.484619154Z",
+        "message": {
+          "role": "assistant",
+          "content": "Hello! How can I assist you today?"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1464257648,
+        "load_duration": 946319537,
+        "prompt_eval_count": 35,
+        "prompt_eval_duration": 257686631,
+        "eval_count": 10,
+        "eval_duration": 253721350
+      }
+    }
+  ],
+  "finished_at": "2026-11-20T15:44:57.530715+00:00"
+}

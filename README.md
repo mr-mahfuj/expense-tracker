@@ -36,8 +36,9 @@ you> spending per category this month
   calls the LLM or Tool 1.
 - Tests assert that neither tool references the other.
 
-Every request first passes a relevance guard before routing, schema reads, or
-cache access. It allows recording and querying expenses, and denies unrelated
+On a response-cache miss, the request passes a relevance guard before routing,
+schema reads, or SQL-cache access. Only previously allowed, successful read
+answers can be served directly from the response cache. The guard allows recording and querying expenses, and denies unrelated
 questions, mixed unrelated tasks, destructive operations, and attempts to
 override instructions. Invalid classifier output or an unavailable model stops
 the request. The SQL writer's `SELECT 'UNSUPPORTED'` sentinel is also refused
@@ -133,7 +134,8 @@ python main.py --no-stream "total spend today"   # print the answer all at once
    Compare against pgAdmin: run the printed SQL there and the numbers match.
 2. Ask `yesterday lunch 180, rickshaw 60`. In pgAdmin run
    `SELECT * FROM expenses ORDER BY id DESC LIMIT 5;` and see two new rows.
-3. Ask the same question twice. The second run prints `cache hit`.
+3. Ask the same spending question twice within 30 minutes. The second run prints
+   `cache hit`, returns the saved answer, and makes no Ollama or database calls.
 4. Ask `delete all my expenses`. It is refused and nothing changes.
 5. Open `logs/agent_log.jsonl`.
 
@@ -152,6 +154,7 @@ timezone), `run_id` (ties together all lines of one question) and `event`.
 | `sql_rejected` | `sql`, `reason` |
 | `sql_executed` | `sql`, `kind`, `ok`, `rowcount`, `error`, `duration_ms` |
 | `answer` / `error` | `answer` or `message`, `sql`, `steps` |
+| `response_cache_hit` | saved `answer`, `sql`; this request made no DB or model calls |
 
 Useful queries (needs `jq`, `sudo apt install jq`):
 
@@ -165,9 +168,30 @@ The log holds your questions and the SQL, so it is git-ignored.
 
 ## Caching
 
-`data/sql_cache.json` stores the **SQL the model wrote**, never the query
-results, because results change as you add expenses. The saved SQL is re-run
-each time, so answers stay current while the slow model call is skipped.
+Two persistent caches are used:
+
+- **Response cache:** `data/sql_cache_responses.json` stores a successful SELECT
+  answer and its SQL for **1,800 seconds from answer completion**. A hit returns
+  the answer immediately, before relevance classification, routing, schema
+  inspection, database queries or answer generation. Streaming callers receive
+  the saved text through their callback; hits report zero steps and a fresh run ID.
+- **SQL cache:** `data/sql_cache.json` stores generated SQL. On a response miss,
+  it can avoid SQL generation, while the database and other model roles still run.
+
+The response key includes the whitespace-normalized request, local date, and a
+hash of database/configuration/model/prompt settings, built without contacting
+the database. Credentials are not stored in the cache. Hits do not refresh the
+TTL; entries expire at exactly 30 minutes (or earlier at a local date change).
+INSERT requests are always executed, never served from the response cache, and
+successful writes clear saved read answers, including writes with `--no-cache`.
+Failures, refusals and interrupted streams are not response-cached.
+
+Answers may be stale for up to 30 minutes after **external** database/schema
+edits. Delete `data/sql_cache_responses.json` (or the corresponding file beside
+a custom `CACHE_PATH`) to clear saved answers; use `--no-cache` for fresh reads.
+This file cache targets a single-user CLI, not concurrent writers/processes.
+
+The SQL cache retains its original rules:
 
 - The key hashes question + live schema + model name + **today's date**.
   Changing a table invalidates old entries; "last 10 days" cannot reuse
@@ -176,7 +200,15 @@ each time, so answers stay current while the slow model call is skipped.
   later fails is deleted.
 - Writes are atomic (temp file then rename); a corrupt file acts as empty.
 - Oldest entries are evicted past `CACHE_MAX_ENTRIES`.
-- Turn off with `CACHE_ENABLED=false` or `--no-cache`.
+- Turn off both caches with `CACHE_ENABLED=false` or `--no-cache`.
+
+## Assignment 2: English versus Bangla token cost
+
+The independent experiment and submission files live in [assignment2](assignment2/README.md).
+It uses a local Ollama model and **notional** token prices, with no expense
+database dependency. See its README for tests, real run commands, data, outputs,
+comparison tables, chart and report. Assistant use is disclosed in
+[AI_ASSISTANCE_LOG.md](AI_ASSISTANCE_LOG.md).
 
 ## Temperature, top_k, top_p
 

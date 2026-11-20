@@ -1,0 +1,2 @@
+# Python 3.10+ standard library only. No pip packages are required.
+# Install Ollama separately and pull qwen2.5:0.5b.
