@@ -1,0 +1,178 @@
+id,language,prompt,output,input_tokens,output_tokens,cost_usd,latency_s
+1,english,What is the capital of Bangladesh?,The capital of Bangladesh is Dhaka.,41,9,1.155e-05,6.22715356000117
+1,bangla,বাংলাদেশের রাজধানী কী?,বাংলাদেশের রাজধানী হল মঞ্চপুর (Dhaka).,58,38,3.15e-05,9.902581121001276
+2,bangla,বরফ পানিতে ভাসে কেন?,"বরফ পানি থেকे খারাম্পাকী হয়, যা পানির উপর বহনশক্তি বাড়িয়ে দেয়। এটি সমস্ত জলবিশ্রী গভীরতা থেকে বরফ পড়ার কারণও হলেনা।",54,128,8.489999999999999e-05,19.559171635002713
+2,english,Why does ice float on water?,"Ice floats on water because it is less dense than liquid water. As water freezes and turns into ice, its molecules move farther apart from each other, causing the ice to have a lower density and thus buoyant enough to float on top of liquid water.",41,52,3.735e-05,9.764357617001224
+3,english,How many days are there in a leap year?,A leap year has 366 days.,44,11,1.3199999999999999e-05,4.92991791300301
+3,bangla,অধিবর্ষে কত দিন থাকে?,অধিবর্ষে 365 দিন থাে।,55,23,2.2049999999999997e-05,6.8053675159972045
+4,bangla,সালোকসংশ্লেষণের জন্য উদ্ভিদের কী কী প্রয়োজন?,সালোকসংশ্লেষণের জন্য উদ্ভিদের প্রয়োজন হলো তাদের সামান্য ও বিশাল অক্ষর থেকে গ্যালাক্টিক অক্ষর প্রস্তুত হওয়া। এটি সামগ্রি,85,128,8.955e-05,20.496355382994807
+4,english,What do plants need for photosynthesis?,"Plants need sunlight, water, carbon dioxide, and chlorophyll for photosynthesis.",42,19,1.77e-05,6.374813594004081
+5,english,What is the difference between weather and climate?,"Weather refers to short-term atmospheric conditions at a particular place, including temperature, humidity, wind speed, and precipitation over a period of hours or days. Climate, on the other hand, describes the long-term average weather patterns in an area, typically spanning several decades or more, such as typical rainfall amounts or seasonal temperatures.",43,65,4.545e-05,11.980249230997288
+5,bangla,আবহাওয়া ও জলবায়ুর মধ্যে পার্থক্য কী?,আবহাওয়া ও জলবায়ুর মধ্যে পার্থক্য হচ্ছে সমস্ত জলবায়ু আবহাওয়ার একটি অংশ। জলবায়ু আবহাওয়ার একটি প্রকাশ্বাদনের মাধ্যম,76,128,8.82e-05,19.678029960996355
+6,bangla,খাওয়ার আগে আমাদের হাত ধোয়া উচিত কেন?,"খাবার আগে হাত ধোয়া করা উচিত, কারণ এটি খাবার স্পষ্টতার জন্য এবং মাথার ওজন ছাড়ানুল হয়।",75,94,6.765e-05,15.717861983997864
+6,english,Why should we wash our hands before eating?,We should wash our hands before eating to remove germs and bacteria that can cause illnesses. Washing your hands helps prevent diseases spread through contact with food or utensils.,43,34,2.685e-05,7.486013282003114
+7,english,Which planet is known as the Red Planet?,Mars,43,3,8.25e-06,3.9176978149989736
+7,bangla,কোন গ্রহকে লাল গ্রহ বলা হয়?,মণিকী (মণিমণিয়) গ্রহ বলা হয়। এটি সূর্াম অনুযায়ী লাল গ্রহ বলা হয়।,64,77,5.5799999999999994e-05,13.369271721006953
+8,bangla,থার্মোমিটার কীভাবে তাপমাত্রা মাপে?,"থার্মোমিটার থেকে তাপমাত্রা মাপতে, এটি করে হয় বসনায় অবস্থান করা একটি জোড়ালো টিউল বা স্লোয়াইন মাত্রা দিয়ে পরিষ্কার হ",70,128,8.73e-05,19.428957247000653
+8,english,How does a thermometer measure temperature?,"A thermometer measures temperature by using specific physical properties that change with temperature. The most common types use liquids (like mercury or alcohol) whose volume changes with temperature, or electrical components whose resistance changes with temperature. Thermometers can be designed to measure different ranges of temperatures depending on their application, such as body temperature, room temperature, or high-temperature industrial processes.",41,73,4.9949999999999994e-05,12.024404082003457
+9,english,What is a renewable source of energy? Give one example.,A renewable source of energy is one that is naturally replenished on a human timescale. An example is solar power.,46,25,2.1899999999999997e-05,6.570537673003855
+9,bangla,নবায়নযোগ্য শক্তির উৎস কী? একটি উদাহরণ দাও।,"নবায়নযোগ্য শক্তির উৎস হল প্রজন্মিতি (Reprogramming). এটি বলতে আমরা কিছু নতুন অথবা পৃথক শক্তি সংশয়ে উৎপাদন করা যায়, যা বিভিন্ন জটিল",80,128,8.88e-05,19.897859688004246
+10,bangla,এক মাসে চাঁদের আকৃতি বদলায় বলে মনে হয় কেন?,চাঁদের আকৃতি এক মাসে বদলা নয়। চাঁদের আকৃতি অস্ট্রেলিয়ান প্রভাবের ফলে পরস্পর ভিতরে ঘোরালি হয়। এটি মাসে মাসে চাঁদের আকৃত,81,128,8.895000000000001e-05,19.895099243003642
+10,english,Why does the Moon appear to change shape during a month?,"The Moon appears to change shape during a month because as it orbits the Earth, different amounts of its sunlit side are visible from Earth. This cycle of phases is known as the lunar phase cycle and takes about 29.5 days, which we call a month.",46,56,4.05e-05,10.178122803001315
+11,english,List three ways to save water at home.,"1. Fix leaky faucets and pipes.
+2. Take shorter showers and turn off the tap while brushing teeth.
+3. Use a basin to wash fruits and vegetables instead of running water.",43,40,3.0449999999999998e-05,8.233426209000754
+11,bangla,বাড়িতে পানি সাশ্রয়ের তিনটি উপায় তালিকাভুক্ত করো।,"1. বাড়িতে জলসাফি পানি সাশ্রয়ানী উপায়: বাড়িতে জলসাফি ব্যবহার করে পানি সাশ্রয়ানী হিসেবে ব্যবহার করা একটি উপায়।
+2. জল",90,128,9.03e-05,20.295611322995683
+12,bangla,ধার নেওয়া বই ফেরত দিতে বন্ধুকে অনুরোধ করে একটি ভদ্র বাক্য লেখো।,"ভদ্রলोক, আমাকে বইটা নেওয়ার জন্য বন্ধুক দিতে অনুরোধ করি।",103,61,5.205e-05,13.196395730003132
+12,english,Write a polite sentence asking a friend to return a borrowed book.,Could you please return the book you borrowed from me?,47,12,1.425e-05,5.111849050997989
+13,english,"Arrange these numbers from smallest to largest: 9, 2, 15, 4.","2, 4, 9, 15",55,12,1.545e-05,5.4262572360021295
+13,bangla,"এই সংখ্যাগুলো ছোট থেকে বড় ক্রমে সাজাও: 9, 2, 15, 4।","2, 4, 9, 15",91,12,2.0850000000000002e-05,7.010580112000753
+14,bangla,স্বাস্থ্যকর সকালের নাশতার দুটি খাবারের উদাহরণ দাও।,সকালের স্বাস্থ্যকর নাশতা পানি এবং কুচমাছ। পানি এটি জলের মধ্যে খাওয়া হয় এবং কুচমাছ এটি বন্ধুকে বা গ্রিন টেক্সটে খাওয়া ,85,128,8.955e-05,20.124182268002187
+14,english,Give two examples of healthy breakfast foods.,"Here are two examples of healthy breakfast foods:
+1. Oatmeal with fresh fruit and nuts.
+2. Greek yogurt with honey and mixed berries.",42,31,2.49e-05,7.1175990299961995
+15,english,Write a title for a story about a child who plants a tree.,The Seedling's Promise,48,6,1.0799999999999998e-05,4.402480800999911
+15,bangla,একটি শিশুর গাছ লাগানো নিয়ে গল্পের একটি শিরোনাম লেখো।,গাছের নয়াদা,92,14,2.22e-05,7.249124942994968
+16,bangla,তিনটি ধাপে এক কাপ চা বানানোর পদ্ধতি বর্ণনা করো।,"চা তৈংলাদের মতো তিনটি ধাপে বানাতে হবে:
+
+1. চা গ্যালনে রাখা। 
+2. সুইচ টু কোমরে চা দিয়ে জল পড়া।
+3. একটি বড় গ্যালন থেকে জল",83,128,8.925e-05,20.04130706399883
+16,english,Describe how to make a cup of tea in three steps.,"1. Boil water.
+2. Add tea leaves or tea bags to a cup.
+3. Pour hot water over them and let it steep for a few minutes before adding sweeteners and milk if desired.",46,43,3.27e-05,8.676149193997844
+17,english,Suggest one way to remember a new word.,One effective way to remember a new word is by using it multiple times in different contexts until it becomes part of your vocabulary.,44,26,2.22e-05,6.615541341001517
+17,bangla,একটি নতুন শব্দ মনে রাখার একটি উপায় প্রস্তাব করো।,"একটি সহজ উপায় হল, শব্দটি অনেকগুলো শব্দে বা শব্দসমূহের মধ্যে চিত্রিত করা। উদাহরণস্বরূপ, ""নতুন"" শব্দটি একটি প্রাথমিক অংশ ও ",86,128,8.97e-05,20.116562201001216
+18,bangla,বাড়ির কাজে সাহায্য করার জন্য একজন শিক্ষককে ধন্যবাদ জানিয়ে একটি ছোট বার্তা লেখো।,"প্রিসন্ট শিক্ষক, আমি আপনার প্রতি ধন্যবাদ জানাই। আমরা বাড়ির কাজে এখনও অনেকটা সহায়তা করছি, তবে আপনার প্রতিষ্ঠানের মধ্যে আমরা ব",119,128,9.465e-05,21.727228741001454
+18,english,Write a short message thanking a teacher for helping with homework.,Thank you so much for your help with my homework. Your guidance really made a difference!,46,19,1.83e-05,5.946150305004267
+19,english,Explain evaporation in one sentence.,Evaporation is the process by which liquid turns into vapor or gas directly from a liquid on the surface.,42,22,1.95e-05,6.066057830001228
+19,bangla,একটি বাক্যে বাষ্পীভবন ব্যাখ্যা করো।,"আপনি একটি বাক্যে বাষ্পীভবন ব্যাখ্যা করতে চান? তখন আমি যুদ্ধের সময়ে একটি বাক্য দিয়ে বাষ্পীভবনকে ব্যাখ্যা করতে পারি:
+
+""আমরা ত",71,128,8.745e-05,19.477196278996416
+20,bangla,"নিয়মিত ঘুম শিক্ষার্থীদের শিখতে সাহায্য করে কেন, তা ব্যাখ্যা করো।","নিয়মিত ঘুম শিক্ষার্থীদের শিখতে সাহায্য করে কারণ, এটি তাদের বৈশ্বিক জ্ঞান প্রদান করে। ঘুম শিখতে সাহায্য করলে তারা অনেক গণিত",103,128,9.225e-05,20.856374042996322
+20,english,Explain why regular sleep helps students learn.,"Regular sleep is crucial for students because it allows their brains to process and consolidate information learned during the day. During sleep, the brain strengthens neural connections related to learning and memory, which are weakened while awake. This consolidation process is essential for retaining new knowledge and skills. Additionally, adequate sleep helps regulate mood and emotions, which can affect a student's ability to focus and learn effectively. Lastly, sufficient sleep improves overall cognitive function, including attention, concentration, and problem-solving abilities, all of which are vital for academic performance.",43,105,6.945000000000001e-05,15.752288482995937
+21,english,Explain the difference between saving money and borrowing money.,Saving money means keeping your funds for future use without spending them immediately. Borrowing money involves using someone else's funds with the promise to return it later along with interest.,45,35,2.775e-05,7.685590471999603
+21,bangla,টাকা জমানো ও টাকা ধার নেওয়ার মধ্যে পার্থক্য ব্যাখ্যা করো।,"টাকা জমা এবং টাকা ধার দিতে পার্থক্য হচ্ছে:
+
+1. জমা: এটি ব্যবহারকারীর নামে অনুসরণ করে সংখ্যালিপি দিতে হযงে। এটি ব্যবহারকারীর জ",95,128,9.104999999999999e-05,20.49088133299665
+22,bangla,"দশ বছরের একটি শিশুকে কম্পিউটারের পাসওয়ার্ড কী, তা ব্যাখ্যা করো।","একটি ১০ বছরের শিশুকে কম্পিউটারের পাসওয়ার্ড নিতে হস্তগতভাবে অনুমতি নেই। এটি গুরূত্বপূর্ণ কথা যে, শিশুর মধ্যে পাসওয়ার্",102,128,9.209999999999999e-05,21.35542297900247
+22,english,Explain what a computer password is to a ten-year-old child.,"A computer password is like a secret code you use to play with your toys on a special machine called a computer. It's something only you know, kind of like how you might have a special hiding place for your favorite toy. When you want to use the computer, you tell it the secret code so it lets you in and you can do fun things like draw pictures or watch videos. If someone tries to guess your secret code, they won't be able to play with your toys on the computer unless they know the right words!",48,108,7.2e-05,16.239833877996716
+23,english,Explain why a metal spoon feels colder than a wooden spoon in the same room.,"A metal spoon feels colder than a wooden spoon because metals are good conductors of heat and cold. This means they can quickly transfer heat from one object to another, making them feel cooler when placed on your lips compared to a less conductive material like wood. Wood is a poor conductor of heat, so it doesn't transfer warmth as efficiently, keeping the spoon warmer in comparison.",51,77,5.3849999999999994e-05,12.791797203994065
+23,bangla,"একই ঘরে ধাতুর চামচ কাঠের চামচের চেয়ে বেশি ঠান্ডা লাগে কেন, তা ব্যাখ্যা করো।","ধাতু (অথবা ধাতুর চামচ) বেশি ঠান্ডা লাগে কারণ ধাতু পরিমাণীয়ভাবে জল অটোমেন্ট করে। এই অটোমেন্ট করা জল ধাতুতে রয়েছে, যা পর",113,128,9.375e-05,21.444749633003084
+24,bangla,"কাগজ পুনর্ব্যবহার পরিবেশের উপকার করতে পারে কীভাবে, তা সংক্ষেপে ব্যাখ্যা করো।","কাগজের পুনর্ব্যবহার পরিবেশের উপকার করতে এটি নিচের ভিতরে থাকা সমস্ত মাধ্যমে হয়:
+
+1. কাগজের বিশাল পরিমাণ উৎপাদন এবং নির্মাণ থেকে",114,128,9.389999999999999e-05,21.550927659998706
+24,english,Briefly explain how recycling paper can help the environment.,"Recycling paper helps reduce the need for cutting down trees, which conserves forests and reduces air pollution from deforestation. It also saves energy compared to producing new paper from raw materials like wood pulp. Recycling decreases the amount of waste sent to landfills and incinerators, reducing greenhouse gas emissions that contribute to climate change.",45,66,4.635e-05,11.31624640100199
+25,english,Explain what a budget is and why a family might use one.,"A budget is a plan for spending money that helps you manage your income and expenses effectively. It lists all sources of income and categorizes all expenses, allowing you to see where your money goes each month.
+
+Families use budgets to better control their finances, ensuring they can meet their financial goals while maintaining an acceptable standard of living. By tracking how much money comes in versus what is spent, families can identify areas where they might cut back or save more. This helps them avoid debt and build savings for future needs like education, retirement, or emergencies. Budgets also help families prioritize spending on essentials such as housing, food, healthcare, and",48,128,8.4e-05,18.83070634899923
+25,bangla,"বাজেট কী এবং একটি পরিবার কেন তা ব্যবহার করতে পারে, তা ব্যাখ্যা করো।",বাজেট হল একটি মৌসূল (account) যা আপনার সমস্ত শিল্পী বা অর্থনৈতিক দাবির (debts/loans) এবং মৌসূলের মধ্যে আপনার সমস্ত শিল্পী বা অর্থনৈতি,104,128,9.24e-05,20.970574151004257
+26,bangla,"একটি বীজ কীভাবে গাছে পরিণত হতে পারে, তা ব্যাখ্যা করো।",একটি বীজ গাছে পরিণত হওয়ার জন্য সবচেয়ে ভালোভাবে এটি শুধুমাত্র কিছুটা গেইজেল দিয়ে পরিণত হওয়া উচিত। সেখানে বীজটি একটি,90,128,9.03e-05,20.243358600993815
+26,english,Explain how a seed can grow into a plant.,"A seed grows into a plant through several key steps:
+
+1. Germination: When conditions like water and warmth are right, the seed absorbs moisture. This triggers an enzyme that starts breaking down stored food in the seed (endosperm or cotyledons). As this happens, the seed coat softens and splits open.
+
+2. Emergence: The embryonic root inside the seed grows downward into soil where it finds water and nutrients to grow. Simultaneously, the embryonic shoot (embryonic stem) pushes upward through the soil towards light.
+
+3. Rooting: As roots grow deeper in search of moisture and minerals,",45,128,8.355e-05,18.507366297999397
+27,english,What is 17 plus 28?,45,44,3,8.4e-06,3.9472671399998944
+27,bangla,17 আর 28 যোগ করলে কত হয়?,17 এবং 28 যোগ করলে সমান্তর্বর 45 উপস্থিত হবে।,61,48,3.7949999999999994e-05,9.854990421998082
+28,bangla,9 গুণ 7 হিসাব করো।,"63
+
+Calculation: 9 * 7 = 63",54,16,1.77e-05,5.833888912995462
+28,english,Calculate 9 times 7.,63,41,3,7.95e-06,3.846244353997463
+29,english,What is 144 divided by 12?,12,46,3,8.7e-06,4.097320539003704
+29,bangla,144 কে 12 দিয়ে ভাগ করলে কত হয়?,12,68,3,1.2e-05,4.949214576998202
+30,bangla,একটি কলমের দাম 15 টাকা। চারটি কলমের দাম কত?,চারটি কলমের দাম হবে 60 টাকা।,77,29,2.8949999999999996e-05,8.282659122000041
+30,english,A pen costs 15 taka. What is the cost of four pens?,The cost of four pens is 60 taka.,51,13,1.545e-05,5.400841384005616
+31,english,You have 100 taka and spend 35 taka. How much remains?,65 taka remains.,54,7,1.23e-05,4.7939147430006415
+31,bangla,তোমার কাছে 100 টাকা আছে এবং তুমি 35 টাকা খরচ করো। কত টাকা বাকি থাকে?,55 টাকা বাকি থাবে。,106,20,2.7899999999999997e-05,8.701488733997394
+32,bangla,250 এর 20 শতাংশ বের করো।,"40
+
+(250 * 20/100 = 50, and 250 - 50 = 200, so 20% of 250 is 40)",59,51,3.945e-05,10.033462667001004
+32,english,Find 20 percent of 250.,40 is the answer.,45,7,1.0949999999999998e-05,4.442478410994227
+33,english,A train leaves at 9:15 and arrives at 10:00. How many minutes does the journey take?,45 minutes,61,4,1.1550000000000001e-05,4.738245193002513
+33,bangla,একটি ট্রেন 9:15 এ ছাড়ে এবং 10:00 এ পৌঁছায়। যাত্রায় কত মিনিট লাগে?,35 মিনিট,108,9,2.1599999999999996e-05,7.498692157998448
+34,bangla,তিনটি শিশু 24টি আম সমানভাবে ভাগ করে নেয়। প্রত্যেক শিশু কয়টি আম পায়?,"প্রত্যেক শিশু 8টি আম পায়।
+
+(24 আম দুইটি শিশু ভাগ করে, তাই 24 ÷ 2 = 12)",109,74,6.075e-05,15.057752149004955
+34,english,Three children share 24 mangoes equally. How many mangoes does each child get?,Each child gets 8 mangoes.,53,9,1.3349999999999998e-05,4.98520254399773
+35,english,Summarise this sentence: The bus arrived late because heavy rain flooded the road.,"Heavy rain caused the road to flood, resulting in the bus arriving late.",51,16,1.725e-05,5.7195843669978785
+35,bangla,এই বাক্যটির সারাংশ লেখো: ভারী বৃষ্টিতে রাস্তা ডুবে যাওয়ায় বাসটি দেরিতে পৌঁছেছিল।,"بسبب أمطار غزيرة، لم تصل房子晚点了。 (Transliteration for Chinese speakers) 
+
+In English: Due to heavy rain, the house arrived late. 
+
+Note: The original Bengali sentence is not directly translatable into a single concise English sentence without losing its meaning.",124,62,5.5799999999999994e-05,14.382082554999215
+36,bangla,এই বাক্যটির সারাংশ লেখো: একটি সাইকেল কিনতে পারার জন্য মিনা প্রতি সপ্তাহে অল্প অল্প টাকা জমাত।,Mana deposits small amounts of money weekly to buy a bike.,128,13,2.7e-05,8.911184306001815
+36,english,Summarise this sentence: Mina saved a little money every week so that she could buy a bicycle.,Mina saves weekly to buy a bicycle.,56,10,1.4400000000000001e-05,5.237429572996916
+37,english,Summarise this sentence: The school library stays open after classes to give students a quiet place to study.,Students can use the quiet library study space after classes.,56,12,1.56e-05,5.446900536000612
+37,bangla,এই বাক্যটির সারাংশ লেখো: শিক্ষার্থীদের পড়ার জন্য শান্ত জায়গা দিতে ক্লাসের পরেও স্কুলের গ্রন্থাগার খোলা থাকে।,স্কুলের গ্রন্থাগার শিক্ষার্থীদের পড়ায় জায়গা দেয়ার জন্য ক্লাসের পরেও খোলা থাে।,150,90,7.65e-05,18.790357111996855
+38,bangla,এই বাক্যটির সারাংশ লেখো: কৃষকেরা পুকুরে বৃষ্টির পানি জমিয়ে শুকনো সপ্তাহগুলোতে সেই পানি ফসলে দিতেন।,क्रिसकेरা पुकर में बृष्टि का पानी जमिये सपटाहगुलों में फसल को दिले।,143,61,5.8049999999999995e-05,15.417186467995634
+38,english,Summarise this sentence: Farmers collected rainwater in a pond and used it to water their crops during dry weeks.,Farmers stored rainwater in a pond for crop irrigation during dry periods.,58,16,1.8299999999999998e-05,6.012015161002637
+39,english,Summarise this sentence: Rafi walked to work instead of taking a taxi because he wanted to save money and exercise.,Rafi walked to work to save money and stay fit.,59,13,1.6649999999999998e-05,5.700317761002225
+39,bangla,এই বাক্যটির সারাংশ লেখো: টাকা বাঁচাতে ও ব্যায়াম করতে চাওয়ায় রাফি ট্যাক্সিতে না গিয়ে হেঁটে কাজে গেল।,"রাফি ট্যাকসিতে গিয়ে না এবং বাঞালি হেঁটে কাজে গেল, সুতরাং টাকা বাঁচাতে ও ব্যায়ম করতে চাওয়ায়।",143,103,8.325e-05,19.92659611900308
+40,bangla,এই বাক্যটির সারাংশ লেখো: স্বেচ্ছাসেবকেরা শুক্রবার পার্ক পরিষ্কার করলেন এবং আবর্জনা কমাতে প্রবেশপথের কাছে ময়লার পাত্র রাখলেন।,स्वेच्छासेबको योग्यता पर हेरैन कमाnुपathi ले मयला दीवानी रखेको थिए आफ शुक्रवार पार्क बढा।,163,82,7.364999999999999e-05,18.475220737003838
+40,english,Summarise this sentence: Volunteers cleaned the park on Friday and placed bins near the entrance to reduce litter.,Volunteers cleaned the park and placed trash cans near the entrance on Friday.,56,16,1.8e-05,5.947142215001804
+41,english,"Summarise this sentence: A new bridge shortened the trip to the market, allowing villagers to sell fresh vegetables earlier.","A new bridge made the trip to the market shorter, enabling villagers to sell vegetables earlier.",58,19,2.01e-05,6.423620141998981
+41,bangla,এই বাক্যটির সারাংশ লেখো: নতুন সেতু বাজারে যাওয়ার সময় কমিয়ে দেওয়ায় গ্রামের মানুষ আগে তাজা সবজি বিক্রি করতে পারলেন।,"মানুষগুলি গ্রামে আগে তাজা সবজি বিক্রি করতে পারলেন, যাতraj নতুন সেতু বাজারে যাওয়ার সময় কমিয়ে দেওয়ায়।",161,112,9.135e-05,21.938011999998707
+42,bangla,এই বাক্যটির সারাংশ লেখো: সাধারণ ভুল এড়াতে দলটি ফলাফল প্রকাশের আগে প্রতিটি পরিমাপ দুবার পরীক্ষা করেছিল।,Each measurement was checked twice before the results were announced to avoid common mistakes.,142,16,3.09e-05,10.01840644099866
+42,english,Summarise this sentence: The team checked every measurement twice before publishing the results to avoid simple errors.,The team double-checked all measurements to prevent simple mistakes before publishing.,55,14,1.6649999999999998e-05,5.680017649996444
+43,english,A student has an exam in one week. She can study for one hour each evening. She finds fractions difficult but feels confident about multiplication. Suggest a simple three-day study plan that gives more time to fractions and includes a short review each day.,"Here is a three-day study plan for the student:
+
+**Day 1:**
+- Review basic fraction concepts (e.g., what fractions are, types of fractions).
+- Practice adding and subtracting fractions with like denominators.
+- Short review on multiplication.
+
+**Day 2:**
+- Continue practicing addition and subtraction of fractions.
+- Introduce multiplying fractions by whole numbers.
+- Short review on the previous day's material.
+
+**Day 3:**
+- Focus on dividing fractions (invert and multiply method).
+- Practice mixed number operations involving fractions.
+- Review all topics covered in the last two days to prepare for the exam.",84,128,8.939999999999999e-05,21.028820134000853
+43,bangla,"একজন শিক্ষার্থীর এক সপ্তাহ পর পরীক্ষা। সে প্রতি সন্ধ্যায় এক ঘণ্টা পড়তে পারে। ভগ্নাংশ তার কঠিন লাগে, কিন্তু গুণে সে আত্মবিশ্বাসী। তিন দিনের একটি সহজ পড়ার পরিকল্পনা দাও, যেখানে ভগ্নাংশে বেশি সময় দেওয়া হবে এবং প্রতিদিন অল্প সময়ের পুনরালোচনা থাকবে।","প্রথম দিন: 1 ঘণ্টা
+দ্বিতীয় দিন: 2 ঘণ্টা
+তৃতীয় দিন: 3 ঘণ্টা
+
+এইভাবে, প্রতি দিন অর্ধেক সময় বাড়িয়ে যাওয়ায় তিন দিনের",299,128,0.00012165,32.619154649997654
+44,bangla,"একটি পরিবার খাবারের অপচয় কমাতে চায়। তারা প্রায়ই রান্না করতে পারার চেয়ে বেশি সবজি কেনে। সপ্তাহ শেষ হওয়ার আগেই কিছু সবজি নষ্ট হয়ে যায়। তাদের কেনাকাটা ও রান্নার অভ্যাসে তিনটি ব্যবহারিক পরিবর্তন প্রস্তাব করো এবং প্রতিটি পরিবর্তন কীভাবে সাহায্য করতে পারে, তা সংক্ষেপে ব্যাখ্যা করো।","প্রথম পরিবর্তন: একটি নতুন জলবাহাদুর সংযোগ থেকে বিশাল করা জল ব্যবহার। এটি পরিবারের অপচয় কমাতে সহায়তা করবে, কারণ জল নিশ্চি",330,128,0.0001263,32.23210486800235
+44,english,"A family wants to reduce food waste. They often buy more vegetables than they can cook. Some vegetables spoil before the end of the week. Suggest three practical changes to their shopping and cooking habits, and explain briefly how each change could help.","Here are three practical changes a family can make to reduce food waste:
+
+1. **Plan Meals Ahead:** Before going grocery shopping, plan meals for the upcoming week. This helps in buying only what is needed, reducing the likelihood of overbuying vegetables that might spoil before use.
+
+2. **Shop with a List:** Stick to a list when shopping and avoid impulse buys. By doing so, they can ensure they buy exactly what they need, minimizing leftovers and waste.
+
+3. **Store Vegetables Properly:** Learn how to store different types of vegetables properly at home. For example, leafy greens should be kept in the fridge with",83,128,8.925e-05,20.32732573600515
+45,english,A village has a small pond beside a school. Children sometimes throw plastic wrappers into the water. The school wants to keep the pond clean without punishing the children. Propose two activities that teach the children about pollution and encourage them to protect the pond.,"Here are two activities that can help educate children about pollution while encouraging them to protect the pond:
+
+1. **Pollution Scavenger Hunt**: Organize a scavenger hunt where children search for different types of litter around the school grounds, including plastic wrappers in and around the pond. Afterward, have a discussion on what they found and how it affects the environment. Provide examples of how pollution can harm wildlife and explain why keeping the pond clean is important.
+
+2. **Pond Clean-Up Project**: Plan a day where children participate in cleaning up the pond under supervision. Beforehand, teach them about different types of pollutants and their impacts",84,128,8.939999999999999e-05,20.072337269994023
+45,bangla,"একটি গ্রামে স্কুলের পাশে একটি ছোট পুকুর আছে। শিশুরা কখনো কখনো পানিতে প্লাস্টিকের মোড়ক ফেলে। স্কুল শিশুদের শাস্তি না দিয়ে পুকুর পরিষ্কার রাখতে চায়। এমন দুটি কার্যক্রম প্রস্তাব করো, যা শিশুদের দূষণ সম্পর্কে শেখাবে এবং পুকুর রক্ষায় উৎসাহিত করবে।","1. শিশুদের পানি ফেলা সম্পর্কে একটি বই লিখতে যাওয়া। বইটি শিশুদের মনে হবে পানি ফেলা অপরাধ, কিন্তু সমস্ত জীবনের আরও গুরুত্ব",303,128,0.00012225,30.5494759409994
+46,bangla,তুমি ছয়জন বন্ধুর জন্য বনভোজনের পরিকল্পনা করছ। আবহাওয়ার পূর্বাভাস বলছে বিকেলে বৃষ্টি হতে পারে। তুমি ইতিমধ্যে খাবার কিনেছ। খাবারের অপচয় এড়িয়ে সবাইকে স্বাচ্ছন্দ্যে রাখবে এমন একটি বিকল্প পরিকল্পনা প্রস্তাব করো। তিনটি ছোট পয়েন্টে উত্তর দাও।,"1. সবাইকে খাবার এড়ানো এবং স্বাচ্ছন্দ্যে রাখা।
+2. পয়েন্টগুলি ছোট করে নিতে হিমতে অভিশাপ না হবে।
+3. বনভোজনের সময় থেকে দ",289,128,0.00012015,29.941003546999127
+46,english,You are planning a picnic for six friends. The weather forecast says it may rain in the afternoon. You have already bought the food. Suggest a backup plan that avoids wasting the food and keeps everyone comfortable. Give your answer in three short points.,"1. Pack extra blankets or a portable camping mat to sit on.
+2. Bring along some books, magazines, or games for entertainment.
+3. Consider rescheduling the picnic to an indoor location if possible.",84,43,3.84e-05,10.4207979970015
+47,english,"A shop sells notebooks for 40 taka each. A customer buys three notebooks and pays with a 200 taka note. The shopkeeper offers no discount. Calculate the total cost and the change, and explain the calculation in two short sentences.",The total cost is 120 taka (3 notebooks * 40 taka each). The change given is 80 taka (200 taka - 120 taka).,87,45,4.005e-05,10.668463031004649
+47,bangla,একটি দোকানে প্রতিটি খাতা 40 টাকায় বিক্রি হয়। একজন ক্রেতা তিনটি খাতা কিনে 200 টাকার নোট দেন। দোকানি কোনো ছাড় দেন না। মোট দাম ও ফেরত টাকা হিসাব করো এবং দুটি ছোট বাক্যে হিসাবটি ব্যাখ্যা করো।,"মোট দাম 200 টাকা, ফেরত 200 টাকা।
+
+হিসাব: 
+- প্রথম খাতা - 40 টাকা
+- দ্বিতীয় খাতা - 40 টাকা
+- তৃতীয় খাতা - 40 টাকা
+
+মোট দাম: 40",238,128,0.0001125,27.47570044799795
+48,bangla,"দুই বন্ধু কোন খেলা খেলবে তা নিয়ে একমত হতে পারছে না। একজন দৌড়ানোর খেলা চায়, আর অন্যজন বোর্ড গেম চায়। রাতের খাবারের আগে তাদের হাতে ত্রিশ মিনিট আছে। একটি ন্যায্য সমঝোতা প্রস্তাব করো এবং তা কীভাবে দুই বন্ধুকেই সম্মান করে, তা ব্যাখ্যা করো। সংক্ষেপে উত্তর দাও।","সমঝোতা: এখন আপনি দুইজনকে বলছেন যে তিনশ মিনিটে কীভাবে দৌড়ানোর খেলা ও বোর্ড গেমের সাথে সম্পর্যন্ত একটি মিশন করতে পারে।
+
+ব্",311,128,0.00012345,31.110671504000493
+48,english,"Two friends disagree about which game to play. One wants a running game, while the other wants a board game. They have thirty minutes before dinner. Suggest a fair compromise and explain how it respects both friends. Keep your answer brief.","How about playing a quick card game? It's fast-paced like a running game and doesn't require much setup time, fitting within their 30-minute window.",82,34,3.2699999999999995e-05,9.1599355609942
+49,english,"Read this short account. A community planted twenty trees near a road last year. Volunteers watered them during the dry season, and eighteen trees survived. Summarise the account in one sentence and state how many trees did not survive. Use only the information given.","The community planted 20 trees near a road, but 2 trees did not survive after being watered by volunteers during the dry season.",87,30,3.1049999999999996e-05,8.983329410002625
+49,bangla,এই ছোট বিবরণটি পড়ো। গত বছর একটি এলাকার মানুষ রাস্তার পাশে বিশটি গাছ লাগিয়েছিলেন। স্বেচ্ছাসেবকেরা শুষ্ক মৌসুমে পানি দিয়েছিলেন এবং আঠারোটি গাছ বেঁচে ছিল। এক বাক্যে বিবরণটির সারাংশ লেখো এবং কয়টি গাছ বাঁচেনি তা বলো। শুধু দেওয়া তথ্য ব্যবহার করো।,সারাংশ: স্বেচ্ছাসেবকদের পানি দিয়ে 4 গাছ বাঁচেছিল।,300,52,7.620000000000001e-05,21.61328679000144
+50,bangla,একজন শিক্ষার্থী শব্দ মনে রাখার দুটি পদ্ধতি তুলনা করতে চায়। সোমবার সে দশটি শব্দ নীরবে পড়ে শেখে। মঙ্গলবার সে অন্য দশটি শব্দ জোরে বলে শেখে। কেন এটি ন্যায্য তুলনা নয় তার একটি কারণ ব্যাখ্যা করো এবং পরীক্ষাটি উন্নত করার একটি উপায় প্রস্তাব করো।,"এই দুটি পদ্ধতিকে ন্যায্যভাবে তুলনা করার জন্য, একটি কারণ হল শব্দগুলোর সংখ্যা। দশটি শব্দ নেই বলে মঙ্গলবার পদ্ধতিটি অন্য কোনও",290,128,0.0001203,30.884805497000343
+50,english,A student wants to compare two ways of remembering vocabulary. On Monday he studies ten words by reading them silently. On Tuesday he studies ten different words by saying them aloud. Explain one reason this is not a fair comparison and suggest one improvement to the experiment.,"One reason this is not a fair comparison is that the student is studying entirely new sets of words each day, which could lead to confusion about what has already been learned. To improve the experiment, the student should study the same set of ten words on both Monday and Tuesday, but use different methods (reading silently vs. saying aloud) to see how these differ in effectiveness for memorizing vocabulary.",85,80,6.075e-05,14.54482602400094

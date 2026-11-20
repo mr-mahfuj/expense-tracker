@@ -11,8 +11,8 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parent
-OUTPUT_DIR = None  # None saves beside this script; e.g. "my-run" saves under assignment2/my-run.
-MODEL = "qwen2.5:0.5b"
+OUTPUT_DIR = "3b_run"  # None saves beside this script; e.g. "my-run" saves under assignment2/my-run.
+MODEL = "qwen2.5:3b"
 HOST = "http://127.0.0.1:11434"
 SYSTEM_PROMPT = "You are a helpful assistant. Give a correct, concise answer in the language of the user's prompt."
 OPTIONS = {"temperature": 0, "seed": 42, "num_predict": 128, "num_ctx": 4096, "num_batch": 8}
